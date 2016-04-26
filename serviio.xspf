@@ -49,6 +49,12 @@
             <image>http://torrent-tv.ru/uploads/MWGbB8wJp5Gm4vbPHl0ktohDDjMKdr.png</image>
         </track>
 
+        <track>
+            <location>http://content.asplaylist.net/WUVKUDE4QlRjV1VPclI1TzBiMStma1IvS1B1RUxrak80b25SNE55SzJkZStmS3I1cXhFTG9Wc2FodUkvRXg0YTVGWVdIcU5zdEZIdzZGZStjSVdvV0E9PQ/cdn/1011_reg.acelive</location>
+            <title>Живая Планета</title>
+            <image>http://signalmedia.ru/images/model/channel/20/42416221425302313.png</image>
+        </track>
+
 	   <track>
             <location>http://content.asplaylist.net/N24vK2k5T25DQkx3dzdmNkxMR2g1aFVKdUhVL2E3YXBFSnpBMnUzMEcyRnk1U00zSXZ2YjdJZFBjc3lJMUNDaWtwMkhYdFAwZVg1Z3UwcGRGNDBMVGc9PQ/cdn/105_reg.acelive</location>
             <title>MTV Dance</title>
@@ -59,6 +65,18 @@
             <location>http://content.asplaylist.net/ckMxV2o5dGtCcE81VDMzTlhWN0htMXdVSEhBckRGUFkzZE9XMEt4WEtaS0xoUzV5R1RuVnc3Y0tucmNoaW40M3QvYksrWlZtSDRRamluQ1R0T3B0QXc9PQ/cdn/462_all.acelive</location>
             <title>MTV Hits</title>
             <image>http://torrent-tv.ru/uploads/iLJhuLh9kFLQkG4ERvLGSjSgMfNiM4.png</image>
+        </track>
+
+        <track>
+            <location>http://content.asplaylist.net/RXQ3N2VwWVphUEZsaEloLytYNDlRbGVIanpHSDhvWHFRbmJUaDJQMG5oTnZXU3dlYnQzcHRtcUpkWlNIRC84VWJ4NTlEWGZZeWN6Um9zNE0zK2UyQmc9PQ/cdn/572_reg.acelive</location>
+            <title>Первый канал</title>
+            <image>http://torrent-tv.ru/uploads/nHJycH0CkOhPeZ9DmB47iSMWP5HyWz.png</image>
+        </track>
+
+        <track>
+            <location>http://content.asplaylist.net/c1dvMWlNZU9uVk0wVTZzSlJTenN4MkFTVGp2NGlJeWdQTjZ6K1BDUGtENEJZbnl5Vlo1VzgybzlCeHBFbitCZEZyUUJGTS9Qc3NUb1NuVk9ZUDE5cHc9PQ/14465.acelive</location>
+            <title>Первый канал (Евразия)</title>
+            <image>http://torrent-tv.ru/uploads/oPB8TcSFAuJtk4hBWgAqC9yNjMpfsi.png</image>
         </track>
     </trackList>
 </playlist>
