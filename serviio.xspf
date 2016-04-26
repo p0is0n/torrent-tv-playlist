@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist version="1" xmlns="http://xspf.org/ns/0/">
+    <trackList>
+        <track>
+            <location>http://content.asplaylist.net/MkJaNlF6WmVGYk0yNnRta0NpbVliWjZpcHJlYUw3c09oK3Z4MlJpaWNCVkZVU1BRU2dlN0tWTmRZbmp0UFAvMVJxL0pTUVJuTFMvZVpUMXJ0aS9jcFE9PQ/cdn/21_reg.acelive</location>
+            <title>ТНТ</title>
+            <image>http://torrent-tv.ru/uploads/Vtt1KKIpLY4LTQGnV03sdBYyX3hyWR.png</image>
+        </track>
+
+	<track>
+            <location>http://content.asplaylist.net/em1YTzlpemRoNTUzNWFBMmpOYXhHUTN0ZUNkaEUvbDNHazNqLzgwdW5ZaFF1VjZDTTF4OEdMYnJzc09CYUZ2L3AvU3FkbzNDSnVDa2R6ck1qTFYzK0E9PQ/14165.acelive</location>
+            <title>ТНТ International</title>
+            <image>http://torrent-tv.ru/uploads/Vtt1KKIpLY4LTQGnV03sdBYyX3hyWR.png</image>
+        </track>
+
+	<track>
+            <location>http://content.asplaylist.net/QW1ydHpMSjNVaVZoNWl6TlEzT3ppR0krUEluSFlnOGVDdzlNN1dpeVFxQTI5NzlBcXBKWEhCaFFDemw0aW1zZy9NNHhhQ1FaLzNIc082cTRaU2ZPdkE9PQ/cdn/487_all.acelive</location>
+            <title>Paramount Comedy</title>
+            <image>http://torrent-tv.ru/uploads/5EtvAWXB7VK1Yw82yvO28sY28dU4ZC.png</image>
+        </track>
+
+	<track>
+            <location>http://content.asplaylist.net/bTFPYzNwSUhwLzd0TWwvRElaVDJtbW92N013YUpNWXdwL2NHbUQ1MXVqcC9YSnpmUnlhSTRtekNodVgrNkF6Y0ZqZVA1RkxWMktyQ2RXYW1jOGZ5QlE9PQ/cdn/26_reg.acelive</location>
+            <title>Пятница</title>
+            <image>http://torrent-tv.ru/uploads/0fafj6PSIWdqtBdgwYTl9M06SDU2wA.png</image>
+        </track>
+
+	<track>
+            <location>acestream://8b8889da66fc110384efdc19587f2a21628006a9</location>
+            <title>Fox</title>
+            <image>https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/FOX_wordmark-orange.svg/220px-FOX_wordmark-orange.svg.png</image>
+        </track>
+
+	<track>
+            <location>http://content.asplaylist.net/UFd0RkJwMjgwSkxwVi9sei9MeGh3enhpdk9nVytrTWxiQUVpS2w2Q2FFVTIxYlpTdTVvM2tzaExNSmhLaDVSSkJqQ2ZWK2xkSSsyT3J1ZVlRaUdsRkE9PQ/cdn/24_reg.acelive</location>
+            <title>СТС</title>
+            <image>http://torrent-tv.ru/uploads/is620Pu6DreVLLnpHkpcXXZC9PI2Hi.png</image>
+        </track>
+
+	<track>
+            <location>http://content.asplaylist.net/N24vK2k5T25DQkx3dzdmNkxMR2g1aFVKdUhVL2E3YXBFSnpBMnUzMEcyRnk1U00zSXZ2YjdJZFBjc3lJMUNDaWtwMkhYdFAwZVg1Z3UwcGRGNDBMVGc9PQ/cdn/105_reg.acelive</location>
+            <title>MTV Dance</title>
+            <image>http://torrent-tv.ru/uploads/ZXKNRw6Ai8u4lY0wxeycQwj2dIkm66.png</image>
+        </track>
+
+	<track>
+            <location>http://content.asplaylist.net/ckMxV2o5dGtCcE81VDMzTlhWN0htMXdVSEhBckRGUFkzZE9XMEt4WEtaS0xoUzV5R1RuVnc3Y0tucmNoaW40M3QvYksrWlZtSDRRamluQ1R0T3B0QXc9PQ/cdn/462_all.acelive</location>
+            <title>MTV Hits</title>
+            <image>http://torrent-tv.ru/uploads/iLJhuLh9kFLQkG4ERvLGSjSgMfNiM4.png</image>
+        </track>
+    </trackList>
+</playlist>
+
