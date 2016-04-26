@@ -78,5 +78,53 @@
             <title>Первый канал (Евразия)</title>
             <image>http://torrent-tv.ru/uploads/oPB8TcSFAuJtk4hBWgAqC9yNjMpfsi.png</image>
         </track>
+
+        <track>
+            <location>http://content.asplaylist.net/TnRINHlIMzZvRHk3elB3MmN3Ymtrc214bVhNOURkM0YybnduTmFXZG1Jc0VBbkFpWkVHSlVNNVo1aGtwN1RMcFJxREhhM0JkUmRpUjI5NzRYcDdaREE9PQ/cdn/15_all.acelive</location>
+            <title>Россия 1</title>
+            <image>http://torrent-tv.ru/uploads/UUrfoqi6NQcc9gRLnCc8ODZJ2T3ShE.png</image>
+        </track>
+
+        <track>
+            <location>http://content.asplaylist.net/ZjErbUNPR1psOUZCSDBZQWRkR2xNbStaOXo2VlJEVFJqdlErUmw4Mnh4bFhRQm9QeUZFTGplbm9tby9BMnF1MmdzaXVPSU5Va2JCcFJ2U2U5UUZZcUE9PQ/cdn/223_all.acelive</location>
+            <title>Россия 24</title>
+            <image>http://torrent-tv.ru/uploads/LWfGV6eICPYL7psaBfw2dOgGrOtHFS.png</image>
+        </track>
+
+        <track>
+            <location>http://content.asplaylist.net/UTc1cFlrRlRxSkJ2WUZUYjBkblJ0SnRoTnA1bUJ0eG14Z3k0TjFmelNjM0QwWkpsT3Zya096Q0pSdkFoSS9JZXVPbEhJcy95WTlOV1dDL2tDa25kT3c9PQ/cdn/17_all.acelive</location>
+            <title>НТВ</title>
+            <image>http://torrent-tv.ru/uploads/B5GA1cfgmn8EsxrdwfNUIrEbdqarXf.png</image>
+        </track>
+
+        <track>
+            <location>http://content.asplaylist.net/QXM2bDlveXFSTlpQN01TYXh3eElwQldPajBJenFzYXpuOHFxdG9JazVKU25STy9SYS90SUdTSUFvai9BN3dBenRlZmVwZExLTFdTRGdNVWM0RFd5L2c9PQ/cdn/661_reg.acelive</location>
+            <title>LifeNews</title>
+            <image>http://torrent-tv.ru/uploads/Mvurp6cp7Sq2fV3tnFBwPtJy7Ifm1i.png</image>
+        </track>
+
+        <track>
+            <location>http://content.asplaylist.net/RDNvYjJUc3lKdHl5RHpQS0FSRVRueVJwNDNNQzRzUENkdjUrQUh5cHhtSTV6am5qVlo4MnVjcFVzZjFzcVFwWFhnSVhnMm9TNUVFMDV5bVVGTk1RNEE9PQ/cdn/353_reg.acelive</location>
+            <title>Russia Today</title>
+            <image>http://torrent-tv.ru/uploads/rL14fwCe8q10mKTchOwLkfwQVki9XK.png</image>
+        </track>
+
+        <track>
+            <location>http://content.asplaylist.net/eTEvbDVPcVZuaEYzd1RrWFlyQXdwcnkvMWZsVDNxSXV5MXhSYjdKMEV4NXp4R3kxd0NVR2pIcEpOZ1daMTNlZ2o5N1I4Q2JkN1p0YW5GeTNaSFZMV1E9PQ/cdn/42_all.acelive</location>
+            <title>Cartoon Network</title>
+            <image>https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/2000px-Cartoon_Network_2010_logo.svg.png</image>
+        </track>
+
+        <track>
+            <location>http://content.asplaylist.net/QWpLSDhjanNTaGJDU3NwWEJuMnZVa0FsSDhWbmxjcWtNRkxCNVl1QVY2VTFuTDdjVEI0a1Rvb3QyR2dkWlA4YXpNcFUzZ3BTeUxkQ25vQnBOcFRRcUE9PQ/cdn/48_reg.acelive</location>
+            <title>Nickelodeon</title>
+            <image>http://torrent-tv.ru/uploads/CFYx7Bd1aDSgkqjMLLQjFE6xe3u1E0.png</image>
+        </track>
+
+        <track>
+            <location>http://content.asplaylist.net/QWpLSDhjanNTaGJDU3NwWEJuMnZVa0FsSDhWbmxjcWtNRkxCNVl1QVY2VTFuTDdjVEI0a1Rvb3QyR2dkWlA4YXpNcFUzZ3BTeUxkQ25vQnBOcFRRcUE9PQ/cdn/48_reg.acelive</location>
+            <title>Nickelodeon</title>
+            <image>http://torrent-tv.ru/uploads/CFYx7Bd1aDSgkqjMLLQjFE6xe3u1E0.png</image>
+        </track>
     </trackList>
 </playlist>
