@@ -1,0 +1,97 @@
+#EXTM3U
+#EXTINF:0,301 - Al Jazeera (English)
+rtp://@233.29.121.2:1234
+#EXTINF:0,302 - Bloomberg (English)
+rtp://@233.29.121.3:1234
+#EXTINF:0,303 - Channel News Asia (English)
+rtp://@233.29.121.8:1234
+#EXTINF:0,304 - World of Fashion (English)
+rtp://@233.29.121.20:1234
+#EXTINF:0,305 - Eurosport (English)
+rtp://@233.29.121.27:1234
+#EXTINF:0,306 - Eurosport News (English)
+rtp://@233.29.121.28:1234
+#EXTINF:0,307 - Deutsche Welle (German/English)
+rtp://@233.29.121.4:1234
+#EXTINF:0,308 - Phoenix InfoNews (Mandarin)
+rtp://@233.29.121.6:1234
+#EXTINF:0,309 - TRT (Turkish)
+rtp://@233.29.121.9:1234
+#EXTINF:0,310 - TVE International (Spanish)
+rtp://@233.29.121.14:1234
+#EXTINF:0,311 - Chinese TV1 (Mandarin)
+rtp://@233.29.121.18:1234
+#EXTINF:0,312 - Chinese TV2 (English)
+rtp://@233.29.121.19:1234
+#EXTINF:0,313 - Chinese TV3 (Mandarin)
+rtp://@233.29.121.25:1234
+#EXTINF:0,314 - Chinese TV4 (Mandarin)
+rtp://@233.29.121.24:1234
+#EXTINF:0,315 - Chinese TV5 (Mandarin)
+rtp://@233.29.121.29:1234
+#EXTINF:0,316 - Chinese TV6 (Mandarin)
+rtp://@233.29.121.17:1234
+#EXTINF:0,317 - Cuba Vision (Spanish)
+rtp://@233.29.121.11:1234
+#EXTINF:0,318 - BVN TV (Dutch)
+rtp://@233.29.121.26:1234
+#EXTINF:0,319 - Greek TV (Greek)
+rtp://@233.29.121.21:1234
+#EXTINF:0,320 - Hungarian TV (Hungarian)
+rtp://@233.29.121.16:1234
+#EXTINF:0,321 - Indonesian TV (Indonesian)
+rtp://@233.29.121.12:1234
+#EXTINF:0,322 - Malaysian TV (Multiple Languages)
+rtp://@233.29.121.22:1234
+#EXTINF:0,323 - Movie Classics (English)
+rtp://@233.29.121.39:1234
+#EXTINF:0,324 - Russia Today (English)
+rtp://@233.29.121.10:1234
+#EXTINF:0,327 - SCTV (Multiple Languages)
+rtp://@233.29.121.7:1234
+#EXTINF:0,328 - TV5MONDE (French)
+rtp://@233.29.121.5:1234
+#EXTINF:0,329 - Voice Of America (Multiple Languages)
+rtp://@233.29.121.13:1234
+#EXTINF:0,330 - NASA TV (English)
+rtp://@233.29.121.69:1234
+#EXTINF:0,331 - Hindi Entertainment (Hindi)
+rtp://@233.29.121.65:1234
+#EXTINF:0,332 - Indian News (Multiple Languages)
+rtp://@233.29.121.67:1234
+#EXTINF:0,333 - Indian Sports (Hindi)
+rtp://@233.29.121.66:1234
+#EXTINF:0,334 - Thai TV5 (Thai)
+rtp://@233.29.121.30:1234
+#EXTINF:0,335 - VTV4 (Vietnamese)
+rtp://@233.29.121.68:1234
+#EXTINF:0,398 - Playboy TV Preview (English)
+rtp://@233.29.121.41:1234
+#EXTINF:0,401 - One (English)
+rtp://@233.29.121.108:1234
+#EXTINF:0,402 - ABC1 (English)
+rtp://@233.29.121.96:1234
+#EXTINF:0,403 - ABC2 (English)
+rtp://@233.29.121.97:1234
+#EXTINF:0,404 - SBS (English)
+rtp://@233.29.121.107:1234
+#EXTINF:0,407 - 7 (English)
+rtp://@233.29.121.100:1234
+#EXTINF:0,409 - Nine (English)
+rtp://@233.29.121.105:1234
+#EXTINF:0,410 - Ten (English)
+rtp://@233.29.121.109:1234
+#EXTINF:0,501 - One HD (English)
+rtp://@233.29.121.103:1234
+#EXTINF:0,502 - ABC HD (English)
+rtp://@233.29.121.98:1234
+#EXTINF:0,504 - SBS HD (English)
+rtp://@233.29.121.106:1234
+#EXTINF:0,506 - 7 HD (in SD) (English)
+rtp://@233.29.121.99:1234
+#EXTINF:0,507 - 7 HD (English)
+rtp://@233.29.121.101:1234
+#EXTINF:0,508 - 9 HD (in SD) (English)
+rtp://@233.29.121.104:1234
+#EXTINF:0,509 - 9 HD (English)
+rtp://@233.29.121.102:1234
