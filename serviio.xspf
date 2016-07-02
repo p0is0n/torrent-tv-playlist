@@ -2,13 +2,13 @@
 <playlist xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/" version="1">
     <trackList> <!--http://xmtvplayer.com/ acestreamplayer "http://cdn.rawgit.com/p0is0n/torrent-tv-playlist/master/serviio.xspf" -->
         <track>
-            <location>http://content.asplaylist.net/MkJaNlF6WmVGYk0yNnRta0NpbVliWjZpcHJlYUw3c09oK3Z4MlJpaWNCVkZVU1BRU2dlN0tWTmRZbmp0UFAvMVJxL0pTUVJuTFMvZVpUMXJ0aS9jcFE9PQ/cdn/21_reg.acelive</location>
+            <location>http://content.asplaylist.net/UlpCZHY2NEVobXpQenhTczBPUldvdjVlS3d3Q0h3d0lTVm0rWFhlRFZDOXRuVlJaNVJOVm4yekpFUS85VjY1WW5rUHFnWjljZzZVQ2FpNXJwak41OHc9PQ/1153.acelive</location>
             <title>ТНТ</title>
             <image>http://torrent-tv.ru/uploads/Vtt1KKIpLY4LTQGnV03sdBYyX3hyWR.png</image>
         </track>
 
         <track>
-            <location>http://content.asplaylist.net/QzErdFZUQzVHL0lUSGE3eHpsdXY1bkxsekpCUmdBeHFCWERVSjdIemlxTExwOEMrR094UkpJV1dOSkY5OHV3cWNsZEFIdi9MRDBaeHVLWW5yWjNYV1E9PQ/10124.acelive</location>
+            <location>http://content.asplaylist.net/ZVlzcERLWlRxZDJzenBoeXRVNkY0WUhwNXB1UnVjVmUvVG5mRFNqVEhHblJLL0NmaSsyMWJmclNTUWdoM2ZNYlk4TU5tNUZiVHYwcmc4Mm5lRElhUFE9PQ/cdn/687_all.acelive</location>
             <title>ТНТ (+2)</title>
             <image>http://torrent-tv.ru/uploads/Vtt1KKIpLY4LTQGnV03sdBYyX3hyWR.png</image>
         </track>
@@ -38,7 +38,7 @@
         </track>
 
 	   <track>
-            <location>http://content.asplaylist.net/bTFPYzNwSUhwLzd0TWwvRElaVDJtbW92N013YUpNWXdwL2NHbUQ1MXVqcC9YSnpmUnlhSTRtekNodVgrNkF6Y0ZqZVA1RkxWMktyQ2RXYW1jOGZ5QlE9PQ/cdn/26_reg.acelive</location>
+            <location>http://content.asplaylist.net/WU9JZ3JoeVBoMndqSkFYK3FDUTVEWHprSmhwcFdFUEIzMkJHbkhwVW9nM0RvRElEL2djdTBJUmhXd1FKbEg1Q1gvWGh3WkpCZSszQ3RJZGVQbnhheXc9PQ/cdn/26_reg.acelive</location>
             <title>Пятница</title>
             <image>http://torrent-tv.ru/uploads/0fafj6PSIWdqtBdgwYTl9M06SDU2wA.png</image>
         </track>
@@ -191,6 +191,18 @@
             <location>http://content.asplaylist.net/Ly9QUzRLTzF3Nkk5RXNEQ2RwdzlvM3VWczYzeTFOZ1laL2NoU1ZqdWJodVVVcEt4RE9hZU9wdk0xUmdPK0ZpV2dtaTM1YWJrQ1MvUW5OMTE1dFd1MlE9PQ/cdn/686_reg.acelive</location>
             <title>Авто 24</title>
             <image>http://torrent-tv.ru/uploads/GZwKgvkC0vfYquFAn1dKhppNxdDit9.png</image>
+        </track>
+
+        <track>
+            <location>http://content.asplaylist.net/WkVEcHhyMGJXUEphOCtOUDF2VnF0cnliSm5SR3RMWGtRWjhXS2dLem1ldzZBVmhZakZxUEtVZ0w4UHZyb3R1L01TdTU2K0trR0tSRGltNG9PQmVJdFE9PQ/cdn/1108_all.acelive</location>
+            <title>Viasat Fotboll</title>
+            <image>http://torrent-tv.ru/uploads/0JLqj3qwFoT1Y61scCyUdWioV5U6hx.png</image>
+        </track>
+
+        <track>
+            <location>http://content.asplaylist.net/cmlkUmQzOU5xUjR5enpkaVpGVFFTNW5MamRBd1JIM3JyQnpNYUd2Zzl6VXdTNHJzb3cvQ1k4OHcycWR6U2dGZFJLNTF3a0loMVFYVmVYNTA5ZW1TQ3c9PQ/cdn/39_reg.acelive</location>
+            <title>Матч! Футбол 1</title>
+            <image>http://torrent-tv.ru/uploads/9PM8M6cN21wQ3M5isVZgjNepzUI4Ry.png</image>
         </track>
     </trackList>
 
