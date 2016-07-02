@@ -2,7 +2,7 @@
 <playlist xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/" version="1">
     <trackList> <!--http://xmtvplayer.com/ acestreamplayer "http://cdn.rawgit.com/p0is0n/torrent-tv-playlist/master/serviio.xspf" -->
         <track>
-            <location>http://content.asplaylist.net/UlpCZHY2NEVobXpQenhTczBPUldvdjVlS3d3Q0h3d0lTVm0rWFhlRFZDOXRuVlJaNVJOVm4yekpFUS85VjY1WW5rUHFnWjljZzZVQ2FpNXJwak41OHc9PQ/1153.acelive</location>
+            <location>http://content.asplaylist.net/elB5V2dmbDJ6WVFDVWMxekMwS0dmL1VqYU5YV2VscTN5RmtxbVVpdVovSGNVY2RFaC9uS2Z1eDRCWEQ5aUJhNnhwTmRRcWEybForWVBOMjd6YmM1YlE9PQ/1153.acelive</location>
             <title>ТНТ</title>
             <image>http://torrent-tv.ru/uploads/Vtt1KKIpLY4LTQGnV03sdBYyX3hyWR.png</image>
         </track>
