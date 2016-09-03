@@ -2,7 +2,7 @@
 <playlist xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/" version="1">
     <trackList> <!--http://xmtvplayer.com/ acestreamplayer "http://cdn.rawgit.com/p0is0n/torrent-tv-playlist/master/serviio.xspf" -->
         <track>
-            <location>http://content.asplaylist.net/elB5V2dmbDJ6WVFDVWMxekMwS0dmL1VqYU5YV2VscTN5RmtxbVVpdVovSGNVY2RFaC9uS2Z1eDRCWEQ5aUJhNnhwTmRRcWEybForWVBOMjd6YmM1YlE9PQ/1153.acelive</location>
+            <location>http://content.asplaylist.net/UTd2S3lWY2FLUlRZQklEMGdyQnpBbmxIb2wwd3NJNVlyTDYxcVBla2M3bHlCQ25oc2ptby81Snh6eSt6MnZlSFdkd3RxVzVoR09sc25uVkoyQXk4b2c9PQ/cdn/21_reg.acelive</location>
             <title>ТНТ</title>
             <image>http://torrent-tv.ru/uploads/Vtt1KKIpLY4LTQGnV03sdBYyX3hyWR.png</image>
         </track>
@@ -35,6 +35,12 @@
             <location>http://content.asplaylist.net/V05Kbm43enQ2amtkWml3Yy9tSTdabGx4cmIwcmxacmpwMzVMN0t5Sm9KcXhORjN0K0FnUm4ydjBmTUxYaUsvK0RGUlU0enlOd3NmSFFDem80Y01ncGc9PQ/cdn/339_reg.acelive</location>
             <title>ТНТ4</title>
             <image>http://torrent-tv.ru/uploads/yTclqOAW0EWwhw9vt0spVSUcS70ZR0.png</image>
+        </track>
+
+        <track>
+            <location>http://content.asplaylist.net/aGpHamVJRCs2Zk1QZ3VaYU1ZNE43bEk4dENoQTJMZzc1b0dHc2xUMkU0NS9rdGlyeVZhV2wwRVBCQ0w0TURzZ2tRMUk4RytaaGxMSE8zYmwySXJKZ3c9PQ/cdn/1165_reg.acelive</location>
+            <title>Кот ТВ</title>
+            <image>http://torrent-tv.ru/uploads/Rtdtc632nbBQ2TsymgXhkOt7nhytjW.png</image>
         </track>
 
 	   <track>
