@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <playlist xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/" version="1">
     <trackList> <!--http://xmtvplayer.com/ acestreamplayer "http://cdn.rawgit.com/p0is0n/torrent-tv-playlist/master/serviio.xspf" -->
-        <track>
+        <!--track>
             <location>http://content.asplaylist.net/emV4c2FuckdWZHMwNnJHN25nSWNMR1B2Ym0vL2N1OHlQTEJHRDQ4KzBIck9GTXlaSG5zcXkwSCtwRytFSkV4cFVVNjNsSW1kRUpwMWh0VXRqSkxwM1E9PQ/cdn/21_reg.acelive</location>
+            <title>ТНТ</title>
+            <image>http://torrent-tv.ru/uploads/Vtt1KKIpLY4LTQGnV03sdBYyX3hyWR.png</image>
+        </track-->
+
+        <track>
+            <location>http://content.asplaylist.net/bmdZbFp0VDNHUFAvT214cThodzhoTzUwb2swcWF6WEVQK0R2Y0hjbXNac0VhaCt1ZHZ2R2QrNkNtSkVSSDN3M05xYkMyZ0V0V3N2Vll5dDdMQjAxeVE9PQ/cdn/21_reg.acelive</location>
             <title>ТНТ</title>
             <image>http://torrent-tv.ru/uploads/Vtt1KKIpLY4LTQGnV03sdBYyX3hyWR.png</image>
         </track>
@@ -25,14 +31,14 @@
             <image>http://torrent-tv.ru/uploads/Vtt1KKIpLY4LTQGnV03sdBYyX3hyWR.png</image>
         </track>
 
-	   <track>
+	   <!--track>
             <location>http://content.asplaylist.net/em1YTzlpemRoNTUzNWFBMmpOYXhHUTN0ZUNkaEUvbDNHazNqLzgwdW5ZaFF1VjZDTTF4OEdMYnJzc09CYUZ2L3AvU3FkbzNDSnVDa2R6ck1qTFYzK0E9PQ/14165.acelive</location>
             <title>ТНТ International</title>
             <image>http://torrent-tv.ru/uploads/Vtt1KKIpLY4LTQGnV03sdBYyX3hyWR.png</image>
-        </track>
+        </track-->
 
         <track>
-            <location>http://content.asplaylist.net/V05Kbm43enQ2amtkWml3Yy9tSTdabGx4cmIwcmxacmpwMzVMN0t5Sm9KcXhORjN0K0FnUm4ydjBmTUxYaUsvK0RGUlU0enlOd3NmSFFDem80Y01ncGc9PQ/cdn/339_reg.acelive</location>
+            <location>http://content.asplaylist.net/aEhQU1MwSE04aysrVnZBSEpYUWU5dm9iMGowamlRZkVkbnIrY2JMT2plbXBFbVc2ZHZnanlkeEgrWVB3ZGZGRGZwOURQMFB3dTc2U0F1bzVxZHdZS0E9PQ/cdn/339_reg.acelive</location>
             <title>ТНТ4</title>
             <image>http://torrent-tv.ru/uploads/yTclqOAW0EWwhw9vt0spVSUcS70ZR0.png</image>
         </track>
@@ -56,7 +62,7 @@
         </track>
 
         <track>
-            <location>http://content.asplaylist.net/eUZkZHlaQUNSYVhzUTRrZ3J4QnFmWGRpd0R1V2JHSHFJTmxzK3N3ZU1yK1FQWHBZZ3IrQ1NHVVE0ekUxVExrNHpOU1N2NHJjNkVmZmFURWNYWklYTEE9PQ/cdn/671_reg.acelive</location>
+            <location>http://content.asplaylist.net/alBHMmlXaStBREVKd25BVy9NT2dTVSt5TkNmTUV2MWMydGNJTlB6QzVqU2FvRFN6ck15L053VXZhMVVnRTdoWWZOZkpkNEdwbHBEdXpTTkV3S3NBaUE9PQ/cdn/671_reg.acelive</location>
             <title>Пятница (+2)</title>
             <image>http://torrent-tv.ru/uploads/0fafj6PSIWdqtBdgwYTl9M06SDU2wA.png</image>
         </track>
@@ -67,11 +73,11 @@
             <image>http://torrent-tv.ru/uploads/0fafj6PSIWdqtBdgwYTl9M06SDU2wA.png</image>
         </track>
 
-	   <track>
+	   <!--track>
             <location>acestream://8b8889da66fc110384efdc19587f2a21628006a9</location>
             <title>Fox</title>
             <image>https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/FOX_wordmark-orange.svg/220px-FOX_wordmark-orange.svg.png</image>
-        </track>
+        </track-->
 
 	   <track>
             <location>http://content.asplaylist.net/UFd0RkJwMjgwSkxwVi9sei9MeGh3enhpdk9nVytrTWxiQUVpS2w2Q2FFVTIxYlpTdTVvM2tzaExNSmhLaDVSSkJqQ2ZWK2xkSSsyT3J1ZVlRaUdsRkE9PQ/cdn/24_reg.acelive</location>
