@@ -14,6 +14,36 @@
             <image>http://torrent-tv.ru/uploads/Vtt1KKIpLY4LTQGnV03sdBYyX3hyWR.png</image>
         </track>
 
+        <track>
+            <location>noxbit://3942</location>
+            <title>ТНТ (+4)</title>
+            <image>http://torrent-tv.ru/uploads/Vtt1KKIpLY4LTQGnV03sdBYyX3hyWR.png</image>
+        </track>
+
+        <track>
+            <location>noxbit://4329</location>
+            <title>ТНТ (+7)</title>
+            <image>http://torrent-tv.ru/uploads/Vtt1KKIpLY4LTQGnV03sdBYyX3hyWR.png</image>
+        </track>
+
+        <track>
+            <location>noxbit://69</location>
+            <title>Пятница</title>
+            <image>http://torrent-tv.ru/uploads/0fafj6PSIWdqtBdgwYTl9M06SDU2wA.png</image>
+        </track>
+
+        <track>
+            <location>noxbit://3837</location>
+            <title>Пятница (+2)</title>
+            <image>http://torrent-tv.ru/uploads/0fafj6PSIWdqtBdgwYTl9M06SDU2wA.png</image>
+        </track>
+
+        <track>
+            <location>noxbit://3777</location>
+            <title>Paramount Comedy</title>
+            <image>http://torrent-tv.ru/uploads/5EtvAWXB7VK1Yw82yvO28sY28dU4ZC.png</image>
+        </track>
+
     </trackList>
 
     <extension application="http://www.videolan.org/vlc/playlist/0">
