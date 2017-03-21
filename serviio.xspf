@@ -62,16 +62,16 @@
         </track>
 
         <track>
-            <location>http://content.asplaylist.net/alBHMmlXaStBREVKd25BVy9NT2dTVSt5TkNmTUV2MWMydGNJTlB6QzVqU2FvRFN6ck15L053VXZhMVVnRTdoWWZOZkpkNEdwbHBEdXpTTkV3S3NBaUE9PQ/cdn/671_reg.acelive</location>
+            <location>http://content.asplaylist.net/dzhEYnpEZTl4eGEvSmlPUVg0eXpEWXZXWmpJQzNIenUyTFcremZGM1dOdDFoZzFKbGNSbVdWU1dxQXhlN0JuNnp2a0x3ZDFra1V5anh2andhYmhxZUE9PQ/cdn/671_reg.acelive</location>
             <title>Пятница (+2)</title>
             <image>http://torrent-tv.ru/uploads/0fafj6PSIWdqtBdgwYTl9M06SDU2wA.png</image>
         </track>
 
-        <track>
+        <!--track>
             <location>http://content.asplaylist.net/RmNDNjVjczBEam9HbVN1NXBkbGdpMzhWSmx5QlhMYmRzWC9VWUpZQXprK2pTT01JUk1uRkZvUUJyM0I5QTVTTEhsVWpzTiszSWpHZEVaMTZ0bGdFaUE9PQ/15655.acelive</location>
             <title>Пятница (+7)</title>
             <image>http://torrent-tv.ru/uploads/0fafj6PSIWdqtBdgwYTl9M06SDU2wA.png</image>
-        </track>
+        </track-->
 
 	   <!--track>
             <location>acestream://8b8889da66fc110384efdc19587f2a21628006a9</location>
