@@ -15,6 +15,12 @@
         </track>
 
         <track>
+            <location>noxbit://4788</location>
+            <title>ТНТ (+3)</title>
+            <image>http://torrent-tv.ru/uploads/Vtt1KKIpLY4LTQGnV03sdBYyX3hyWR.png</image>
+        </track>
+
+        <track>
             <location>noxbit://3942</location>
             <title>ТНТ (+4)</title>
             <image>http://torrent-tv.ru/uploads/Vtt1KKIpLY4LTQGnV03sdBYyX3hyWR.png</image>
@@ -59,6 +65,12 @@
         <track>
             <location>noxbit://3780</location>
             <title>LifeNews</title>
+            <image>http://torrent-tv.ru/uploads/Mvurp6cp7Sq2fV3tnFBwPtJy7Ifm1i.png</image>
+        </track>
+
+        <track>
+            <location>noxbit://3835</location>
+            <title>LifeNews HD</title>
             <image>http://torrent-tv.ru/uploads/Mvurp6cp7Sq2fV3tnFBwPtJy7Ifm1i.png</image>
         </track>
 
