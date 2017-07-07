@@ -69,6 +69,12 @@
         </track>
 
         <track>
+            <location>noxbit://3905</location>
+            <title>Кот ТВ</title>
+            <image>http://torrent-tv.ru/uploads/Rtdtc632nbBQ2TsymgXhkOt7nhytjW.png</image>
+        </track>
+
+        <track>
             <location>noxbit://3780</location>
             <title>LifeNews</title>
             <image>http://torrent-tv.ru/uploads/Mvurp6cp7Sq2fV3tnFBwPtJy7Ifm1i.png</image>
@@ -117,9 +123,27 @@
         </track>
 
         <track>
-            <location>noxbit://93</location>
-            <title>Первый канал (HD)</title>
-            <image>https://static3.1tv.ru/assets/web/zaglushka-live-soc-seti-2-537x240-08be6a481fcf49900f30d17500817e55.jpg</image>
+            <location>noxbit://3944</location>
+            <title>НТВ</title>
+            <image>http://torrent-tv.ru/uploads/B5GA1cfgmn8EsxrdwfNUIrEbdqarXf.png</image>
+        </track>
+
+        <track>
+            <location>noxbit://3765</location>
+            <title>Nickelodeon</title>
+            <image>http://torrent-tv.ru/uploads/j66xpaZbfiYIgQxv76QAPckPVjmLNs.png</image>
+        </track>
+
+        <track>
+            <location>noxbit://3801</location>
+            <title>Nickelodeon (HD)</title>
+            <image>http://torrent-tv.ru/uploads/j66xpaZbfiYIgQxv76QAPckPVjmLNs.png</image>
+        </track>
+
+        <track>
+            <location>noxbit://3766</location>
+            <title>Наука 2.0</title>
+            <image>http://torrent-tv.ru/uploads/ypWbqYqKApM8cnDK1FibvQgpmgEay9.png</image>
         </track>
 
     </trackList>
