@@ -63,6 +63,30 @@
         </track>
 
         <track>
+            <location>noxbit://3789</location>
+            <title>Fox</title>
+            <image>https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/FOX_wordmark-orange.svg/1200px-FOX_wordmark-orange.svg.png</image>
+        </track>
+
+        <track>
+            <location>noxbit://3823</location>
+            <title>Fox (HD)</title>
+            <image>https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/FOX_wordmark-orange.svg/1200px-FOX_wordmark-orange.svg.png</image>
+        </track>
+
+        <track>
+            <location>noxbit://3845</location>
+            <title>Fox Life</title>
+            <image>https://upload.wikimedia.org/wikipedia/commons/2/27/Fox_life_it.png</image>
+        </track>
+
+        <track>
+            <location>noxbit://3917</location>
+            <title>Fox Life (HD)</title>
+            <image>https://upload.wikimedia.org/wikipedia/commons/2/27/Fox_life_it.png</image>
+        </track>
+
+        <track>
             <location>noxbit://3654</location>
             <title>2x2</title>
             <image>http://torrent-tv.ru/uploads/hTpJUV15GSTxZ5kJQGLcn42kCzKyEH.png</image>
@@ -138,6 +162,24 @@
             <location>noxbit://3766</location>
             <title>Наука 2.0</title>
             <image>http://torrent-tv.ru/uploads/ypWbqYqKApM8cnDK1FibvQgpmgEay9.png</image>
+        </track>
+
+        <track>
+            <location>noxbit://4239</location>
+            <title>Eska Best Music TV</title>
+            <image>http://torrent-tv.ru/uploads/wI3e672FQZpD8yr8aIV8Q2fL15zENv.png</image>
+        </track>
+
+        <track>
+            <location>noxbit://4241</location>
+            <title>Eska OldsCool TV</title>
+            <image>http://torrent-tv.ru/uploads/7LW3s6C3D3yeciqTY0CKXpEmL3Tb3w.png</image>
+        </track>
+
+        <track>
+            <location>noxbit://4199</location>
+            <title>0x0 Music</title>
+            <image>http://torrent-tv.ru/uploads/hFj4tnC5uqAgpod3doHnJGZxgZXaiP.png</image>
         </track>
 
     </trackList>
