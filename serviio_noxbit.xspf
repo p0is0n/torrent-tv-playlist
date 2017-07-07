@@ -164,24 +164,6 @@
             <image>http://torrent-tv.ru/uploads/ypWbqYqKApM8cnDK1FibvQgpmgEay9.png</image>
         </track>
 
-        <track>
-            <location>noxbit://4239</location>
-            <title>Eska Best Music TV</title>
-            <image>http://torrent-tv.ru/uploads/wI3e672FQZpD8yr8aIV8Q2fL15zENv.png</image>
-        </track>
-
-        <track>
-            <location>noxbit://4241</location>
-            <title>Eska OldsCool TV</title>
-            <image>http://torrent-tv.ru/uploads/7LW3s6C3D3yeciqTY0CKXpEmL3Tb3w.png</image>
-        </track>
-
-        <track>
-            <location>noxbit://4199</location>
-            <title>0x0 Music</title>
-            <image>http://torrent-tv.ru/uploads/hFj4tnC5uqAgpod3doHnJGZxgZXaiP.png</image>
-        </track>
-
     </trackList>
 
     <extension application="http://www.videolan.org/vlc/playlist/0">
