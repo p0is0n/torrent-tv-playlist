@@ -70,7 +70,7 @@
 
         <track>
             <location>noxbit://3835</location>
-            <title>LifeNews HD</title>
+            <title>LifeNews (HD)</title>
             <image>http://torrent-tv.ru/uploads/Mvurp6cp7Sq2fV3tnFBwPtJy7Ifm1i.png</image>
         </track>
 
@@ -78,6 +78,42 @@
             <location>noxbit://87</location>
             <title>Россия 24</title>
             <image>http://torrent-tv.ru/uploads/LWfGV6eICPYL7psaBfw2dOgGrOtHFS.png</image>
+        </track>
+
+        <track>
+            <location>noxbit://92</location>
+            <title>Россия 24 (HD)</title>
+            <image>http://torrent-tv.ru/uploads/LWfGV6eICPYL7psaBfw2dOgGrOtHFS.png</image>
+        </track>
+
+        <track>
+            <location>noxbit://3896</location>
+            <title>Первый канал</title>
+            <image>https://static3.1tv.ru/assets/web/zaglushka-live-soc-seti-2-537x240-08be6a481fcf49900f30d17500817e55.jpg</image>
+        </track>
+
+        <track>
+            <location>noxbit://3787</location>
+            <title>Первый канал (+2)</title>
+            <image>https://static3.1tv.ru/assets/web/zaglushka-live-soc-seti-2-537x240-08be6a481fcf49900f30d17500817e55.jpg</image>
+        </track>
+
+        <track>
+            <location>noxbit://3871</location>
+            <title>Первый канал (+4)</title>
+            <image>https://static3.1tv.ru/assets/web/zaglushka-live-soc-seti-2-537x240-08be6a481fcf49900f30d17500817e55.jpg</image>
+        </track>
+
+        <track>
+            <location>noxbit://4305</location>
+            <title>Первый канал (+6)</title>
+            <image>https://static3.1tv.ru/assets/web/zaglushka-live-soc-seti-2-537x240-08be6a481fcf49900f30d17500817e55.jpg</image>
+        </track>
+
+        <track>
+            <location>noxbit://93</location>
+            <title>Первый канал (HD)</title>
+            <image>https://static3.1tv.ru/assets/web/zaglushka-live-soc-seti-2-537x240-08be6a481fcf49900f30d17500817e55.jpg</image>
         </track>
 
     </trackList>
