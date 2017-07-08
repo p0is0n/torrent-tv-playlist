@@ -111,12 +111,6 @@
         </track>
 
         <track>
-            <location>noxbit://92</location>
-            <title>Россия 24 (HD)</title>
-            <image>http://torrent-tv.ru/uploads/LWfGV6eICPYL7psaBfw2dOgGrOtHFS.png</image>
-        </track>
-
-        <track>
             <location>noxbit://3896</location>
             <title>Первый канал</title>
             <image>https://static3.1tv.ru/assets/web/zaglushka-live-soc-seti-2-537x240-08be6a481fcf49900f30d17500817e55.jpg</image>
@@ -159,9 +153,27 @@
         </track>
 
         <track>
-            <location>noxbit://3766</location>
-            <title>Наука 2.0</title>
-            <image>http://torrent-tv.ru/uploads/ypWbqYqKApM8cnDK1FibvQgpmgEay9.png</image>
+            <location>noxbit://3792</location>
+            <title>Europa Plus TV</title>
+            <image>http://torrent-tv.ru/uploads/PkatgpdmA4ArsgSG5shu0ZCQQ5RgMx.png</image>
+        </track>
+
+        <track>
+            <location>noxbit://3793</location>
+            <title>MTV Dance</title>
+            <image>http://torrent-tv.ru/uploads/ZXKNRw6Ai8u4lY0wxeycQwj2dIkm66.png</image>
+        </track>
+
+        <track>
+            <location>noxbit://3820</location>
+            <title>MTV Hits</title>
+            <image>http://torrent-tv.ru/uploads/iLJhuLh9kFLQkG4ERvLGSjSgMfNiM4.png</image>
+        </track>
+
+        <track>
+            <location>noxbit://4393</location>
+            <title>MTV Россия</title>
+            <image>http://torrent-tv.ru/uploads/P5ijp2sRQsKVZkOJwjdqIVgYdJzhpZ.png</image>
         </track>
 
     </trackList>
