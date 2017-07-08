@@ -141,6 +141,30 @@
         </track>
 
         <track>
+            <location>noxbit://3806</location>
+            <title>History Channel</title>
+            <image>http://torrent-tv.ru/uploads/9cVifexiWW0qWDhhpnLNVydoZkeRqZ.png</image>
+        </track>
+
+        <track>
+            <location>noxbit://3808</location>
+            <title>History Channel (HD)</title>
+            <image>http://torrent-tv.ru/uploads/9cVifexiWW0qWDhhpnLNVydoZkeRqZ.png</image>
+        </track>
+
+        <track>
+            <location>noxbit://4385</location>
+            <title>My Zen TV HD</title>
+            <image>http://torrent-tv.ru/uploads/GkgzM41JkGOhbS33KepRPoAckZv2Xz.png</image>
+        </track>
+
+        <track>
+            <location>noxbit://3766</location>
+            <title>Наука 2.0</title>
+            <image>http://torrent-tv.ru/uploads/ypWbqYqKApM8cnDK1FibvQgpmgEay9.png</image>
+        </track>
+
+        <track>
             <location>noxbit://3765</location>
             <title>Nickelodeon</title>
             <image>http://torrent-tv.ru/uploads/j66xpaZbfiYIgQxv76QAPckPVjmLNs.png</image>
@@ -171,8 +195,14 @@
         </track>
 
         <track>
-            <location>noxbit://4393</location>
+            <location>noxbit://3936</location>
             <title>MTV Россия</title>
+            <image>http://torrent-tv.ru/uploads/P5ijp2sRQsKVZkOJwjdqIVgYdJzhpZ.png</image>
+        </track>
+
+        <track>
+            <location>noxbit://4393</location>
+            <title>MTV Россия (HD)</title>
             <image>http://torrent-tv.ru/uploads/P5ijp2sRQsKVZkOJwjdqIVgYdJzhpZ.png</image>
         </track>
 
