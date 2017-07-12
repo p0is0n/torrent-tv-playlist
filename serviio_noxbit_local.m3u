@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="http://torrent-tv.ru/uploads/Vtt1KKIpLY4LTQGnV03sdBYyX3hyWR.png",ТНТ
+#EXTINF:-1,ТНТ
 http://127.0.0.1:6689/stream?cid=72
-#EXTINF:-1 tvg-logo="http://torrent-tv.ru/uploads/5EtvAWXB7VK1Yw82yvO28sY28dU4ZC.png",Paramount Comedy (HD)
+#EXTINF:-1,Paramount Comedy (HD)
 http://127.0.0.1:6689/stream?cid=4379
