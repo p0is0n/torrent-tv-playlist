@@ -1,3 +1,8 @@
 #EXTM3U
-#EXTINF:-1,0x0 Fireplace HD
-http://127.0.0.1:6689/stream?cid=3842
+
+#EXTINF:-1 tvg-logo="http://torrent-tv.ru/uploads/Vtt1KKIpLY4LTQGnV03sdBYyX3hyWR.png",ТНТ
+http://127.0.0.1:6689/stream?cid=72
+
+#EXTINF:-1 tvg-logo="http://torrent-tv.ru/uploads/5EtvAWXB7VK1Yw82yvO28sY28dU4ZC.png",Paramount Comedy (HD)
+http://127.0.0.1:6689/stream?cid=4379
+
