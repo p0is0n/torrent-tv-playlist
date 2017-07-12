@@ -1,107 +1,107 @@
 #EXTM3U
 
-#EXTINF:-1 channel-id="1" tvg-name="ТНТ",ТНТ
+#EXTINF:-1,ТНТ
 http://127.0.0.1:6689/stream?cid=72
 
-#EXTINF:-1 channel-id="2" tvg-name="ТНТ (HD)",ТНТ (HD)
+#EXTINF:-1,ТНТ (HD)
 http://127.0.0.1:6689/stream?cid=4414
 
-#EXTINF:-1 channel-id="3" tvg-name="ТНТ (+2)",ТНТ (+2)
+#EXTINF:-1,ТНТ (+2)
 http://127.0.0.1:6689/stream?cid=3875
 
-#EXTINF:-1 channel-id="4" tvg-name="ТНТ (+3)",ТНТ (+3)
+#EXTINF:-1,ТНТ (+3)
 http://127.0.0.1:6689/stream?cid=4788
 
-#EXTINF:-1 channel-id="5" tvg-name="ТНТ (+4)",ТНТ (+4)
+#EXTINF:-1,ТНТ (+4)
 http://127.0.0.1:6689/stream?cid=3942
 
-#EXTINF:-1 channel-id="6" tvg-name="ТНТ (+7)",ТНТ (+7)
+#EXTINF:-1,ТНТ (+7)
 http://127.0.0.1:6689/stream?cid=4329
 
-#EXTINF:-1 channel-id="7" tvg-name="Пятница",Пятница
+#EXTINF:-1,Пятница
 http://127.0.0.1:6689/stream?cid=69
 
-#EXTINF:-1 channel-id="8" tvg-name="Пятница (+2)",Пятница (+2)
+#EXTINF:-1,Пятница (+2)
 http://127.0.0.1:6689/stream?cid=3837
 
-#EXTINF:-1 channel-id="9" tvg-name="Пятница (+7)",Пятница (+7)
+#EXTINF:-1,Пятница (+7)
 http://127.0.0.1:6689/stream?cid=4789
 
-#EXTINF:-1 channel-id="10" tvg-name="Paramount Comedy",Paramount Comedy
+#EXTINF:-1,Paramount Comedy
 http://127.0.0.1:6689/stream?cid=3777
 
-#EXTINF:-1 channel-id="11" tvg-name="Paramount Comedy (HD)",Paramount Comedy (HD)
+#EXTINF:-1,Paramount Comedy (HD)
 http://127.0.0.1:6689/stream?cid=4379
 
-#EXTINF:-1 channel-id="12" tvg-name="Fox",Fox
+#EXTINF:-1,Fox
 http://127.0.0.1:6689/stream?cid=3789
 
-#EXTINF:-1 channel-id="13" tvg-name="Fox (HD)",Fox (HD)
+#EXTINF:-1,Fox (HD)
 http://127.0.0.1:6689/stream?cid=3823
 
-#EXTINF:-1 channel-id="14" tvg-name="Fox Life",Fox Life
+#EXTINF:-1,Fox Life
 http://127.0.0.1:6689/stream?cid=3845
 
-#EXTINF:-1 channel-id="15" tvg-name="Fox Life (HD)",Fox Life (HD)
+#EXTINF:-1,Fox Life (HD)
 http://127.0.0.1:6689/stream?cid=3917
 
-#EXTINF:-1 channel-id="16" tvg-name="2x2",2x2
+#EXTINF:-1,2x2
 http://127.0.0.1:6689/stream?cid=3654
 
-#EXTINF:-1 channel-id="17" tvg-name="LifeNews",LifeNews
+#EXTINF:-1,LifeNews
 http://127.0.0.1:6689/stream?cid=3780
 
-#EXTINF:-1 channel-id="18" tvg-name="LifeNews (HD)",LifeNews (HD)
+#EXTINF:-1,LifeNews (HD)
 http://127.0.0.1:6689/stream?cid=3835
 
-#EXTINF:-1 channel-id="19" tvg-name="Россия 24",Россия 24
+#EXTINF:-1,Россия 24
 http://127.0.0.1:6689/stream?cid=87
 
-#EXTINF:-1 channel-id="20" tvg-name="Первый канал",Первый канал
+#EXTINF:-1,Первый канал
 http://127.0.0.1:6689/stream?cid=3896
 
-#EXTINF:-1 channel-id="21" tvg-name="Первый канал (+2)",Первый канал (+2)
+#EXTINF:-1,Первый канал (+2)
 http://127.0.0.1:6689/stream?cid=3787
 
-#EXTINF:-1 channel-id="22" tvg-name="Первый канал (+4)",Первый канал (+4)
+#EXTINF:-1,Первый канал (+4)
 http://127.0.0.1:6689/stream?cid=3871
 
-#EXTINF:-1 channel-id="23" tvg-name="Первый канал (+6)",Первый канал (+6)
+#EXTINF:-1,Первый канал (+6)
 http://127.0.0.1:6689/stream?cid=4305
 
-#EXTINF:-1 channel-id="24" tvg-name="НТВ",НТВ
+#EXTINF:-1,НТВ
 http://127.0.0.1:6689/stream?cid=3944
 
-#EXTINF:-1 channel-id="25" tvg-name="History Channel",History Channel
+#EXTINF:-1,History Channel
 http://127.0.0.1:6689/stream?cid=3806
 
-#EXTINF:-1 channel-id="26" tvg-name="History Channel (HD)",History Channel (HD)
+#EXTINF:-1,History Channel (HD)
 http://127.0.0.1:6689/stream?cid=3808
 
-#EXTINF:-1 channel-id="27" tvg-name="My Zen TV HD",My Zen TV HD
+#EXTINF:-1,My Zen TV HD
 http://127.0.0.1:6689/stream?cid=4385
 
-#EXTINF:-1 channel-id="28" tvg-name="Наука 2.0",Наука 2.0
+#EXTINF:-1,Наука 2.0
 http://127.0.0.1:6689/stream?cid=3766
 
-#EXTINF:-1 channel-id="29" tvg-name="Nickelodeon",Nickelodeon
+#EXTINF:-1,Nickelodeon
 http://127.0.0.1:6689/stream?cid=3765
 
-#EXTINF:-1 channel-id="30" tvg-name="Nickelodeon (HD)",Nickelodeon (HD)
+#EXTINF:-1,Nickelodeon (HD)
 http://127.0.0.1:6689/stream?cid=3801
 
-#EXTINF:-1 channel-id="31" tvg-name="Europa Plus TV",Europa Plus TV
+#EXTINF:-1,Europa Plus TV
 http://127.0.0.1:6689/stream?cid=3792
 
-#EXTINF:-1 channel-id="32" tvg-name="MTV Dance",MTV Dance
+#EXTINF:-1,MTV Dance
 http://127.0.0.1:6689/stream?cid=3793
 
-#EXTINF:-1 channel-id="33" tvg-name="MTV Hits",MTV Hits
+#EXTINF:-1,MTV Hits
 http://127.0.0.1:6689/stream?cid=3820
 
-#EXTINF:-1 channel-id="34" tvg-name="MTV Россия",MTV Россия
+#EXTINF:-1,MTV Россия
 http://127.0.0.1:6689/stream?cid=3936
 
-#EXTINF:-1 channel-id="35" tvg-name="MTV Россия (HD)",MTV Россия (HD)
+#EXTINF:-1,MTV Россия (HD)
 http://127.0.0.1:6689/stream?cid=4393
 
