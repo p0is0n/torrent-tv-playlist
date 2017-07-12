@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <playlist xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/" version="1">
-    <trackList> <!--http://xmtvplayer.com/ acestreamplayer "http://cdn.rawgit.com/p0is0n/torrent-tv-playlist/master/serviio_noxbit.xspf" -->
+    <trackList>
 
         <track>
             <location>noxbit://72</location>
