@@ -2,4 +2,5 @@
 !.gitignore
 !serviio.xspf
 !serviio_noxbit.xspf
+!serviio_noxbit_local.xspf
 !serviio.m3u

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/" version="1">
+    <trackList>
+
+        <track>
+            <location>http://127.0.0.1:6689/stream?cid=72</location>
+            <title>ТНТ</title>
+            <image>http://torrent-tv.ru/uploads/Vtt1KKIpLY4LTQGnV03sdBYyX3hyWR.png</image>
+        </track>
+
+        <track>
+            <location>http://127.0.0.1:6689/stream?cid=4414</location>
+            <title>ТНТ (HD)</title>
+            <image>http://torrent-tv.ru/uploads/Vtt1KKIpLY4LTQGnV03sdBYyX3hyWR.png</image>
+        </track>
+
+        <track>
+            <location>http://127.0.0.1:6689/stream?cid=3875</location>
+            <title>ТНТ (+2)</title>
+            <image>http://torrent-tv.ru/uploads/Vtt1KKIpLY4LTQGnV03sdBYyX3hyWR.png</image>
+        </track>
+
+        <track>
+            <location>http://127.0.0.1:6689/stream?cid=4788</location>
+            <title>ТНТ (+3)</title>
+            <image>http://torrent-tv.ru/uploads/Vtt1KKIpLY4LTQGnV03sdBYyX3hyWR.png</image>
+        </track>
+
+        <track>
+            <location>http://127.0.0.1:6689/stream?cid=3942</location>
+            <title>ТНТ (+4)</title>
+            <image>http://torrent-tv.ru/uploads/Vtt1KKIpLY4LTQGnV03sdBYyX3hyWR.png</image>
+        </track>
+
+        <track>
+            <location>http://127.0.0.1:6689/stream?cid=4329</location>
+            <title>ТНТ (+7)</title>
+            <image>http://torrent-tv.ru/uploads/Vtt1KKIpLY4LTQGnV03sdBYyX3hyWR.png</image>
+        </track>
+
+        <track>
+            <location>http://127.0.0.1:6689/stream?cid=69</location>
+            <title>Пятница</title>
+            <image>http://torrent-tv.ru/uploads/0fafj6PSIWdqtBdgwYTl9M06SDU2wA.png</image>
+        </track>
+
+        <track>
+            <location>http://127.0.0.1:6689/stream?cid=3837</location>
+            <title>Пятница (+2)</title>
+            <image>http://torrent-tv.ru/uploads/0fafj6PSIWdqtBdgwYTl9M06SDU2wA.png</image>
+        </track>
+
+        <track>
+            <location>http://127.0.0.1:6689/stream?cid=4789</location>
+            <title>Пятница (+7)</title>
+            <image>http://torrent-tv.ru/uploads/0fafj6PSIWdqtBdgwYTl9M06SDU2wA.png</image>
+        </track>
+
+        <track>
+            <location>http://127.0.0.1:6689/stream?cid=3777</location>
+            <title>Paramount Comedy</title>
+            <image>http://torrent-tv.ru/uploads/5EtvAWXB7VK1Yw82yvO28sY28dU4ZC.png</image>
+        </track>
+
+        <track>
+            <location>http://127.0.0.1:6689/stream?cid=4379</location>
+            <title>Paramount Comedy (HD)</title>
+            <image>http://torrent-tv.ru/uploads/5EtvAWXB7VK1Yw82yvO28sY28dU4ZC.png</image>
+        </track>
+
+        <track>
+            <location>http://127.0.0.1:6689/stream?cid=3789</location>
+            <title>Fox</title>
+            <image>https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/FOX_wordmark-orange.svg/1200px-FOX_wordmark-orange.svg.png</image>
+        </track>
+
+        <track>
+            <location>http://127.0.0.1:6689/stream?cid=3823</location>
+            <title>Fox (HD)</title>
+            <image>https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/FOX_wordmark-orange.svg/1200px-FOX_wordmark-orange.svg.png</image>
+        </track>
+
+        <track>
+            <location>http://127.0.0.1:6689/stream?cid=3845</location>
+            <title>Fox Life</title>
+            <image>https://upload.wikimedia.org/wikipedia/commons/2/27/Fox_life_it.png</image>
+        </track>
+
+        <track>
+            <location>http://127.0.0.1:6689/stream?cid=3917</location>
+            <title>Fox Life (HD)</title>
+            <image>https://upload.wikimedia.org/wikipedia/commons/2/27/Fox_life_it.png</image>
+        </track>
+
+        <track>
+            <location>http://127.0.0.1:6689/stream?cid=3654</location>
+            <title>2x2</title>
+            <image>http://torrent-tv.ru/uploads/hTpJUV15GSTxZ5kJQGLcn42kCzKyEH.png</image>
+        </track>
+
+        <track>
+            <location>http://127.0.0.1:6689/stream?cid=3780</location>
+            <title>LifeNews</title>
+            <image>http://torrent-tv.ru/uploads/Mvurp6cp7Sq2fV3tnFBwPtJy7Ifm1i.png</image>
+        </track>
+
+        <track>
+            <location>http://127.0.0.1:6689/stream?cid=3835</location>
+            <title>LifeNews (HD)</title>
+            <image>http://torrent-tv.ru/uploads/Mvurp6cp7Sq2fV3tnFBwPtJy7Ifm1i.png</image>
+        </track>
+
+        <track>
+            <location>http://127.0.0.1:6689/stream?cid=87</location>
+            <title>Россия 24</title>
+            <image>http://torrent-tv.ru/uploads/LWfGV6eICPYL7psaBfw2dOgGrOtHFS.png</image>
+        </track>
+
+        <track>
+            <location>http://127.0.0.1:6689/stream?cid=3896</location>
+            <title>Первый канал</title>
+            <image>https://static3.1tv.ru/assets/web/zaglushka-live-soc-seti-2-537x240-08be6a481fcf49900f30d17500817e55.jpg</image>
+        </track>
+
+        <track>
+            <location>http://127.0.0.1:6689/stream?cid=3787</location>
+            <title>Первый канал (+2)</title>
+            <image>https://static3.1tv.ru/assets/web/zaglushka-live-soc-seti-2-537x240-08be6a481fcf49900f30d17500817e55.jpg</image>
+        </track>
+
+        <track>
+            <location>http://127.0.0.1:6689/stream?cid=3871</location>
+            <title>Первый канал (+4)</title>
+            <image>https://static3.1tv.ru/assets/web/zaglushka-live-soc-seti-2-537x240-08be6a481fcf49900f30d17500817e55.jpg</image>
+        </track>
+
+        <track>
+            <location>http://127.0.0.1:6689/stream?cid=4305</location>
+            <title>Первый канал (+6)</title>
+            <image>https://static3.1tv.ru/assets/web/zaglushka-live-soc-seti-2-537x240-08be6a481fcf49900f30d17500817e55.jpg</image>
+        </track>
+
+        <track>
+            <location>http://127.0.0.1:6689/stream?cid=3944</location>
+            <title>НТВ</title>
+            <image>http://torrent-tv.ru/uploads/B5GA1cfgmn8EsxrdwfNUIrEbdqarXf.png</image>
+        </track>
+
+        <track>
+            <location>http://127.0.0.1:6689/stream?cid=3806</location>
+            <title>History Channel</title>
+            <image>http://torrent-tv.ru/uploads/9cVifexiWW0qWDhhpnLNVydoZkeRqZ.png</image>
+        </track>
+
+        <track>
+            <location>http://127.0.0.1:6689/stream?cid=3808</location>
+            <title>History Channel (HD)</title>
+            <image>http://torrent-tv.ru/uploads/9cVifexiWW0qWDhhpnLNVydoZkeRqZ.png</image>
+        </track>
+
+        <track>
+            <location>http://127.0.0.1:6689/stream?cid=4385</location>
+            <title>My Zen TV HD</title>
+            <image>http://torrent-tv.ru/uploads/GkgzM41JkGOhbS33KepRPoAckZv2Xz.png</image>
+        </track>
+
+        <track>
+            <location>http://127.0.0.1:6689/stream?cid=3766</location>
+            <title>Наука 2.0</title>
+            <image>http://torrent-tv.ru/uploads/ypWbqYqKApM8cnDK1FibvQgpmgEay9.png</image>
+        </track>
+
+        <track>
+            <location>http://127.0.0.1:6689/stream?cid=3765</location>
+            <title>Nickelodeon</title>
+            <image>http://torrent-tv.ru/uploads/j66xpaZbfiYIgQxv76QAPckPVjmLNs.png</image>
+        </track>
+
+        <track>
+            <location>http://127.0.0.1:6689/stream?cid=3801</location>
+            <title>Nickelodeon (HD)</title>
+            <image>http://torrent-tv.ru/uploads/j66xpaZbfiYIgQxv76QAPckPVjmLNs.png</image>
+        </track>
+
+        <track>
+            <location>http://127.0.0.1:6689/stream?cid=3792</location>
+            <title>Europa Plus TV</title>
+            <image>http://torrent-tv.ru/uploads/PkatgpdmA4ArsgSG5shu0ZCQQ5RgMx.png</image>
+        </track>
+
+        <track>
+            <location>http://127.0.0.1:6689/stream?cid=3793</location>
+            <title>MTV Dance</title>
+            <image>http://torrent-tv.ru/uploads/ZXKNRw6Ai8u4lY0wxeycQwj2dIkm66.png</image>
+        </track>
+
+        <track>
+            <location>http://127.0.0.1:6689/stream?cid=3820</location>
+            <title>MTV Hits</title>
+            <image>http://torrent-tv.ru/uploads/iLJhuLh9kFLQkG4ERvLGSjSgMfNiM4.png</image>
+        </track>
+
+        <track>
+            <location>http://127.0.0.1:6689/stream?cid=3936</location>
+            <title>MTV Россия</title>
+            <image>http://torrent-tv.ru/uploads/P5ijp2sRQsKVZkOJwjdqIVgYdJzhpZ.png</image>
+        </track>
+
+        <track>
+            <location>http://127.0.0.1:6689/stream?cid=4393</location>
+            <title>MTV Россия (HD)</title>
+            <image>http://torrent-tv.ru/uploads/P5ijp2sRQsKVZkOJwjdqIVgYdJzhpZ.png</image>
+        </track>
+
+    </trackList>
+
+    <extension application="http://www.videolan.org/vlc/playlist/0">
+
+    </extension>
+</playlist>
