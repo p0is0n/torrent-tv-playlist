@@ -1,5 +1,3 @@
 #EXTM3U
-#EXTINF:-1,ТНТ
-http://127.0.0.1:6689/stream?cid=72
-#EXTINF:-1,Paramount Comedy (HD)
-http://127.0.0.1:6689/stream?cid=4379
+#EXTINF:-1,0x0 Fireplace HD
+http://127.0.0.1:6689/stream?cid=3842
