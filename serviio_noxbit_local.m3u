@@ -1,107 +1,107 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-logo="http://torrent-tv.ru/uploads/Vtt1KKIpLY4LTQGnV03sdBYyX3hyWR.png",ТНТ
+#EXTINF:-1 channel-id="1" tvg-name="ТНТ" tvg-logo="http://torrent-tv.ru/uploads/Vtt1KKIpLY4LTQGnV03sdBYyX3hyWR.png",ТНТ
 http://127.0.0.1:6689/stream?cid=72
 
-#EXTINF:-1 tvg-logo="http://torrent-tv.ru/uploads/Vtt1KKIpLY4LTQGnV03sdBYyX3hyWR.png",ТНТ (HD)
+#EXTINF:-1 channel-id="2" tvg-name="ТНТ (HD)" tvg-logo="http://torrent-tv.ru/uploads/Vtt1KKIpLY4LTQGnV03sdBYyX3hyWR.png",ТНТ (HD)
 http://127.0.0.1:6689/stream?cid=4414
 
-#EXTINF:-1 tvg-logo="http://torrent-tv.ru/uploads/Vtt1KKIpLY4LTQGnV03sdBYyX3hyWR.png",ТНТ (+2)
+#EXTINF:-1 channel-id="3" tvg-name="ТНТ (+2)" tvg-logo="http://torrent-tv.ru/uploads/Vtt1KKIpLY4LTQGnV03sdBYyX3hyWR.png",ТНТ (+2)
 http://127.0.0.1:6689/stream?cid=3875
 
-#EXTINF:-1 tvg-logo="http://torrent-tv.ru/uploads/Vtt1KKIpLY4LTQGnV03sdBYyX3hyWR.png",ТНТ (+3)
+#EXTINF:-1 channel-id="4" tvg-name="ТНТ (+3)" tvg-logo="http://torrent-tv.ru/uploads/Vtt1KKIpLY4LTQGnV03sdBYyX3hyWR.png",ТНТ (+3)
 http://127.0.0.1:6689/stream?cid=4788
 
-#EXTINF:-1 tvg-logo="http://torrent-tv.ru/uploads/Vtt1KKIpLY4LTQGnV03sdBYyX3hyWR.png",ТНТ (+4)
+#EXTINF:-1 channel-id="5" tvg-name="ТНТ (+4)" tvg-logo="http://torrent-tv.ru/uploads/Vtt1KKIpLY4LTQGnV03sdBYyX3hyWR.png",ТНТ (+4)
 http://127.0.0.1:6689/stream?cid=3942
 
-#EXTINF:-1 tvg-logo="http://torrent-tv.ru/uploads/Vtt1KKIpLY4LTQGnV03sdBYyX3hyWR.png",ТНТ (+7)
+#EXTINF:-1 channel-id="6" tvg-name="ТНТ (+7)" tvg-logo="http://torrent-tv.ru/uploads/Vtt1KKIpLY4LTQGnV03sdBYyX3hyWR.png",ТНТ (+7)
 http://127.0.0.1:6689/stream?cid=4329
 
-#EXTINF:-1 tvg-logo="http://torrent-tv.ru/uploads/0fafj6PSIWdqtBdgwYTl9M06SDU2wA.png",Пятница
+#EXTINF:-1 channel-id="7" tvg-name="Пятница" tvg-logo="http://torrent-tv.ru/uploads/0fafj6PSIWdqtBdgwYTl9M06SDU2wA.png",Пятница
 http://127.0.0.1:6689/stream?cid=69
 
-#EXTINF:-1 tvg-logo="http://torrent-tv.ru/uploads/0fafj6PSIWdqtBdgwYTl9M06SDU2wA.png",Пятница (+2)
+#EXTINF:-1 channel-id="8" tvg-name="Пятница (+2)" tvg-logo="http://torrent-tv.ru/uploads/0fafj6PSIWdqtBdgwYTl9M06SDU2wA.png",Пятница (+2)
 http://127.0.0.1:6689/stream?cid=3837
 
-#EXTINF:-1 tvg-logo="http://torrent-tv.ru/uploads/0fafj6PSIWdqtBdgwYTl9M06SDU2wA.png",Пятница (+7)
+#EXTINF:-1 channel-id="9" tvg-name="Пятница (+7)" tvg-logo="http://torrent-tv.ru/uploads/0fafj6PSIWdqtBdgwYTl9M06SDU2wA.png",Пятница (+7)
 http://127.0.0.1:6689/stream?cid=4789
 
-#EXTINF:-1 tvg-logo="http://torrent-tv.ru/uploads/5EtvAWXB7VK1Yw82yvO28sY28dU4ZC.png",Paramount Comedy
+#EXTINF:-1 channel-id="10" tvg-name="Paramount Comedy" tvg-logo="http://torrent-tv.ru/uploads/5EtvAWXB7VK1Yw82yvO28sY28dU4ZC.png",Paramount Comedy
 http://127.0.0.1:6689/stream?cid=3777
 
-#EXTINF:-1 tvg-logo="http://torrent-tv.ru/uploads/5EtvAWXB7VK1Yw82yvO28sY28dU4ZC.png",Paramount Comedy (HD)
+#EXTINF:-1 channel-id="11" tvg-name="Paramount Comedy (HD)" tvg-logo="http://torrent-tv.ru/uploads/5EtvAWXB7VK1Yw82yvO28sY28dU4ZC.png",Paramount Comedy (HD)
 http://127.0.0.1:6689/stream?cid=4379
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/FOX_wordmark-orange.svg/1200px-FOX_wordmark-orange.svg.png",Fox
+#EXTINF:-1 channel-id="12" tvg-name="Fox" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/FOX_wordmark-orange.svg/1200px-FOX_wordmark-orange.svg.png",Fox
 http://127.0.0.1:6689/stream?cid=3789
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/FOX_wordmark-orange.svg/1200px-FOX_wordmark-orange.svg.png",Fox (HD)
+#EXTINF:-1 channel-id="13" tvg-name="Fox (HD)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/FOX_wordmark-orange.svg/1200px-FOX_wordmark-orange.svg.png",Fox (HD)
 http://127.0.0.1:6689/stream?cid=3823
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/Fox_life_it.png",Fox Life
+#EXTINF:-1 channel-id="14" tvg-name="Fox Life" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/Fox_life_it.png",Fox Life
 http://127.0.0.1:6689/stream?cid=3845
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/Fox_life_it.png",Fox Life (HD)
+#EXTINF:-1 channel-id="15" tvg-name="Fox Life (HD)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/Fox_life_it.png",Fox Life (HD)
 http://127.0.0.1:6689/stream?cid=3917
 
-#EXTINF:-1 tvg-logo="http://torrent-tv.ru/uploads/hTpJUV15GSTxZ5kJQGLcn42kCzKyEH.png",2x2
+#EXTINF:-1 channel-id="16" tvg-name="2x2" tvg-logo="http://torrent-tv.ru/uploads/hTpJUV15GSTxZ5kJQGLcn42kCzKyEH.png",2x2
 http://127.0.0.1:6689/stream?cid=3654
 
-#EXTINF:-1 tvg-logo="http://torrent-tv.ru/uploads/Mvurp6cp7Sq2fV3tnFBwPtJy7Ifm1i.png",LifeNews
+#EXTINF:-1 channel-id="17" tvg-name="LifeNews" tvg-logo="http://torrent-tv.ru/uploads/Mvurp6cp7Sq2fV3tnFBwPtJy7Ifm1i.png",LifeNews
 http://127.0.0.1:6689/stream?cid=3780
 
-#EXTINF:-1 tvg-logo="http://torrent-tv.ru/uploads/Mvurp6cp7Sq2fV3tnFBwPtJy7Ifm1i.png",LifeNews (HD)
+#EXTINF:-1 channel-id="18" tvg-name="LifeNews (HD)" tvg-logo="http://torrent-tv.ru/uploads/Mvurp6cp7Sq2fV3tnFBwPtJy7Ifm1i.png",LifeNews (HD)
 http://127.0.0.1:6689/stream?cid=3835
 
-#EXTINF:-1 tvg-logo="http://torrent-tv.ru/uploads/LWfGV6eICPYL7psaBfw2dOgGrOtHFS.png",Россия 24
+#EXTINF:-1 channel-id="19" tvg-name="Россия 24" tvg-logo="http://torrent-tv.ru/uploads/LWfGV6eICPYL7psaBfw2dOgGrOtHFS.png",Россия 24
 http://127.0.0.1:6689/stream?cid=87
 
-#EXTINF:-1 tvg-logo="https://static3.1tv.ru/assets/web/zaglushka-live-soc-seti-2-537x240-08be6a481fcf49900f30d17500817e55.jpg",Первый канал
+#EXTINF:-1 channel-id="20" tvg-name="Первый канал" tvg-logo="https://static3.1tv.ru/assets/web/zaglushka-live-soc-seti-2-537x240-08be6a481fcf49900f30d17500817e55.jpg",Первый канал
 http://127.0.0.1:6689/stream?cid=3896
 
-#EXTINF:-1 tvg-logo="https://static3.1tv.ru/assets/web/zaglushka-live-soc-seti-2-537x240-08be6a481fcf49900f30d17500817e55.jpg",Первый канал (+2)
+#EXTINF:-1 channel-id="21" tvg-name="Первый канал (+2)" tvg-logo="https://static3.1tv.ru/assets/web/zaglushka-live-soc-seti-2-537x240-08be6a481fcf49900f30d17500817e55.jpg",Первый канал (+2)
 http://127.0.0.1:6689/stream?cid=3787
 
-#EXTINF:-1 tvg-logo="https://static3.1tv.ru/assets/web/zaglushka-live-soc-seti-2-537x240-08be6a481fcf49900f30d17500817e55.jpg",Первый канал (+4)
+#EXTINF:-1 channel-id="22" tvg-name="Первый канал (+4)" tvg-logo="https://static3.1tv.ru/assets/web/zaglushka-live-soc-seti-2-537x240-08be6a481fcf49900f30d17500817e55.jpg",Первый канал (+4)
 http://127.0.0.1:6689/stream?cid=3871
 
-#EXTINF:-1 tvg-logo="https://static3.1tv.ru/assets/web/zaglushka-live-soc-seti-2-537x240-08be6a481fcf49900f30d17500817e55.jpg",Первый канал (+6)
+#EXTINF:-1 channel-id="23" tvg-name="Первый канал (+6)" tvg-logo="https://static3.1tv.ru/assets/web/zaglushka-live-soc-seti-2-537x240-08be6a481fcf49900f30d17500817e55.jpg",Первый канал (+6)
 http://127.0.0.1:6689/stream?cid=4305
 
-#EXTINF:-1 tvg-logo="http://torrent-tv.ru/uploads/B5GA1cfgmn8EsxrdwfNUIrEbdqarXf.png",НТВ
+#EXTINF:-1 channel-id="24" tvg-name="НТВ" tvg-logo="http://torrent-tv.ru/uploads/B5GA1cfgmn8EsxrdwfNUIrEbdqarXf.png",НТВ
 http://127.0.0.1:6689/stream?cid=3944
 
-#EXTINF:-1 tvg-logo="http://torrent-tv.ru/uploads/9cVifexiWW0qWDhhpnLNVydoZkeRqZ.png",History Channel
+#EXTINF:-1 channel-id="25" tvg-name="History Channel" tvg-logo="http://torrent-tv.ru/uploads/9cVifexiWW0qWDhhpnLNVydoZkeRqZ.png",History Channel
 http://127.0.0.1:6689/stream?cid=3806
 
-#EXTINF:-1 tvg-logo="http://torrent-tv.ru/uploads/9cVifexiWW0qWDhhpnLNVydoZkeRqZ.png",History Channel (HD)
+#EXTINF:-1 channel-id="26" tvg-name="History Channel (HD)" tvg-logo="http://torrent-tv.ru/uploads/9cVifexiWW0qWDhhpnLNVydoZkeRqZ.png",History Channel (HD)
 http://127.0.0.1:6689/stream?cid=3808
 
-#EXTINF:-1 tvg-logo="http://torrent-tv.ru/uploads/GkgzM41JkGOhbS33KepRPoAckZv2Xz.png",My Zen TV HD
+#EXTINF:-1 channel-id="27" tvg-name="My Zen TV HD" tvg-logo="http://torrent-tv.ru/uploads/GkgzM41JkGOhbS33KepRPoAckZv2Xz.png",My Zen TV HD
 http://127.0.0.1:6689/stream?cid=4385
 
-#EXTINF:-1 tvg-logo="http://torrent-tv.ru/uploads/ypWbqYqKApM8cnDK1FibvQgpmgEay9.png",Наука 2.0
+#EXTINF:-1 channel-id="28" tvg-name="Наука 2.0" tvg-logo="http://torrent-tv.ru/uploads/ypWbqYqKApM8cnDK1FibvQgpmgEay9.png",Наука 2.0
 http://127.0.0.1:6689/stream?cid=3766
 
-#EXTINF:-1 tvg-logo="http://torrent-tv.ru/uploads/j66xpaZbfiYIgQxv76QAPckPVjmLNs.png",Nickelodeon
+#EXTINF:-1 channel-id="29" tvg-name="Nickelodeon" tvg-logo="http://torrent-tv.ru/uploads/j66xpaZbfiYIgQxv76QAPckPVjmLNs.png",Nickelodeon
 http://127.0.0.1:6689/stream?cid=3765
 
-#EXTINF:-1 tvg-logo="http://torrent-tv.ru/uploads/j66xpaZbfiYIgQxv76QAPckPVjmLNs.png",Nickelodeon (HD)
+#EXTINF:-1 channel-id="30" tvg-name="Nickelodeon (HD)" tvg-logo="http://torrent-tv.ru/uploads/j66xpaZbfiYIgQxv76QAPckPVjmLNs.png",Nickelodeon (HD)
 http://127.0.0.1:6689/stream?cid=3801
 
-#EXTINF:-1 tvg-logo="http://torrent-tv.ru/uploads/PkatgpdmA4ArsgSG5shu0ZCQQ5RgMx.png",Europa Plus TV
+#EXTINF:-1 channel-id="31" tvg-name="Europa Plus TV" tvg-logo="http://torrent-tv.ru/uploads/PkatgpdmA4ArsgSG5shu0ZCQQ5RgMx.png",Europa Plus TV
 http://127.0.0.1:6689/stream?cid=3792
 
-#EXTINF:-1 tvg-logo="http://torrent-tv.ru/uploads/ZXKNRw6Ai8u4lY0wxeycQwj2dIkm66.png",MTV Dance
+#EXTINF:-1 channel-id="32" tvg-name="MTV Dance" tvg-logo="http://torrent-tv.ru/uploads/ZXKNRw6Ai8u4lY0wxeycQwj2dIkm66.png",MTV Dance
 http://127.0.0.1:6689/stream?cid=3793
 
-#EXTINF:-1 tvg-logo="http://torrent-tv.ru/uploads/iLJhuLh9kFLQkG4ERvLGSjSgMfNiM4.png",MTV Hits
+#EXTINF:-1 channel-id="33" tvg-name="MTV Hits" tvg-logo="http://torrent-tv.ru/uploads/iLJhuLh9kFLQkG4ERvLGSjSgMfNiM4.png",MTV Hits
 http://127.0.0.1:6689/stream?cid=3820
 
-#EXTINF:-1 tvg-logo="http://torrent-tv.ru/uploads/P5ijp2sRQsKVZkOJwjdqIVgYdJzhpZ.png",MTV Россия
+#EXTINF:-1 channel-id="34" tvg-name="MTV Россия" tvg-logo="http://torrent-tv.ru/uploads/P5ijp2sRQsKVZkOJwjdqIVgYdJzhpZ.png",MTV Россия
 http://127.0.0.1:6689/stream?cid=3936
 
-#EXTINF:-1 tvg-logo="http://torrent-tv.ru/uploads/P5ijp2sRQsKVZkOJwjdqIVgYdJzhpZ.png",MTV Россия (HD)
+#EXTINF:-1 channel-id="35" tvg-name="MTV Россия (HD)" tvg-logo="http://torrent-tv.ru/uploads/P5ijp2sRQsKVZkOJwjdqIVgYdJzhpZ.png",MTV Россия (HD)
 http://127.0.0.1:6689/stream?cid=4393
 
