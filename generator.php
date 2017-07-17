@@ -67,6 +67,238 @@ $sources = (array(
             'offset' => '+0700',
         )),
     )),
+
+    7 => (array(
+        'location' => 'http://127.0.0.1:6689/stream?cid=69',
+        'title' => 'Пятница',
+        'image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/%D0%9F%D1%8F%D1%82%D0%BD%D0%B8%D1%86%D0%B0_%28%D1%81_2013%29.svg/1200px-%D0%9F%D1%8F%D1%82%D0%BD%D0%B8%D1%86%D0%B0_%28%D1%81_2013%29.svg.png',
+
+        'gid' => (array(
+            'id' => '1671',
+            'offset' => '+0000',
+        )),
+    )),
+
+    8 => (array(
+        'location' => 'http://127.0.0.1:6689/stream?cid=3837',
+        'title' => 'Пятница (+2)',
+        'image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/%D0%9F%D1%8F%D1%82%D0%BD%D0%B8%D1%86%D0%B0_%28%D1%81_2013%29.svg/1200px-%D0%9F%D1%8F%D1%82%D0%BD%D0%B8%D1%86%D0%B0_%28%D1%81_2013%29.svg.png',
+
+        'gid' => (array(
+            'id' => '1671',
+            'offset' => '+0200',
+        )),
+    )),
+
+    27 => (array(
+        'location' => 'http://127.0.0.1:6689/stream?cid=3653',
+        'title' => 'Че',
+        'image' => 'https://upload.wikimedia.org/wikipedia/ru/thumb/2/22/CheTvLogo.svg/1024px-CheTvLogo.svg.png',
+
+        'gid' => (array(
+            'id' => '2068',
+            'offset' => '+0000',
+        )),
+    )),
+
+    9 => (array(
+        'location' => 'http://127.0.0.1:6689/stream?cid=3777',
+        'title' => 'Paramount Comedy',
+        'image' => 'https://upload.wikimedia.org/wikipedia/ru/1/1b/Paramount_Comedy.png',
+
+        'gid' => (array(
+            'id' => '1755',
+            'offset' => '+0000',
+        )),
+    )),
+
+    10 => (array(
+        'location' => 'http://127.0.0.1:6689/stream?cid=4379',
+        'title' => 'Paramount Comedy (HD)',
+        'image' => 'https://upload.wikimedia.org/wikipedia/ru/1/1b/Paramount_Comedy.png',
+
+        'gid' => (array(
+            'id' => '1755',
+            'offset' => '+0000',
+        )),
+    )),
+
+    11 => (array(
+        'location' => 'http://127.0.0.1:6689/stream?cid=3789',
+        'title' => 'Fox',
+        'image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/FOX_wordmark-orange.svg/1832px-FOX_wordmark-orange.svg.png',
+
+        'gid' => (array(
+            'id' => '300010',
+            'offset' => '+0000',
+        )),
+    )),
+
+    12 => (array(
+        'location' => 'http://127.0.0.1:6689/stream?cid=3823',
+        'title' => 'Fox (HD)',
+        'image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/FOX_HD.svg/512px-FOX_HD.svg.png',
+
+        'gid' => (array(
+            'id' => '300127',
+            'offset' => '+0000',
+        )),
+    )),
+
+    13 => (array(
+        'location' => 'http://127.0.0.1:6689/stream?cid=3845',
+        'title' => 'Fox Life',
+        'image' => 'https://upload.wikimedia.org/wikipedia/commons/2/27/Fox_life_it.png',
+
+        'gid' => (array(
+            'id' => '300056',
+            'offset' => '+0000',
+        )),
+    )),
+
+    14 => (array(
+        'location' => 'http://127.0.0.1:6689/stream?cid=3917',
+        'title' => 'Fox Life (HD)',
+        'image' => 'https://vignette3.wikia.nocookie.net/logosfake/images/a/af/Fox_Life_HD_old.png/revision/latest?cb=20140414171120',
+
+        'gid' => (array(
+            'id' => '1356',
+            'offset' => '+0000',
+        )),
+    )),
+
+    15 => (array(
+        'location' => 'http://127.0.0.1:6689/stream?cid=3780',
+        'title' => 'LifeNews',
+        'image' => 'http://logo-load.com/uploads/posts/2016-02/1455284367_logo-lifenews.png',
+
+        'gid' => (array(
+            'id' => '100078',
+            'offset' => '+0000',
+        )),
+    )),
+
+    16 => (array(
+        'location' => 'http://127.0.0.1:6689/stream?cid=3835',
+        'title' => 'LifeNews (HD)',
+        'image' => 'http://logo-load.com/uploads/posts/2016-02/1455284367_logo-lifenews.png',
+
+        'gid' => (array(
+            'id' => '100078',
+            'offset' => '+0000',
+        )),
+    )),
+
+    17 => (array(
+        'location' => 'http://127.0.0.1:6689/stream?cid=87',
+        'title' => 'Россия 24',
+        'image' => 'https://upload.wikimedia.org/wikipedia/ru/thumb/7/7c/Russia_24_2016.png/1920px-Russia_24_2016.png',
+
+        'gid' => (array(
+            'id' => '676',
+            'offset' => '+0000',
+        )),
+    )),
+
+    18 => (array(
+        'location' => 'http://127.0.0.1:6689/stream?cid=3896',
+        'title' => 'Первый канал',
+        'image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/1%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB-5.svg/500px-1%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB-5.svg.png',
+
+        'gid' => (array(
+            'id' => '1',
+            'offset' => '+0000',
+        )),
+    )),
+
+    19 => (array(
+        'location' => 'http://127.0.0.1:6689/stream?cid=3944',
+        'title' => 'НТВ',
+        'image' => 'http://www.ntv.ru/images/logo1024.png',
+
+        'gid' => (array(
+            'id' => '4',
+            'offset' => '+0000',
+        )),
+    )),
+
+    20 => (array(
+        'location' => 'http://127.0.0.1:6689/stream?cid=4385',
+        'title' => 'My Zen TV HD',
+        'image' => 'http://www.frocus.net/images/logotv/original/myZen-hd-fr.jpg',
+
+        'gid' => (array(
+            'id' => '300034',
+            'offset' => '+0000',
+        )),
+    )),
+
+    21 => (array(
+        'location' => 'http://127.0.0.1:6689/stream?cid=3766',
+        'title' => 'Наука 2.0',
+        'image' => 'http://gl.weburg.net/00/tv/channels/1/236/bigposter/591554.png',
+
+        'gid' => (array(
+            'id' => '300105',
+            'offset' => '+0000',
+        )),
+    )),
+
+    22 => (array(
+        'location' => 'http://127.0.0.1:6689/stream?cid=3765',
+        'title' => 'Nickelodeon',
+        'image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Nickelodeon_logo_new.svg/1000px-Nickelodeon_logo_new.svg.png',
+
+        'gid' => (array(
+            'id' => '218',
+            'offset' => '+0000',
+        )),
+    )),
+
+    23 => (array(
+        'location' => 'http://127.0.0.1:6689/stream?cid=3801',
+        'title' => 'Nickelodeon (HD)',
+        'image' => 'https://vignette2.wikia.nocookie.net/logopedia/images/6/61/NICKELODEON_HD.png/revision/latest?cb=20150314184837',
+
+        'gid' => (array(
+            'id' => '1391',
+            'offset' => '+0000',
+        )),
+    )),
+
+    24 => (array(
+        'location' => 'http://127.0.0.1:6689/stream?cid=3792',
+        'title' => 'Europa Plus TV',
+        'image' => 'https://upload.wikimedia.org/wikipedia/ru/c/c8/Europa_Plus_TV.Png',
+
+        'gid' => (array(
+            'id' => '300121',
+            'offset' => '+0000',
+        )),
+    )),
+
+    25 => (array(
+        'location' => 'http://127.0.0.1:6689/stream?cid=3568',
+        'title' => 'Матч ТВ',
+        'image' => 'http://toplogos.ru/images/logo-match-tv.png',
+
+        'gid' => (array(
+            'id' => '2060',
+            'offset' => '+0000',
+        )),
+    )),
+
+    26 => (array(
+        'location' => 'http://127.0.0.1:6689/stream?cid=91',
+        'title' => 'Матч ТВ (HD)',
+        'image' => 'http://saransk-tv.ru/assets/images/slider/151230-pic-02.jpg',
+
+        'gid' => (array(
+            'id' => '300140',
+            'offset' => '+0000',
+        )),
+    )),
+
 ));
 
 $sourcesByGid = array();
