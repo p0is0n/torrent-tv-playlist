@@ -115,7 +115,7 @@ $sources = (array(
     10 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=4379',
         'title' => 'Paramount Comedy (HD)',
-        'image' => 'https://upload.wikimedia.org/wikipedia/ru/1/1b/Paramount_Comedy.png',
+        'image' => 'https://static-sesure.cdn.megafon.tv/images/Channel/e4/89/589782c02ab5afd865d96298ea2774a29cc2/logo_poster__web.png',
 
         'gid' => (array(
             'id' => '1755',
@@ -159,7 +159,7 @@ $sources = (array(
     14 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3917',
         'title' => 'Fox Life (HD)',
-        'image' => 'https://vignette3.wikia.nocookie.net/logosfake/images/a/af/Fox_Life_HD_old.png/revision/latest?cb=20140414171120',
+        'image' => 'https://vignette1.wikia.nocookie.net/logosfake/images/2/2c/FOXlife_HD_Logo.png/revision/latest?cb=20140414171410',
 
         'gid' => (array(
             'id' => '1356',
@@ -236,7 +236,7 @@ $sources = (array(
     21 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3766',
         'title' => 'Наука 2.0',
-        'image' => 'http://gl.weburg.net/00/tv/channels/1/236/bigposter/591554.png',
+        'image' => 'https://ortus-global.com/files/253/nauka20big.png',
 
         'gid' => (array(
             'id' => '300105',
