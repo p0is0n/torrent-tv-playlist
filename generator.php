@@ -35,7 +35,7 @@ $sources = (array(
         )),
     )),
 
-    4 => (array(
+    /*4 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=4788',
         'title' => 'ТНТ (+3)',
         'image' => 'https://upload.wikimedia.org/wikipedia/ru/7/76/%D0%A2%D0%9D%D0%A2_logo.png',
@@ -44,7 +44,7 @@ $sources = (array(
             'id' => '101',
             'offset' => '+0300',
         )),
-    )),
+    )),*/
 
     5 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3942',
@@ -90,6 +90,17 @@ $sources = (array(
         )),
     )),
 
+    33 => (array(
+        'location' => 'http://127.0.0.1:6689/stream?cid=4789',
+        'title' => 'Пятница (+7)',
+        'image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/%D0%9F%D1%8F%D1%82%D0%BD%D0%B8%D1%86%D0%B0_%28%D1%81_2013%29.svg/1200px-%D0%9F%D1%8F%D1%82%D0%BD%D0%B8%D1%86%D0%B0_%28%D1%81_2013%29.svg.png',
+
+        'gid' => (array(
+            'id' => '1671',
+            'offset' => '+0700',
+        )),
+    )),
+
     27 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3653',
         'title' => 'Че',
@@ -120,6 +131,28 @@ $sources = (array(
         'gid' => (array(
             'id' => '1755',
             'offset' => '+0000',
+        )),
+    )),
+
+    31 => (array(
+        'location' => 'http://127.0.0.1:6689/stream?cid=3654',
+        'title' => '2x2',
+        'image' => 'https://upload.wikimedia.org/wikipedia/commons/f/fb/2x2_%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB._%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF.jpg',
+
+        'gid' => (array(
+            'id' => '276',
+            'offset' => '+0000',
+        )),
+    )),
+
+    32 => (array(
+        'location' => 'http://127.0.0.1:6689/stream?cid=4079',
+        'title' => '2x2 (+2)',
+        'image' => 'https://upload.wikimedia.org/wikipedia/commons/f/fb/2x2_%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB._%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF.jpg',
+
+        'gid' => (array(
+            'id' => '276',
+            'offset' => '+0200',
         )),
     )),
 
@@ -273,6 +306,39 @@ $sources = (array(
 
         'gid' => (array(
             'id' => '300121',
+            'offset' => '+0000',
+        )),
+    )),
+
+    28 => (array(
+        'location' => 'http://127.0.0.1:6689/stream?cid=3820',
+        'title' => 'MTV Hits',
+        'image' => 'https://upload.wikimedia.org/wikipedia/commons/2/2d/MTV_Hits_2013.png',
+
+        'gid' => (array(
+            'id' => '1178',
+            'offset' => '+0000',
+        )),
+    )),
+
+    29 => (array(
+        'location' => 'http://127.0.0.1:6689/stream?cid=3793',
+        'title' => 'MTV Dance',
+        'image' => 'https://upload.wikimedia.org/wikipedia/en/thumb/f/ff/MTV_Dance_2017_logo.svg/200px-MTV_Dance_2017_logo.svg.png',
+
+        'gid' => (array(
+            'id' => '100029',
+            'offset' => '+0000',
+        )),
+    )),
+
+    30 => (array(
+        'location' => 'http://127.0.0.1:6689/stream?cid=3936',
+        'title' => 'MTV Россия',
+        'image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/MTV_Logo_2010.svg/800px-MTV_Logo_2010.svg.png',
+
+        'gid' => (array(
+            'id' => '107',
             'offset' => '+0000',
         )),
     )),
