@@ -324,7 +324,7 @@ $sources = (array(
     38 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3768',
         'title' => 'Discovery Channel',
-        'image' => 'https://cf.press.discovery.com/ugc/logos/2009/08/19/DSC_poslrg.jpg',
+        'image' => 'https://cf.press.discovery.com/ugc/logos/2009/08/22/DSC_pos.png',
 
         'gid' => (array(
             'id' => 'discovery-channel',
@@ -335,7 +335,7 @@ $sources = (array(
     39 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3650',
         'title' => 'Discovery Science',
-        'image' => 'http://www.roastbrief.com.mx/wp-content/uploads/2011/10/Discovery-Science-Logo.jpg',
+        'image' => 'https://upload.wikimedia.org/wikipedia/pt/a/a8/LOGO_DISCOVERY_SCIENCE.png',
 
         'gid' => (array(
             'id' => 'discovery-science',
@@ -434,7 +434,7 @@ $sources = (array(
     30 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3936',
         'title' => 'MTV Россия',
-        'image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/MTV_Logo_2010.svg/800px-MTV_Logo_2010.svg.png',
+        'image' => 'https://vignette4.wikia.nocookie.net/tvpedia/images/c/c1/MTV_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F_2_%28%D1%81_%D0%BD%D0%B0%D0%B4%D0%BF%D0%B8%D1%81%D1%8C%D1%8E%29.png/revision/latest?cb=20130126090333&path-prefix=ru',
 
         'gid' => (array(
             'id' => 'mtv-russia', // '107',
