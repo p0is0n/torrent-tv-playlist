@@ -550,13 +550,10 @@ if (is_resource($gidFileFp)) {
 
     $xmlOut -> startDocument('1.0', 'UTF-8');
 
-    $xmlOut -> startDTD('tv', null, 'http://www.teleguide.info/download/xmltv.dtd');
+    $xmlOut -> startDTD('tv', null, 'http://iptvx.one/xmltv.dtd');
     $xmlOut -> endDTD();
 
     $xmlOut -> startElement('tv');
-    $xmlOut -> startAttribute('generator-info-name');
-    $xmlOut -> text('TVH_W/0.751l/proxyflip');
-    $xmlOut -> endAttribute();
 
     foreach($sources as $id => &$source) {
         if (! empty($source['gid'])) {
@@ -610,6 +607,11 @@ if (is_resource($gidFileFp)) {
                     if ($dataElement == 'programme') {
                         if (isset($data['channel'])) {
                             if (isset($sourcesByGid[$data['channel']])) {
+                                /*if (isset($data['date'])) {
+                                    // Debug
+                                    var_dump($data); exit;
+                                }*/
+
                                 foreach($sourcesByGid[$data['channel']] as $id => &$source) {
                                     if (empty($data['start']) || empty($data['stop'])) {
                                         // Skip
@@ -657,7 +659,7 @@ if (is_resource($gidFileFp)) {
                                     $xmlOut -> writeAttribute('stop', $stop);
                                     $xmlOut -> writeAttribute('channel', $id);
 
-                                    foreach(array('title', 'category', 'descr') as $keyElement) {
+                                    foreach(array('title', 'category', 'desc', 'date') as $keyElement) {
                                         if (isset($data[$keyElement])) {
                                             $xmlOut -> startElement($keyElement);
 
