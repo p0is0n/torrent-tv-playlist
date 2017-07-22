@@ -277,6 +277,39 @@ $sources = (array(
         )),
     )),
 
+    26 => (array(
+        'location' => 'http://127.0.0.1:6689/stream?cid=3934',
+        'title' => 'Da Vinci Learning',
+        'image' => 'https://vignette1.wikia.nocookie.net/tvpedia/images/4/49/Da_Vinci_Learning.png/revision/latest?cb=20140514085410&path-prefix=ru',
+
+        'gid' => (array(
+            'id' => 'da-vinci-learning-ru',
+            'offset' => '+0000',
+        )),
+    )),
+
+    35 => (array(
+        'location' => 'http://127.0.0.1:6689/stream?cid=4070',
+        'title' => 'Food Network',
+        'image' => 'https://upload.wikimedia.org/wikipedia/commons/f/f9/Food_Network_New_Logo.png',
+
+        'gid' => (array(
+            'id' => 'food-network',
+            'offset' => '+0000',
+        )),
+    )),
+
+    36 => (array(
+        'location' => 'http://127.0.0.1:6689/stream?cid=3806',
+        'title' => 'History Channel',
+        'image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/History_Logo.svg/512px-History_Logo.svg.png',
+
+        'gid' => (array(
+            'id' => 'history',
+            'offset' => '+0000',
+        )),
+    )),
+
     22 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3765',
         'title' => 'Nickelodeon',
@@ -354,13 +387,13 @@ $sources = (array(
         )),
     )),
 
-    26 => (array(
-        'location' => 'http://127.0.0.1:6689/stream?cid=91',
-        'title' => 'Матч ТВ (HD)',
-        'image' => 'http://saransk-tv.ru/assets/images/slider/151230-pic-02.jpg',
+    34 => (array(
+        'location' => 'http://127.0.0.1:6689/stream?cid=3675',
+        'title' => 'Extreme Sports',
+        'image' => 'https://upload.wikimedia.org/wikipedia/en/thumb/f/f0/Extreme_Sports_Channel.svg/1200px-Extreme_Sports_Channel.svg.png',
 
         'gid' => (array(
-            'id' => 'match-tv', // '300140',
+            'id' => 'extreme-sports',
             'offset' => '+0000',
         )),
     )),
