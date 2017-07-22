@@ -236,7 +236,7 @@ $sources = (array(
     18 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3896',
         'title' => 'Первый канал',
-        'image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/1%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB-5.svg/500px-1%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB-5.svg.png',
+        'image' => 'http://liveam.tv/assets/images/chnl/pervij-kanal.png',
 
         'gid' => (array(
             'id' => 'pervy', // '1',
@@ -247,7 +247,7 @@ $sources = (array(
     19 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3944',
         'title' => 'НТВ',
-        'image' => 'http://www.ntv.ru/images/logo1024.png',
+        'image' => 'https://vignette2.wikia.nocookie.net/tvpedia/images/2/2d/%D0%9D%D0%A2%D0%92_1994-1997_%28%D0%BD%D0%B5%D0%B1%D1%80%D0%B5%D0%B6%D0%BD%D0%BE%D0%B5_%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8F%29.png/revision/latest?cb=20121220130359&path-prefix=ru',
 
         'gid' => (array(
             'id' => 'ntv', // '4',
@@ -258,7 +258,7 @@ $sources = (array(
     20 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=4385',
         'title' => 'My Zen TV HD',
-        'image' => 'http://www.frocus.net/images/logotv/original/myZen-hd-fr.jpg',
+        'image' => 'https://www.thematv.com/medias/channels/myzen-tv/myzen-tv.png',
 
         'gid' => (array(
             'id' => 'myzen-hd', // '300034',
@@ -291,7 +291,7 @@ $sources = (array(
     35 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=4070',
         'title' => 'Food Network',
-        'image' => 'https://upload.wikimedia.org/wikipedia/commons/f/f9/Food_Network_New_Logo.png',
+        'image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Food_Network.svg/2000px-Food_Network.svg.png',
 
         'gid' => (array(
             'id' => 'food-network',
@@ -313,7 +313,7 @@ $sources = (array(
     37 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3768',
         'title' => 'Discovery Channel',
-        'image' => 'https://cf.press.discovery.com/ugc/logos/2009/08/19/DSC_poslrg.jpg',
+        'image' => 'https://cf.press.discovery.com/ugc/logos/2009/08/22/DSC_pos.png',
 
         'gid' => (array(
             'id' => 'discovery-channel',
@@ -335,7 +335,7 @@ $sources = (array(
     39 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3650',
         'title' => 'Discovery Science',
-        'image' => 'https://upload.wikimedia.org/wikipedia/pt/a/a8/LOGO_DISCOVERY_SCIENCE.png',
+        'image' => 'https://upload.wikimedia.org/wikipedia/commons/6/6e/Discovery_science.png',
 
         'gid' => (array(
             'id' => 'discovery-science',
