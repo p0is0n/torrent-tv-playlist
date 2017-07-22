@@ -1,6 +1,6 @@
 <?php
 
-$sourcesGid = "compress.zlib://http://www.teleguide.info/download/new3/xmltv.xml.gz";
+$sourcesGid = "compress.zlib://https://iptvx.one/epg/epg.xml.gz"; // "compress.zlib://http://www.teleguide.info/download/new3/xmltv.xml.gz";
 $sources = (array(
     1 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=72',
@@ -8,7 +8,7 @@ $sources = (array(
         'image' => 'https://upload.wikimedia.org/wikipedia/ru/7/76/%D0%A2%D0%9D%D0%A2_logo.png',
 
         'gid' => (array(
-            'id' => '101',
+            'id' => 'tnt', // '101',
             'offset' => '+0000',
         )),
     )),
@@ -19,7 +19,7 @@ $sources = (array(
         'image' => 'https://upload.wikimedia.org/wikipedia/ru/7/76/%D0%A2%D0%9D%D0%A2_logo.png',
 
         'gid' => (array(
-            'id' => '101',
+            'id' => 'tnt-hd', // '101',
             'offset' => '+0000',
         )),
     )),
@@ -30,7 +30,7 @@ $sources = (array(
         'image' => 'https://upload.wikimedia.org/wikipedia/ru/7/76/%D0%A2%D0%9D%D0%A2_logo.png',
 
         'gid' => (array(
-            'id' => '101',
+            'id' => 'tnt-pl2', // '101',
             'offset' => '+0200',
         )),
     )),
@@ -52,7 +52,7 @@ $sources = (array(
         'image' => 'https://upload.wikimedia.org/wikipedia/ru/7/76/%D0%A2%D0%9D%D0%A2_logo.png',
 
         'gid' => (array(
-            'id' => '101',
+            'id' => 'tnt-pl4', // '101',
             'offset' => '+0400',
         )),
     )),
@@ -63,7 +63,7 @@ $sources = (array(
         'image' => 'https://upload.wikimedia.org/wikipedia/ru/7/76/%D0%A2%D0%9D%D0%A2_logo.png',
 
         'gid' => (array(
-            'id' => '101',
+            'id' => 'tnt-pl7', // '101',
             'offset' => '+0700',
         )),
     )),
@@ -74,7 +74,7 @@ $sources = (array(
         'image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/%D0%9F%D1%8F%D1%82%D0%BD%D0%B8%D1%86%D0%B0_%28%D1%81_2013%29.svg/1200px-%D0%9F%D1%8F%D1%82%D0%BD%D0%B8%D1%86%D0%B0_%28%D1%81_2013%29.svg.png',
 
         'gid' => (array(
-            'id' => '1671',
+            'id' => 'piatnica', // '1671',
             'offset' => '+0000',
         )),
     )),
@@ -85,7 +85,7 @@ $sources = (array(
         'image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/%D0%9F%D1%8F%D1%82%D0%BD%D0%B8%D1%86%D0%B0_%28%D1%81_2013%29.svg/1200px-%D0%9F%D1%8F%D1%82%D0%BD%D0%B8%D1%86%D0%B0_%28%D1%81_2013%29.svg.png',
 
         'gid' => (array(
-            'id' => '1671',
+            'id' => 'piatnica-pl2', // '1671',
             'offset' => '+0200',
         )),
     )),
@@ -96,7 +96,7 @@ $sources = (array(
         'image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/%D0%9F%D1%8F%D1%82%D0%BD%D0%B8%D1%86%D0%B0_%28%D1%81_2013%29.svg/1200px-%D0%9F%D1%8F%D1%82%D0%BD%D0%B8%D1%86%D0%B0_%28%D1%81_2013%29.svg.png',
 
         'gid' => (array(
-            'id' => '1671',
+            'id' => 'piatnica-pl7', // '1671',
             'offset' => '+0700',
         )),
     )),
@@ -107,7 +107,7 @@ $sources = (array(
         'image' => 'https://upload.wikimedia.org/wikipedia/ru/thumb/2/22/CheTvLogo.svg/1024px-CheTvLogo.svg.png',
 
         'gid' => (array(
-            'id' => '2068',
+            'id' => 'che', // '2068',
             'offset' => '+0000',
         )),
     )),
@@ -118,7 +118,7 @@ $sources = (array(
         'image' => 'https://upload.wikimedia.org/wikipedia/ru/1/1b/Paramount_Comedy.png',
 
         'gid' => (array(
-            'id' => '1755',
+            'id' => 'paramount-comedy', // '1755',
             'offset' => '+0000',
         )),
     )),
@@ -129,7 +129,7 @@ $sources = (array(
         'image' => 'https://static-sesure.cdn.megafon.tv/images/Channel/e4/89/589782c02ab5afd865d96298ea2774a29cc2/logo_poster__web.png',
 
         'gid' => (array(
-            'id' => '1755',
+            'id' => 'paramount-comedy', // '1755',
             'offset' => '+0000',
         )),
     )),
@@ -140,7 +140,7 @@ $sources = (array(
         'image' => 'https://upload.wikimedia.org/wikipedia/commons/f/fb/2x2_%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB._%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF.jpg',
 
         'gid' => (array(
-            'id' => '276',
+            'id' => '2na2', // '276',
             'offset' => '+0000',
         )),
     )),
@@ -151,7 +151,7 @@ $sources = (array(
         'image' => 'https://upload.wikimedia.org/wikipedia/commons/f/fb/2x2_%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB._%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF.jpg',
 
         'gid' => (array(
-            'id' => '276',
+            'id' => '2na2-pl2', // '276',
             'offset' => '+0200',
         )),
     )),
@@ -162,7 +162,7 @@ $sources = (array(
         'image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/FOX_wordmark-orange.svg/1832px-FOX_wordmark-orange.svg.png',
 
         'gid' => (array(
-            'id' => '300010',
+            'id' => 'fox', // '300010',
             'offset' => '+0000',
         )),
     )),
@@ -173,7 +173,7 @@ $sources = (array(
         'image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/FOX_HD.svg/512px-FOX_HD.svg.png',
 
         'gid' => (array(
-            'id' => '300127',
+            'id' => 'fox-hd', // '300127',
             'offset' => '+0000',
         )),
     )),
@@ -184,7 +184,7 @@ $sources = (array(
         'image' => 'https://upload.wikimedia.org/wikipedia/commons/2/27/Fox_life_it.png',
 
         'gid' => (array(
-            'id' => '300056',
+            'id' => 'foxlife', // '300056',
             'offset' => '+0000',
         )),
     )),
@@ -195,7 +195,7 @@ $sources = (array(
         'image' => 'https://vignette1.wikia.nocookie.net/logosfake/images/2/2c/FOXlife_HD_Logo.png/revision/latest?cb=20140414171410',
 
         'gid' => (array(
-            'id' => '1356',
+            'id' => 'foxlife-hd', // '1356',
             'offset' => '+0000',
         )),
     )),
@@ -206,7 +206,7 @@ $sources = (array(
         'image' => 'http://logo-load.com/uploads/posts/2016-02/1455284367_logo-lifenews.png',
 
         'gid' => (array(
-            'id' => '100078',
+            'id' => 'lifenews', // '100078',
             'offset' => '+0000',
         )),
     )),
@@ -217,7 +217,7 @@ $sources = (array(
         'image' => 'http://logo-load.com/uploads/posts/2016-02/1455284367_logo-lifenews.png',
 
         'gid' => (array(
-            'id' => '100078',
+            'id' => 'lifenews', // '100078',
             'offset' => '+0000',
         )),
     )),
@@ -228,7 +228,7 @@ $sources = (array(
         'image' => 'https://upload.wikimedia.org/wikipedia/ru/thumb/7/7c/Russia_24_2016.png/1920px-Russia_24_2016.png',
 
         'gid' => (array(
-            'id' => '676',
+            'id' => 'rossia-24', // '676',
             'offset' => '+0000',
         )),
     )),
@@ -239,7 +239,7 @@ $sources = (array(
         'image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/1%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB-5.svg/500px-1%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB-5.svg.png',
 
         'gid' => (array(
-            'id' => '1',
+            'id' => 'pervy', // '1',
             'offset' => '+0000',
         )),
     )),
@@ -250,7 +250,7 @@ $sources = (array(
         'image' => 'http://www.ntv.ru/images/logo1024.png',
 
         'gid' => (array(
-            'id' => '4',
+            'id' => 'ntv', // '4',
             'offset' => '+0000',
         )),
     )),
@@ -261,7 +261,7 @@ $sources = (array(
         'image' => 'http://www.frocus.net/images/logotv/original/myZen-hd-fr.jpg',
 
         'gid' => (array(
-            'id' => '300034',
+            'id' => 'myzen-hd', // '300034',
             'offset' => '+0000',
         )),
     )),
@@ -272,7 +272,7 @@ $sources = (array(
         'image' => 'https://ortus-global.com/files/253/nauka20big.png',
 
         'gid' => (array(
-            'id' => '300105',
+            'id' => 'nauka-20', // '300105',
             'offset' => '+0000',
         )),
     )),
@@ -283,7 +283,7 @@ $sources = (array(
         'image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Nickelodeon_logo_new.svg/1000px-Nickelodeon_logo_new.svg.png',
 
         'gid' => (array(
-            'id' => '218',
+            'id' => 'nickelodeon-ru', // '218',
             'offset' => '+0000',
         )),
     )),
@@ -294,7 +294,7 @@ $sources = (array(
         'image' => 'https://vignette2.wikia.nocookie.net/logopedia/images/6/61/NICKELODEON_HD.png/revision/latest?cb=20150314184837',
 
         'gid' => (array(
-            'id' => '1391',
+            'id' => 'nickelodeon-hd', // '1391',
             'offset' => '+0000',
         )),
     )),
@@ -305,7 +305,7 @@ $sources = (array(
         'image' => 'https://upload.wikimedia.org/wikipedia/ru/c/c8/Europa_Plus_TV.Png',
 
         'gid' => (array(
-            'id' => '300121',
+            'id' => 'europa-plus-tv', // '300121',
             'offset' => '+0000',
         )),
     )),
@@ -316,7 +316,7 @@ $sources = (array(
         'image' => 'https://upload.wikimedia.org/wikipedia/commons/2/2d/MTV_Hits_2013.png',
 
         'gid' => (array(
-            'id' => '1178',
+            'id' => 'mtv-hits', // '1178',
             'offset' => '+0000',
         )),
     )),
@@ -327,7 +327,7 @@ $sources = (array(
         'image' => 'https://upload.wikimedia.org/wikipedia/en/thumb/f/ff/MTV_Dance_2017_logo.svg/200px-MTV_Dance_2017_logo.svg.png',
 
         'gid' => (array(
-            'id' => '100029',
+            'id' => 'mtv-dance', // '100029',
             'offset' => '+0000',
         )),
     )),
@@ -338,7 +338,7 @@ $sources = (array(
         'image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/MTV_Logo_2010.svg/800px-MTV_Logo_2010.svg.png',
 
         'gid' => (array(
-            'id' => '107',
+            'id' => 'mtv-russia', // '107',
             'offset' => '+0000',
         )),
     )),
@@ -349,7 +349,7 @@ $sources = (array(
         'image' => 'http://toplogos.ru/images/logo-match-tv.png',
 
         'gid' => (array(
-            'id' => '2060',
+            'id' => 'match-tv', // '2060',
             'offset' => '+0000',
         )),
     )),
@@ -360,7 +360,7 @@ $sources = (array(
         'image' => 'http://saransk-tv.ru/assets/images/slider/151230-pic-02.jpg',
 
         'gid' => (array(
-            'id' => '300140',
+            'id' => 'match-tv', // '300140',
             'offset' => '+0000',
         )),
     )),
@@ -557,9 +557,6 @@ if (is_resource($gidFileFp)) {
     $xmlOut -> startAttribute('generator-info-name');
     $xmlOut -> text('TVH_W/0.751l/proxyflip');
     $xmlOut -> endAttribute();
-    $xmlOut -> startAttribute('generator-info-url');
-    $xmlOut -> text('http://www.teleguide.info/');
-    $xmlOut -> endAttribute();
 
     foreach($sources as $id => &$source) {
         if (! empty($source['gid'])) {
@@ -589,6 +586,15 @@ if (is_resource($gidFileFp)) {
     }
 
     gzwrite($gidFileFp, $xmlOut -> flush());
+
+    $context = stream_context_create(array(
+        'http' => array(
+            'method' => "GET",
+            'header' => "Accept: */*\r\n" .
+                        "User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.100 Safari/537.36\r\n"
+    )));
+
+    libxml_set_streams_context($context);
 
     $xmlIn = new XMLReader();
     $xmlIn -> open($sourcesGid);
@@ -651,7 +657,7 @@ if (is_resource($gidFileFp)) {
                                     $xmlOut -> writeAttribute('stop', $stop);
                                     $xmlOut -> writeAttribute('channel', $id);
 
-                                    foreach(array('title', 'category') as $keyElement) {
+                                    foreach(array('title', 'category', 'descr') as $keyElement) {
                                         if (isset($data[$keyElement])) {
                                             $xmlOut -> startElement($keyElement);
 
