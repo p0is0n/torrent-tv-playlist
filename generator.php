@@ -310,6 +310,50 @@ $sources = (array(
         )),
     )),
 
+    37 => (array(
+        'location' => 'http://127.0.0.1:6689/stream?cid=3768',
+        'title' => 'Discovery Channel',
+        'image' => 'https://cf.press.discovery.com/ugc/logos/2009/08/19/DSC_poslrg.jpg',
+
+        'gid' => (array(
+            'id' => 'discovery-channel',
+            'offset' => '+0000',
+        )),
+    )),
+
+    38 => (array(
+        'location' => 'http://127.0.0.1:6689/stream?cid=3768',
+        'title' => 'Discovery Channel',
+        'image' => 'https://cf.press.discovery.com/ugc/logos/2009/08/19/DSC_poslrg.jpg',
+
+        'gid' => (array(
+            'id' => 'discovery-channel',
+            'offset' => '+0000',
+        )),
+    )),
+
+    39 => (array(
+        'location' => 'http://127.0.0.1:6689/stream?cid=3650',
+        'title' => 'Discovery Science',
+        'image' => 'http://www.roastbrief.com.mx/wp-content/uploads/2011/10/Discovery-Science-Logo.jpg',
+
+        'gid' => (array(
+            'id' => 'discovery-science',
+            'offset' => '+0000',
+        )),
+    )),
+
+    44 => (array(
+        'location' => 'http://127.0.0.1:6689/stream?cid=3658',
+        'title' => 'National Geographic',
+        'image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/1000px-Natgeologo.svg.png',
+
+        'gid' => (array(
+            'id' => 'national-geographic',
+            'offset' => '+0000',
+        )),
+    )),
+
     22 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3765',
         'title' => 'Nickelodeon',
@@ -328,6 +372,28 @@ $sources = (array(
 
         'gid' => (array(
             'id' => 'nickelodeon-hd', // '1391',
+            'offset' => '+0000',
+        )),
+    )),
+
+    40 => (array(
+        'location' => 'http://127.0.0.1:6689/stream?cid=3772',
+        'title' => 'Disney Channel',
+        'image' => 'http://vignette3.wikia.nocookie.net/disney/images/c/c5/Disney-channel-new2015.png/revision/latest?cb=20150813203959',
+
+        'gid' => (array(
+            'id' => 'disney',
+            'offset' => '+0000',
+        )),
+    )),
+
+    41 => (array(
+        'location' => 'http://127.0.0.1:6689/stream?cid=4312',
+        'title' => 'Disney Channel (+2)',
+        'image' => 'http://vignette3.wikia.nocookie.net/disney/images/c/c5/Disney-channel-new2015.png/revision/latest?cb=20150813203959',
+
+        'gid' => (array(
+            'id' => 'disney-pl2',
             'offset' => '+0000',
         )),
     )),
@@ -394,6 +460,28 @@ $sources = (array(
 
         'gid' => (array(
             'id' => 'extreme-sports',
+            'offset' => '+0000',
+        )),
+    )),
+
+    43 => (array(
+        'location' => 'http://127.0.0.1:6689/stream?cid=3927',
+        'title' => 'Мужской',
+        'image' => 'http://vignette1.wikia.nocookie.net/tvpedia/images/2/21/%D0%9C%D1%83%D0%B6%D1%81%D0%BA%D0%BE%D0%B9_2_%28TV%29.png/revision/latest?cb=20121206062113&path-prefix=ru',
+
+        'gid' => (array(
+            'id' => 'muzhskoy',
+            'offset' => '+0000',
+        )),
+    )),
+
+    42 => (array(
+        'location' => 'http://127.0.0.1:6689/stream?cid=3741',
+        'title' => 'Brazzers TV Europe',
+        'image' => 'http://ocdn.eu/images/program-tv/NzM7MDA_/079206355379db37d9b54993cc65fc36.png',
+
+        'gid' => (array(
+            'id' => 'brazzers-tv-europe',
             'offset' => '+0000',
         )),
     )),
