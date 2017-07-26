@@ -31,7 +31,7 @@ $sources = (array(
 
         'gid' => (array(
             'id' => 'tnt-pl2', // '101',
-            'offset' => '+0200',
+            'offset' => '+0000',
         )),
     )),
 
@@ -53,7 +53,7 @@ $sources = (array(
 
         'gid' => (array(
             'id' => 'tnt-pl4', // '101',
-            'offset' => '+0400',
+            'offset' => '+0000',
         )),
     )),
 
@@ -64,7 +64,7 @@ $sources = (array(
 
         'gid' => (array(
             'id' => 'tnt-pl7', // '101',
-            'offset' => '+0700',
+            'offset' => '+0000',
         )),
     )),
 
@@ -86,7 +86,7 @@ $sources = (array(
 
         'gid' => (array(
             'id' => 'piatnica-pl2', // '1671',
-            'offset' => '+0200',
+            'offset' => '+0000',
         )),
     )),
 
@@ -97,7 +97,7 @@ $sources = (array(
 
         'gid' => (array(
             'id' => 'piatnica-pl7', // '1671',
-            'offset' => '+0700',
+            'offset' => '+0000',
         )),
     )),
 
@@ -152,7 +152,7 @@ $sources = (array(
 
         'gid' => (array(
             'id' => '2na2-pl2', // '276',
-            'offset' => '+0200',
+            'offset' => '+0000',
         )),
     )),
 
