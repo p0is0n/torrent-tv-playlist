@@ -255,6 +255,28 @@ $sources = (array(
         )),
     )),
 
+    45 => (array(
+        'location' => 'http://127.0.0.1:6689/stream?cid=4272',
+        'title' => 'КТК',
+        'image' => 'https://vignette.wikia.nocookie.net/logopedia/images/6/6a/KTK-tv_logo.jpg/revision/latest?cb=20170927122415',
+
+        /*'gid' => (array(
+            'id' => 'ntv', // '4',
+            'offset' => '+0000',
+        )),*/
+    )),
+
+    46 => (array(
+        'location' => 'http://127.0.0.1:6689/stream?cid=5200',
+        'title' => 'НТК',
+        'image' => 'http://telekarta.kz/images/dvb-t2/CH/ntk_kz.png',
+
+        /*'gid' => (array(
+            'id' => 'ntv', // '4',
+            'offset' => '+0000',
+        )),*/
+    )),
+
     20 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=4385',
         'title' => 'My Zen TV HD',
