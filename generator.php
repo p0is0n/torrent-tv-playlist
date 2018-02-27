@@ -101,16 +101,16 @@ $sources = (array(
         )),
     )),
 
-    /*27 => (array(
-        'location' => 'http://127.0.0.1:6689/stream?cid=3653',
-        'title' => 'Че',
-        'image' => 'https://upload.wikimedia.org/wikipedia/ru/thumb/2/22/CheTvLogo.svg/1024px-CheTvLogo.svg.png',
+    27 => (array(
+        'location' => 'http://127.0.0.1:6689/stream?cid=3763',
+        'title' => 'ТНТ4',
+        'image' => 'https://vignette.wikia.nocookie.net/tvpedia/images/5/53/%D0%A2%D0%9D%D0%A24.png/revision/latest?cb=20160327160014&path-prefix=ru',
 
         'gid' => (array(
-            'id' => 'che', // '2068',
+            'id' => 'tnt4', // '2068',
             'offset' => '+0000',
         )),
-    )),*/
+    )),
 
     9 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3777',
