@@ -5,7 +5,7 @@ $sources = (array(
     1 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=72',
         'title' => 'ТНТ',
-        'image' => 'https://upload.wikimedia.org/wikipedia/ru/7/76/%D0%A2%D0%9D%D0%A2_logo.png',
+        'image' => 'http://cdn.tnt-online.ru/masha_layer/img/tnt-logo.png',
 
         'gid' => (array(
             'id' => 'tnt', // '101',
@@ -16,7 +16,7 @@ $sources = (array(
     2 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=4414',
         'title' => 'ТНТ (HD)',
-        'image' => 'https://upload.wikimedia.org/wikipedia/ru/7/76/%D0%A2%D0%9D%D0%A2_logo.png',
+        'image' => 'http://cdn.tnt-online.ru/masha_layer/img/tnt-logo.png',
 
         'gid' => (array(
             'id' => 'tnt-hd', // '101',
@@ -27,7 +27,7 @@ $sources = (array(
     3 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3875',
         'title' => 'ТНТ (+2)',
-        'image' => 'https://upload.wikimedia.org/wikipedia/ru/7/76/%D0%A2%D0%9D%D0%A2_logo.png',
+        'image' => 'http://cdn.tnt-online.ru/masha_layer/img/tnt-logo.png',
 
         'gid' => (array(
             'id' => 'tnt-pl2', // '101',
@@ -38,7 +38,7 @@ $sources = (array(
     /*4 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=4788',
         'title' => 'ТНТ (+3)',
-        'image' => 'https://upload.wikimedia.org/wikipedia/ru/7/76/%D0%A2%D0%9D%D0%A2_logo.png',
+        'image' => 'http://cdn.tnt-online.ru/masha_layer/img/tnt-logo.png',
 
         'gid' => (array(
             'id' => '101',
@@ -49,7 +49,7 @@ $sources = (array(
     5 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3942',
         'title' => 'ТНТ (+4)',
-        'image' => 'https://upload.wikimedia.org/wikipedia/ru/7/76/%D0%A2%D0%9D%D0%A2_logo.png',
+        'image' => 'http://cdn.tnt-online.ru/masha_layer/img/tnt-logo.png',
 
         'gid' => (array(
             'id' => 'tnt-pl4', // '101',
@@ -60,7 +60,7 @@ $sources = (array(
     6 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=4329',
         'title' => 'ТНТ (+7)',
-        'image' => 'https://upload.wikimedia.org/wikipedia/ru/7/76/%D0%A2%D0%9D%D0%A2_logo.png',
+        'image' => 'http://cdn.tnt-online.ru/masha_layer/img/tnt-logo.png',
 
         'gid' => (array(
             'id' => 'tnt-pl7', // '101',
@@ -101,7 +101,7 @@ $sources = (array(
         )),
     )),
 
-    27 => (array(
+    /*27 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3653',
         'title' => 'Че',
         'image' => 'https://upload.wikimedia.org/wikipedia/ru/thumb/2/22/CheTvLogo.svg/1024px-CheTvLogo.svg.png',
@@ -110,7 +110,7 @@ $sources = (array(
             'id' => 'che', // '2068',
             'offset' => '+0000',
         )),
-    )),
+    )),*/
 
     9 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3777',
@@ -123,7 +123,7 @@ $sources = (array(
         )),
     )),
 
-    10 => (array(
+    /*10 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=4379',
         'title' => 'Paramount Comedy (HD)',
         'image' => 'https://static-sesure.cdn.megafon.tv/images/Channel/e4/89/589782c02ab5afd865d96298ea2774a29cc2/logo_poster__web.png',
@@ -132,7 +132,7 @@ $sources = (array(
             'id' => 'paramount-comedy', // '1755',
             'offset' => '+0000',
         )),
-    )),
+    )),*/
 
     31 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3654',
@@ -211,7 +211,7 @@ $sources = (array(
         )),
     )),
 
-    16 => (array(
+    /*16 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3835',
         'title' => 'LifeNews (HD)',
         'image' => 'http://logo-load.com/uploads/posts/2016-02/1455284367_logo-lifenews.png',
@@ -220,7 +220,7 @@ $sources = (array(
             'id' => 'lifenews', // '100078',
             'offset' => '+0000',
         )),
-    )),
+    )),*/
 
     17 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=87',
@@ -322,12 +322,12 @@ $sources = (array(
     )),
 
     37 => (array(
-        'location' => 'http://127.0.0.1:6689/stream?cid=3768',
-        'title' => 'Discovery Channel',
-        'image' => 'https://cf.press.discovery.com/ugc/logos/2009/08/22/DSC_pos.png',
+        'location' => 'http://127.0.0.1:6689/stream?cid=3790',
+        'title' => 'Sony Sci-Fi',
+        'image' => 'https://satsis.info/uploads/posts/2015-09/thumbs/1441802261_www.satsis.info__sony-sci-fi.png',
 
         'gid' => (array(
-            'id' => 'discovery-channel',
+            'id' => 'sony-scifi',
             'offset' => '+0000',
         )),
     )),
@@ -379,7 +379,7 @@ $sources = (array(
     23 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3801',
         'title' => 'Nickelodeon (HD)',
-        'image' => 'https://vignette2.wikia.nocookie.net/logopedia/images/6/61/NICKELODEON_HD.png/revision/latest?cb=20150314184837',
+        'image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Nickelodeon_logo_new.svg/1000px-Nickelodeon_logo_new.svg.png',
 
         'gid' => (array(
             'id' => 'nickelodeon-hd', // '1391',
@@ -423,7 +423,7 @@ $sources = (array(
     28 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3820',
         'title' => 'MTV Hits',
-        'image' => 'https://upload.wikimedia.org/wikipedia/commons/2/2d/MTV_Hits_2013.png',
+        'image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/MTV_Hits_2013_logo.svg/2000px-MTV_Hits_2013_logo.svg.png',
 
         'gid' => (array(
             'id' => 'mtv-hits', // '1178',
@@ -503,6 +503,14 @@ $sourcesByGid = array();
 $sourcesByName = array();
 
 foreach($sources as $id => &$source) {
+    /*// Check image
+    if (! empty($source)) {
+        if (! file_get_contents($source['image'])) {
+            // Fail
+            var_dump($source);
+        }
+    }*/
+
     if (! empty($source['gid'])) {
         if (! isset($sourcesByGid[$source['gid']['id']])) {
             $sourcesByGid[$source['gid']['id']] = array();
