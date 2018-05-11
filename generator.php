@@ -1,9 +1,11 @@
 <?php
 
+$acePrefix = 'http://192.168.1.38:6878/ace/getstream?id=';
+
 $sourcesGid = "compress.zlib://https://iptvx.one/epg/epg.xml.gz"; // "compress.zlib://http://www.teleguide.info/download/new3/xmltv.xml.gz";
 $sources = (array(
     1 => (array(
-        'location' => 'http://127.0.0.1:6689/stream?cid=72',
+        'location' => $acePrefix . 'e6a974062c6528b966d86f701a08d8c6ac2bd316', // 'http://127.0.0.1:6689/stream?cid=72',
         'title' => 'ТНТ',
         'image' => 'http://cdn.tnt-online.ru/masha_layer/img/tnt-logo.png',
 
@@ -14,7 +16,7 @@ $sources = (array(
     )),
 
     2 => (array(
-        'location' => 'http://192.168.1.38:6878/ace/getstream?id=ff791520363b73699987bedf08b6d8c25d7770d5', // 'http://127.0.0.1:6689/stream?cid=4414',
+        'location' => $acePrefix . 'ff791520363b73699987bedf08b6d8c25d7770d5', // 'http://127.0.0.1:6689/stream?cid=4414',
         'title' => 'ТНТ (HD)',
         'image' => 'http://cdn.tnt-online.ru/masha_layer/img/tnt-logo.png',
 
@@ -25,7 +27,7 @@ $sources = (array(
     )),
 
     3 => (array(
-        'location' => 'http://127.0.0.1:6689/stream?cid=3875',
+        'location' => $acePrefix . 'c5df2da98d1e6e619bf3e20718d0bedb34981534', // 'http://127.0.0.1:6689/stream?cid=3875',
         'title' => 'ТНТ (+2)',
         'image' => 'http://cdn.tnt-online.ru/masha_layer/img/tnt-logo.png',
 
@@ -46,7 +48,7 @@ $sources = (array(
         )),
     )),*/
 
-    5 => (array(
+    /*5 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3942',
         'title' => 'ТНТ (+4)',
         'image' => 'http://cdn.tnt-online.ru/masha_layer/img/tnt-logo.png',
@@ -55,9 +57,9 @@ $sources = (array(
             'id' => 'tnt-pl4', // '101',
             'offset' => '+0000',
         )),
-    )),
+    )),*/
 
-    6 => (array(
+    /*6 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=4329',
         'title' => 'ТНТ (+7)',
         'image' => 'http://cdn.tnt-online.ru/masha_layer/img/tnt-logo.png',
@@ -66,10 +68,10 @@ $sources = (array(
             'id' => 'tnt-pl7', // '101',
             'offset' => '+0000',
         )),
-    )),
+    )),*/
 
     7 => (array(
-        'location' => 'http://127.0.0.1:6689/stream?cid=69',
+        'location' => $acePrefix . 'a75fb6d6636ebb4d6aa4ab5533cd771b408a680b', // 'http://127.0.0.1:6689/stream?cid=69',
         'title' => 'Пятница',
         'image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/%D0%9F%D1%8F%D1%82%D0%BD%D0%B8%D1%86%D0%B0_%28%D1%81_2013%29.svg/1200px-%D0%9F%D1%8F%D1%82%D0%BD%D0%B8%D1%86%D0%B0_%28%D1%81_2013%29.svg.png',
 
@@ -79,7 +81,7 @@ $sources = (array(
         )),
     )),
 
-    8 => (array(
+    /*8 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3837',
         'title' => 'Пятница (+2)',
         'image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/%D0%9F%D1%8F%D1%82%D0%BD%D0%B8%D1%86%D0%B0_%28%D1%81_2013%29.svg/1200px-%D0%9F%D1%8F%D1%82%D0%BD%D0%B8%D1%86%D0%B0_%28%D1%81_2013%29.svg.png',
@@ -88,9 +90,9 @@ $sources = (array(
             'id' => 'piatnica-pl2', // '1671',
             'offset' => '+0000',
         )),
-    )),
+    )),*/
 
-    33 => (array(
+    /*33 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=4789',
         'title' => 'Пятница (+7)',
         'image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/%D0%9F%D1%8F%D1%82%D0%BD%D0%B8%D1%86%D0%B0_%28%D1%81_2013%29.svg/1200px-%D0%9F%D1%8F%D1%82%D0%BD%D0%B8%D1%86%D0%B0_%28%D1%81_2013%29.svg.png',
@@ -99,9 +101,9 @@ $sources = (array(
             'id' => 'piatnica-pl7', // '1671',
             'offset' => '+0000',
         )),
-    )),
+    )),*/
 
-    27 => (array(
+    /*27 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3763',
         'title' => 'ТНТ4',
         'image' => 'https://vignette.wikia.nocookie.net/tvpedia/images/5/53/%D0%A2%D0%9D%D0%A24.png/revision/latest?cb=20160327160014&path-prefix=ru',
@@ -110,10 +112,10 @@ $sources = (array(
             'id' => 'tnt4', // '2068',
             'offset' => '+0000',
         )),
-    )),
+    )),*/
 
     9 => (array(
-        'location' => 'http://127.0.0.1:6689/stream?cid=3777',
+        'location' => $acePrefix . 'a0f8f0c8b73b3c5267cb7e6b5777e4f076662778', // 'http://127.0.0.1:6689/stream?cid=3777',
         'title' => 'Paramount Comedy',
         'image' => 'https://upload.wikimedia.org/wikipedia/ru/1/1b/Paramount_Comedy.png',
 
@@ -134,7 +136,7 @@ $sources = (array(
         )),
     )),*/
 
-    31 => (array(
+    /*31 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3654',
         'title' => '2x2',
         'image' => 'https://upload.wikimedia.org/wikipedia/commons/f/fb/2x2_%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB._%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF.jpg',
@@ -143,9 +145,9 @@ $sources = (array(
             'id' => '2na2', // '276',
             'offset' => '+0000',
         )),
-    )),
+    )),*/
 
-    32 => (array(
+    /*32 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=4079',
         'title' => '2x2 (+2)',
         'image' => 'https://upload.wikimedia.org/wikipedia/commons/f/fb/2x2_%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB._%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF.jpg',
@@ -154,10 +156,10 @@ $sources = (array(
             'id' => '2na2-pl2', // '276',
             'offset' => '+0000',
         )),
-    )),
+    )),*/
 
     11 => (array(
-        'location' => 'http://127.0.0.1:6689/stream?cid=3789',
+        'location' => $acePrefix . '5c97b55304dd761dbdde34f9a8931b905f8d86d9', // 'http://127.0.0.1:6689/stream?cid=3789',
         'title' => 'Fox',
         'image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/FOX_wordmark-orange.svg/1832px-FOX_wordmark-orange.svg.png',
 
@@ -168,7 +170,7 @@ $sources = (array(
     )),
 
     12 => (array(
-        'location' => 'http://127.0.0.1:6689/stream?cid=3823',
+        'location' => $acePrefix . '41b6c218d733fd8211289d1e4831176bf6dba50c', // 'http://127.0.0.1:6689/stream?cid=3823',
         'title' => 'Fox (HD)',
         'image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/FOX_HD.svg/512px-FOX_HD.svg.png',
 
@@ -179,7 +181,7 @@ $sources = (array(
     )),
 
     13 => (array(
-        'location' => 'http://127.0.0.1:6689/stream?cid=3845',
+        'location' => $acePrefix . 'a71a99cf5255b7315e6e12f11a453472b9c4336a', // 'http://127.0.0.1:6689/stream?cid=3845',
         'title' => 'Fox Life',
         'image' => 'https://upload.wikimedia.org/wikipedia/commons/2/27/Fox_life_it.png',
 
@@ -190,7 +192,7 @@ $sources = (array(
     )),
 
     14 => (array(
-        'location' => 'http://127.0.0.1:6689/stream?cid=3917',
+        'location' => $acePrefix . '4fc97b7d05ea0aca6130f2abb5e8ec66a9874972', // 'http://127.0.0.1:6689/stream?cid=3917',
         'title' => 'Fox Life (HD)',
         'image' => 'https://vignette1.wikia.nocookie.net/logosfake/images/2/2c/FOXlife_HD_Logo.png/revision/latest?cb=20140414171410',
 
@@ -200,7 +202,7 @@ $sources = (array(
         )),
     )),
 
-    15 => (array(
+    /*15 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3780',
         'title' => 'LifeNews',
         'image' => 'http://logo-load.com/uploads/posts/2016-02/1455284367_logo-lifenews.png',
@@ -209,7 +211,7 @@ $sources = (array(
             'id' => 'lifenews', // '100078',
             'offset' => '+0000',
         )),
-    )),
+    )),*/
 
     /*16 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3835',
@@ -223,7 +225,7 @@ $sources = (array(
     )),*/
 
     17 => (array(
-        'location' => 'http://127.0.0.1:6689/stream?cid=87',
+        'location' => $acePrefix . 'cb7235f21b447f7a14d90eb31aa697399fc76575', // 'http://127.0.0.1:6689/stream?cid=87',
         'title' => 'Россия 24',
         'image' => 'https://upload.wikimedia.org/wikipedia/ru/thumb/7/7c/Russia_24_2016.png/1920px-Russia_24_2016.png',
 
@@ -234,7 +236,7 @@ $sources = (array(
     )),
 
     18 => (array(
-        'location' => 'http://127.0.0.1:6689/stream?cid=3896',
+        'location' => $acePrefix . 'a95f68788e964816b17977548d52e5c496ac6030', // 'http://127.0.0.1:6689/stream?cid=3896',
         'title' => 'Первый канал',
         'image' => 'http://liveam.tv/assets/images/chnl/pervij-kanal.png',
 
@@ -244,18 +246,13 @@ $sources = (array(
         )),
     )),
 
-    45 => (array(
+    /*45 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=4264',
         'title' => 'Первый канал (Евразия)',
         'image' => 'http://liveam.tv/assets/images/chnl/pervij-kanal.png',
+    )),*/
 
-        /*'gid' => (array(
-            'id' => 'ntv', // '4',
-            'offset' => '+0000',
-        )),*/
-    )),
-
-    19 => (array(
+    /*19 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3944',
         'title' => 'НТВ',
         'image' => 'https://vignette2.wikia.nocookie.net/tvpedia/images/2/2d/%D0%9D%D0%A2%D0%92_1994-1997_%28%D0%BD%D0%B5%D0%B1%D1%80%D0%B5%D0%B6%D0%BD%D0%BE%D0%B5_%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8F%29.png/revision/latest?cb=20121220130359&path-prefix=ru',
@@ -264,9 +261,9 @@ $sources = (array(
             'id' => 'ntv', // '4',
             'offset' => '+0000',
         )),
-    )),
+    )),*/
 
-    20 => (array(
+    /*20 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=4385',
         'title' => 'My Zen TV HD',
         'image' => 'https://www.thematv.com/medias/channels/myzen-tv/myzen-tv.png',
@@ -275,9 +272,9 @@ $sources = (array(
             'id' => 'myzen-hd', // '300034',
             'offset' => '+0000',
         )),
-    )),
+    )),*/
 
-    21 => (array(
+    /*21 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3766',
         'title' => 'Наука 2.0',
         'image' => 'https://ortus-global.com/files/253/nauka20big.png',
@@ -286,9 +283,9 @@ $sources = (array(
             'id' => 'nauka-20', // '300105',
             'offset' => '+0000',
         )),
-    )),
+    )),*/
 
-    26 => (array(
+    /*26 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3934',
         'title' => 'Da Vinci Learning',
         'image' => 'https://vignette1.wikia.nocookie.net/tvpedia/images/4/49/Da_Vinci_Learning.png/revision/latest?cb=20140514085410&path-prefix=ru',
@@ -297,9 +294,9 @@ $sources = (array(
             'id' => 'da-vinci-learning-ru',
             'offset' => '+0000',
         )),
-    )),
+    )),*/
 
-    35 => (array(
+    /*35 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=4070',
         'title' => 'Food Network',
         'image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Food_Network.svg/2000px-Food_Network.svg.png',
@@ -308,9 +305,9 @@ $sources = (array(
             'id' => 'food-network',
             'offset' => '+0000',
         )),
-    )),
+    )),*/
 
-    36 => (array(
+    /*36 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3806',
         'title' => 'History Channel',
         'image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/History_Logo.svg/512px-History_Logo.svg.png',
@@ -319,9 +316,9 @@ $sources = (array(
             'id' => 'history',
             'offset' => '+0000',
         )),
-    )),
+    )),*/
 
-    37 => (array(
+    /*37 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3790',
         'title' => 'Sony Sci-Fi',
         'image' => 'https://satsis.info/uploads/posts/2015-09/thumbs/1441802261_www.satsis.info__sony-sci-fi.png',
@@ -330,9 +327,9 @@ $sources = (array(
             'id' => 'sony-scifi',
             'offset' => '+0000',
         )),
-    )),
+    )),*/
 
-    38 => (array(
+    /*38 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3768',
         'title' => 'Discovery Channel',
         'image' => 'https://cf.press.discovery.com/ugc/logos/2009/08/22/DSC_pos.png',
@@ -341,9 +338,9 @@ $sources = (array(
             'id' => 'discovery-channel',
             'offset' => '+0000',
         )),
-    )),
+    )),*/
 
-    39 => (array(
+    /*39 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3650',
         'title' => 'Discovery Science',
         'image' => 'https://upload.wikimedia.org/wikipedia/commons/6/6e/Discovery_science.png',
@@ -352,9 +349,9 @@ $sources = (array(
             'id' => 'discovery-science',
             'offset' => '+0000',
         )),
-    )),
+    )),*/
 
-    44 => (array(
+    /*44 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3658',
         'title' => 'National Geographic',
         'image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/1000px-Natgeologo.svg.png',
@@ -363,10 +360,10 @@ $sources = (array(
             'id' => 'national-geographic',
             'offset' => '+0000',
         )),
-    )),
+    )),*/
 
     22 => (array(
-        'location' => 'http://127.0.0.1:6689/stream?cid=3765',
+        'location' => $acePrefix . '7686a5b6feae6d4b2ad5bd3f067a9cb0a1f48302', // 'http://127.0.0.1:6689/stream?cid=3765',
         'title' => 'Nickelodeon',
         'image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Nickelodeon_logo_new.svg/1000px-Nickelodeon_logo_new.svg.png',
 
@@ -376,7 +373,7 @@ $sources = (array(
         )),
     )),
 
-    23 => (array(
+    /*23 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3801',
         'title' => 'Nickelodeon (HD)',
         'image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Nickelodeon_logo_new.svg/1000px-Nickelodeon_logo_new.svg.png',
@@ -385,9 +382,9 @@ $sources = (array(
             'id' => 'nickelodeon-hd', // '1391',
             'offset' => '+0000',
         )),
-    )),
+    )),*/
 
-    40 => (array(
+    /*40 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3772',
         'title' => 'Disney Channel',
         'image' => 'http://vignette3.wikia.nocookie.net/disney/images/c/c5/Disney-channel-new2015.png/revision/latest?cb=20150813203959',
@@ -396,9 +393,9 @@ $sources = (array(
             'id' => 'disney',
             'offset' => '+0000',
         )),
-    )),
+    )),*/
 
-    41 => (array(
+    /*41 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=4312',
         'title' => 'Disney Channel (+2)',
         'image' => 'http://vignette3.wikia.nocookie.net/disney/images/c/c5/Disney-channel-new2015.png/revision/latest?cb=20150813203959',
@@ -407,9 +404,9 @@ $sources = (array(
             'id' => 'disney-pl2',
             'offset' => '+0000',
         )),
-    )),
+    )),*/
 
-    24 => (array(
+    /*24 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3792',
         'title' => 'Europa Plus TV',
         'image' => 'https://upload.wikimedia.org/wikipedia/ru/c/c8/Europa_Plus_TV.Png',
@@ -418,9 +415,9 @@ $sources = (array(
             'id' => 'europa-plus-tv', // '300121',
             'offset' => '+0000',
         )),
-    )),
+    )),*/
 
-    28 => (array(
+    /*28 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3820',
         'title' => 'MTV Hits',
         'image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/MTV_Hits_2013_logo.svg/2000px-MTV_Hits_2013_logo.svg.png',
@@ -429,9 +426,9 @@ $sources = (array(
             'id' => 'mtv-hits', // '1178',
             'offset' => '+0000',
         )),
-    )),
+    )),*/
 
-    29 => (array(
+    /*29 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3793',
         'title' => 'MTV Dance',
         'image' => 'https://upload.wikimedia.org/wikipedia/en/thumb/f/ff/MTV_Dance_2017_logo.svg/200px-MTV_Dance_2017_logo.svg.png',
@@ -440,9 +437,9 @@ $sources = (array(
             'id' => 'mtv-dance', // '100029',
             'offset' => '+0000',
         )),
-    )),
+    )),*/
 
-    30 => (array(
+    /*30 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3936',
         'title' => 'MTV Россия',
         'image' => 'https://vignette4.wikia.nocookie.net/tvpedia/images/c/c1/MTV_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F_2_%28%D1%81_%D0%BD%D0%B0%D0%B4%D0%BF%D0%B8%D1%81%D1%8C%D1%8E%29.png/revision/latest?cb=20130126090333&path-prefix=ru',
@@ -451,9 +448,9 @@ $sources = (array(
             'id' => 'mtv-russia', // '107',
             'offset' => '+0000',
         )),
-    )),
+    )),*/
 
-    25 => (array(
+    /*25 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3568',
         'title' => 'Матч ТВ',
         'image' => 'http://toplogos.ru/images/logo-match-tv.png',
@@ -462,9 +459,9 @@ $sources = (array(
             'id' => 'match-tv', // '2060',
             'offset' => '+0000',
         )),
-    )),
+    )),*/
 
-    34 => (array(
+    /*34 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3675',
         'title' => 'Extreme Sports',
         'image' => 'https://upload.wikimedia.org/wikipedia/en/thumb/f/f0/Extreme_Sports_Channel.svg/1200px-Extreme_Sports_Channel.svg.png',
@@ -473,9 +470,9 @@ $sources = (array(
             'id' => 'extreme-sports',
             'offset' => '+0000',
         )),
-    )),
+    )),*/
 
-    43 => (array(
+    /*43 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3927',
         'title' => 'Мужской',
         'image' => 'http://vignette1.wikia.nocookie.net/tvpedia/images/2/21/%D0%9C%D1%83%D0%B6%D1%81%D0%BA%D0%BE%D0%B9_2_%28TV%29.png/revision/latest?cb=20121206062113&path-prefix=ru',
@@ -484,9 +481,9 @@ $sources = (array(
             'id' => 'muzhskoy',
             'offset' => '+0000',
         )),
-    )),
+    )),*/
 
-    42 => (array(
+    /*42 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3741',
         'title' => 'Brazzers TV Europe',
         'image' => 'http://ocdn.eu/images/program-tv/NzM7MDA_/079206355379db37d9b54993cc65fc36.png',
@@ -495,7 +492,7 @@ $sources = (array(
             'id' => 'brazzers-tv-europe',
             'offset' => '+0000',
         )),
-    )),
+    )),*/
 
 ));
 
