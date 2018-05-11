@@ -14,7 +14,7 @@ $sources = (array(
     )),
 
     2 => (array(
-        'location' => 'acestream://ff791520363b73699987bedf08b6d8c25d7770d5', // 'http://127.0.0.1:6689/stream?cid=4414',
+        'location' => 'http://127.0.0.1:6689/stream?cid=4414',
         'title' => 'ТНТ (HD)',
         'image' => 'http://cdn.tnt-online.ru/masha_layer/img/tnt-logo.png',
 
