@@ -1,11 +1,14 @@
 <?php
 
-$acePrefix = 'http://192.168.1.38:6878/ace/getstream?id=';
+// http://192.168.1.38:6878/ace/manifest.m3u8?id=ee1836d2a04348465d78faa4ac1909c2ede98fcf
+
+// $acePrefix = 'http://192.168.1.38:6878/ace/getstream?id=';
+$acePrefix = 'http://192.168.1.38:6878/ace/manifest.m3u8?id=';
 
 $sourcesGid = "compress.zlib://https://iptvx.one/epg/epg.xml.gz"; // "compress.zlib://http://www.teleguide.info/download/new3/xmltv.xml.gz";
 $sources = (array(
     1 => (array(
-        'location' => $acePrefix . 'e6a974062c6528b966d86f701a08d8c6ac2bd316', // 'http://127.0.0.1:6689/stream?cid=72',
+        'location' => $acePrefix . 'ee1836d2a04348465d78faa4ac1909c2ede98fcf', // 'http://127.0.0.1:6689/stream?cid=72',
         'title' => 'ТНТ',
         'image' => 'http://cdn.tnt-online.ru/masha_layer/img/tnt-logo.png',
 
@@ -15,7 +18,7 @@ $sources = (array(
         )),
     )),
 
-    2 => (array(
+    /*2 => (array(
         'location' => $acePrefix . 'ff791520363b73699987bedf08b6d8c25d7770d5', // 'http://127.0.0.1:6689/stream?cid=4414',
         'title' => 'ТНТ (HD)',
         'image' => 'http://cdn.tnt-online.ru/masha_layer/img/tnt-logo.png',
@@ -24,10 +27,10 @@ $sources = (array(
             'id' => 'tnt-hd', // '101',
             'offset' => '+0000',
         )),
-    )),
+    )),*/
 
     3 => (array(
-        'location' => $acePrefix . 'c5df2da98d1e6e619bf3e20718d0bedb34981534', // 'http://127.0.0.1:6689/stream?cid=3875',
+        'location' => $acePrefix . '765663d2628e2d03d1d2ea848db11f1c659cb58f', // 'http://127.0.0.1:6689/stream?cid=3875',
         'title' => 'ТНТ (+2)',
         'image' => 'http://cdn.tnt-online.ru/masha_layer/img/tnt-logo.png',
 
