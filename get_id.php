@@ -19,6 +19,18 @@ $channels = (array(
     4 => (array(
         'source' => 'https://hdmi-tv.ru/humor/47-tnt-7.html',
     )),
+
+    5 => (array(
+        'source' => 'https://hdmi-tv.ru/humor/289-pyatnica.html',
+    )),
+
+    6 => (array(
+        'source' => 'https://hdmi-tv.ru/humor/290-pyatnica-2.html',
+    )),
+
+    7 => (array(
+        'source' => 'https://hdmi-tv.ru/humor/37-paramount-comedy.html',
+    )),
 ));
 
 $cacheIdKey = 'tv_cid%s';

@@ -74,7 +74,7 @@ $sources = (array(
     )),
 
     7 => (array(
-        'location' => $acePrefix . 'a75fb6d6636ebb4d6aa4ab5533cd771b408a680b', // 'http://127.0.0.1:6689/stream?cid=69',
+        'location' => $acePrefix . '5', // 'http://127.0.0.1:6689/stream?cid=69',
         'title' => 'Пятница',
         'image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/%D0%9F%D1%8F%D1%82%D0%BD%D0%B8%D1%86%D0%B0_%28%D1%81_2013%29.svg/1200px-%D0%9F%D1%8F%D1%82%D0%BD%D0%B8%D1%86%D0%B0_%28%D1%81_2013%29.svg.png',
 
@@ -84,8 +84,8 @@ $sources = (array(
         )),
     )),
 
-    /*8 => (array(
-        'location' => 'http://127.0.0.1:6689/stream?cid=3837',
+    8 => (array(
+        'location' => $acePrefix . '6', // 'http://127.0.0.1:6689/stream?cid=3837',
         'title' => 'Пятница (+2)',
         'image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/%D0%9F%D1%8F%D1%82%D0%BD%D0%B8%D1%86%D0%B0_%28%D1%81_2013%29.svg/1200px-%D0%9F%D1%8F%D1%82%D0%BD%D0%B8%D1%86%D0%B0_%28%D1%81_2013%29.svg.png',
 
@@ -93,7 +93,7 @@ $sources = (array(
             'id' => 'piatnica-pl2', // '1671',
             'offset' => '+0000',
         )),
-    )),*/
+    )),
 
     /*33 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=4789',
@@ -118,7 +118,7 @@ $sources = (array(
     )),*/
 
     9 => (array(
-        'location' => $acePrefix . 'a0f8f0c8b73b3c5267cb7e6b5777e4f076662778', // 'http://127.0.0.1:6689/stream?cid=3777',
+        'location' => $acePrefix . '7', // 'http://127.0.0.1:6689/stream?cid=3777',
         'title' => 'Paramount Comedy',
         'image' => 'https://upload.wikimedia.org/wikipedia/ru/1/1b/Paramount_Comedy.png',
 
