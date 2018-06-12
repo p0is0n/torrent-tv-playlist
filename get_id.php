@@ -1,8 +1,6 @@
 <?php
 
-apc_store('foo', $bar);
-
-$acePrefix = 'http://192.168.1.38:6878/ace/manifest.m3u8?id=';
+$acePrefix = 'http://mitv.local:6878/ace/manifest.m3u8?id=';
 
 $channelsCacheTime = 3600;
 $channels = (array(

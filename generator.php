@@ -3,12 +3,12 @@
 // http://192.168.1.38:6878/ace/manifest.m3u8?id=ee1836d2a04348465d78faa4ac1909c2ede98fcf
 
 // $acePrefix = 'http://192.168.1.38:6878/ace/getstream?id=';
-$acePrefix = 'http://192.168.1.38:6878/ace/manifest.m3u8?id=';
+$acePrefix = 'http://mitv-iptv.local:34562/get_id.php?channel=';
 
 $sourcesGid = "compress.zlib://https://iptvx.one/epg/epg.xml.gz"; // "compress.zlib://http://www.teleguide.info/download/new3/xmltv.xml.gz";
 $sources = (array(
     1 => (array(
-        'location' => $acePrefix . 'ee1836d2a04348465d78faa4ac1909c2ede98fcf', // 'http://127.0.0.1:6689/stream?cid=72',
+        'location' => $acePrefix . '1', // 'http://127.0.0.1:6689/stream?cid=72',
         'title' => 'ТНТ',
         'image' => 'http://cdn.tnt-online.ru/masha_layer/img/tnt-logo.png',
 
@@ -30,7 +30,7 @@ $sources = (array(
     )),*/
 
     3 => (array(
-        'location' => $acePrefix . '765663d2628e2d03d1d2ea848db11f1c659cb58f', // 'http://127.0.0.1:6689/stream?cid=3875',
+        'location' => $acePrefix . '2', // 'http://127.0.0.1:6689/stream?cid=3875',
         'title' => 'ТНТ (+2)',
         'image' => 'http://cdn.tnt-online.ru/masha_layer/img/tnt-logo.png',
 
@@ -51,8 +51,8 @@ $sources = (array(
         )),
     )),*/
 
-    /*5 => (array(
-        'location' => 'http://127.0.0.1:6689/stream?cid=3942',
+    5 => (array(
+        'location' => $acePrefix . '3', // 'http://127.0.0.1:6689/stream?cid=3942',
         'title' => 'ТНТ (+4)',
         'image' => 'http://cdn.tnt-online.ru/masha_layer/img/tnt-logo.png',
 
@@ -60,10 +60,10 @@ $sources = (array(
             'id' => 'tnt-pl4', // '101',
             'offset' => '+0000',
         )),
-    )),*/
+    )),
 
-    /*6 => (array(
-        'location' => 'http://127.0.0.1:6689/stream?cid=4329',
+    6 => (array(
+        'location' => $acePrefix . '4', // 'http://127.0.0.1:6689/stream?cid=4329',
         'title' => 'ТНТ (+7)',
         'image' => 'http://cdn.tnt-online.ru/masha_layer/img/tnt-logo.png',
 
@@ -71,7 +71,7 @@ $sources = (array(
             'id' => 'tnt-pl7', // '101',
             'offset' => '+0000',
         )),
-    )),*/
+    )),
 
     7 => (array(
         'location' => $acePrefix . 'a75fb6d6636ebb4d6aa4ab5533cd771b408a680b', // 'http://127.0.0.1:6689/stream?cid=69',
