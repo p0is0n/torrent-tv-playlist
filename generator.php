@@ -1,9 +1,9 @@
 <?php
 
-// http://192.168.1.38:6878/ace/manifest.m3u8?id=ee1836d2a04348465d78faa4ac1909c2ede98fcf
+// Config
+require_once realpath(dirname(__FILE__)) . '/config.php';
 
-// $acePrefix = 'http://192.168.1.38:6878/ace/getstream?id=';
-$acePrefix = 'http://mitv-iptv.local:34562/get_id.php?channel=';
+$acePrefix = $config['mitv'] . '/get_id.php?channel=';
 
 $sourcesGid = "compress.zlib://https://iptvx.one/epg/epg.xml.gz"; // "compress.zlib://http://www.teleguide.info/download/new3/xmltv.xml.gz";
 $sources = (array(

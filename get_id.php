@@ -1,6 +1,9 @@
 <?php
 
-$acePrefix = 'http://mitv.local:6878/ace/manifest.m3u8?id=';
+// Config
+require_once realpath(dirname(__FILE__)) . '/config.php';
+
+$acePrefix = $config['channels'] . '/ace/manifest.m3u8?id=';
 
 $channelsCacheTime = 3600;
 $channels = (array(

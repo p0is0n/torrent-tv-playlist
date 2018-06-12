@@ -1,0 +1,6 @@
+<?php
+
+$config = (array(
+    'mitv' => 'http://mitv-iptv.local:34562',
+    'channels' => 'http://mitv.local:6878',
+));
