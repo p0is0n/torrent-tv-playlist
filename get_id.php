@@ -117,14 +117,16 @@ if (! empty($_GET['channel']) && isset($channels[$_GET['channel']])) {
     $channelId = $getIdByChannel($channel);
 
     if (! empty($channelId)) {
-        header("Status: 200");
+        /*header("Status: 200");
         header("Content-Type: application/vnd.apple.mpegurl");
 
         header("Expires: " . gmdate("D, d M Y H:i:s", time() + $channelsCacheTime) . " GMT");
         header("Pragma: cache");
         header("Cache-Control: max-age=" . $channelsCacheTime . "");
 
-        exit("#EXTM3U\r\n#EXT-X-VERSION:3\r\n" . $acePrefix . "" . $channelId . "\r\n");
+        exit("#EXTM3U\r\n#EXT-X-VERSION:3\r\n" . $acePrefix . "" . $channelId . "\r\n");*/
+
+        header("Location: " . $acePrefix . "" . $channelId . ""); exit;
     }
 
     // Fail
