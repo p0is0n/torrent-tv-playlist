@@ -28,7 +28,12 @@ $setIdFromCache = (function($type, $source, $id) use ($cacheIdKey, $channelsCach
     $key = sprintf($cacheIdKey, md5($source));
     $result = null;
 
-    if (function_exists('apc_fetch')) {
+    if (function_exists('apcu_fetch')) {
+        if (false !== ($result = apcu_store($key, $id, $channelsCacheTime))) {
+            return $result;
+        }
+    }
+    else if (function_exists('apc_fetch')) {
         if (false !== ($result = apc_store($key, $id, $channelsCacheTime))) {
             return $result;
         }
@@ -39,7 +44,12 @@ $getIdFromCache = (function($type, $source) use ($cacheIdKey) {
     $key = sprintf($cacheIdKey, md5($source));
     $result = null;
 
-    if (function_exists('apc_fetch')) {
+    if (function_exists('apcu_fetch')) {
+        if (false !== ($result = apcu_fetch($key))) {
+            return $result;
+        }
+    }
+    else if (function_exists('apc_fetch')) {
         if (false !== ($result = apc_fetch($key))) {
             return $result;
         }
