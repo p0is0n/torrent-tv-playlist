@@ -431,6 +431,12 @@ $sources = (array(
         )),
     )),
 
+    46 => (array(
+        'location' => $acePrefix . '9', // 'http://127.0.0.1:6689/stream?cid=3820',
+        'title' => 'Eska Best Music TV',
+        'image' => 'http://t-eska.cdn.smcloud.net/common/1/0/s/1032965TVb9.jpg/ru-100-r-600,600-n-1032965TVb9.jpg',
+    )),
+
     /*29 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3793',
         'title' => 'MTV Dance',

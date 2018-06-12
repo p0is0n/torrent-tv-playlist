@@ -38,6 +38,10 @@ $channels = (array(
     8 => (array(
         'source' => 'https://hdmi-tv.ru/music/144-mtv-hits.html',
     )),
+
+    9 => (array(
+        'source' => 'https://hdmi-tv.ru/music/137-eska-best-music-tv-hd.html',
+    )),
 ));
 
 $cacheIdKey = 'tv_cid%s';
