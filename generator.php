@@ -3,7 +3,7 @@
 // Config
 require_once realpath(dirname(__FILE__)) . '/config.php';
 
-$acePrefix = $config['mitv'] . '/get_id.php?channel=';
+$acePrefix = $config['channels'] . '/get_id.php?channel=';
 
 $sourcesGid = "compress.zlib://https://iptvx.one/epg/epg.xml.gz"; // "compress.zlib://http://www.teleguide.info/download/new3/xmltv.xml.gz";
 $sources = (array(

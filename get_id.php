@@ -3,7 +3,7 @@
 // Config
 require_once realpath(dirname(__FILE__)) . '/config.php';
 
-$acePrefix = $config['channels'] . '/ace/manifest.m3u8?id=';
+$acePrefix = $config['mitv'] . '/ace/manifest.m3u8?id=';
 
 $channelsCacheTime = 3600;
 $channels = (array(
