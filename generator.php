@@ -161,7 +161,7 @@ $sources = (array(
         )),
     )),*/
 
-    11 => (array(
+    /*11 => (array(
         'location' => $acePrefix . '5c97b55304dd761dbdde34f9a8931b905f8d86d9', // 'http://127.0.0.1:6689/stream?cid=3789',
         'title' => 'Fox',
         'image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/FOX_wordmark-orange.svg/1832px-FOX_wordmark-orange.svg.png',
@@ -203,7 +203,7 @@ $sources = (array(
             'id' => 'foxlife-hd', // '1356',
             'offset' => '+0000',
         )),
-    )),
+    )),*/
 
     /*15 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3780',
@@ -227,7 +227,7 @@ $sources = (array(
         )),
     )),*/
 
-    17 => (array(
+    /*17 => (array(
         'location' => $acePrefix . 'cb7235f21b447f7a14d90eb31aa697399fc76575', // 'http://127.0.0.1:6689/stream?cid=87',
         'title' => 'Россия 24',
         'image' => 'https://upload.wikimedia.org/wikipedia/ru/thumb/7/7c/Russia_24_2016.png/1920px-Russia_24_2016.png',
@@ -247,7 +247,7 @@ $sources = (array(
             'id' => 'pervy', // '1',
             'offset' => '+0000',
         )),
-    )),
+    )),*/
 
     /*45 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=4264',
@@ -365,7 +365,7 @@ $sources = (array(
         )),
     )),*/
 
-    22 => (array(
+    /*22 => (array(
         'location' => $acePrefix . '7686a5b6feae6d4b2ad5bd3f067a9cb0a1f48302', // 'http://127.0.0.1:6689/stream?cid=3765',
         'title' => 'Nickelodeon',
         'image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Nickelodeon_logo_new.svg/1000px-Nickelodeon_logo_new.svg.png',
@@ -374,7 +374,7 @@ $sources = (array(
             'id' => 'nickelodeon-ru', // '218',
             'offset' => '+0000',
         )),
-    )),
+    )),*/
 
     /*23 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3801',
