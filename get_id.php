@@ -34,6 +34,10 @@ $channels = (array(
     7 => (array(
         'source' => 'https://hdmi-tv.ru/humor/37-paramount-comedy.html',
     )),
+
+    8 => (array(
+        'source' => 'https://hdmi-tv.ru/music/144-mtv-hits.html',
+    )),
 ));
 
 $cacheIdKey = 'tv_cid%s';

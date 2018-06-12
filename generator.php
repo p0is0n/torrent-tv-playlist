@@ -420,8 +420,8 @@ $sources = (array(
         )),
     )),*/
 
-    /*28 => (array(
-        'location' => 'http://127.0.0.1:6689/stream?cid=3820',
+    28 => (array(
+        'location' => $acePrefix . '8', // 'http://127.0.0.1:6689/stream?cid=3820',
         'title' => 'MTV Hits',
         'image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/MTV_Hits_2013_logo.svg/2000px-MTV_Hits_2013_logo.svg.png',
 
@@ -429,7 +429,7 @@ $sources = (array(
             'id' => 'mtv-hits', // '1178',
             'offset' => '+0000',
         )),
-    )),*/
+    )),
 
     /*29 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3793',
