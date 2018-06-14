@@ -35,16 +35,32 @@ $channels = (array(
         'source' => 'https://hdmi-tv.ru/humor/37-paramount-comedy.html',
     )),
 
+    13 => (array(
+        'source' => 'https://hdmi-tv.ru/humor/38-paramount-comedy-hd.html',
+    )),
+
     8 => (array(
         'source' => 'https://hdmi-tv.ru/music/144-mtv-hits.html',
     )),
 
     9 => (array(
-        'source' => 'https://hdmi-tv.ru/music/137-eska-best-music-tv-hd.html',
+        'source' => 'https://hdmi-tv.ru/music/143-europa-plus-tv.html',
     )),
 
     10 => (array(
         'source' => 'https://hdmi-tv.ru/main/238-pervyy-kanal-hd.html',
+    )),
+
+    14 => (array(
+        'source' => 'https://hdmi-tv.ru/main/2453-pervyy-kanal-evraziya.html',
+    )),
+
+    11 => (array(
+        'source' => 'https://hdmi-tv.ru/children/303-nickelodeon-hd.html',
+    )),
+
+    12 => (array(
+        'source' => 'https://hdmi-tv.ru/regional/2612-ktk.html',
     )),
 ));
 

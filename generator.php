@@ -76,7 +76,7 @@ $sources = (array(
     7 => (array(
         'location' => $acePrefix . '5', // 'http://127.0.0.1:6689/stream?cid=69',
         'title' => 'Пятница',
-        'image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/%D0%9F%D1%8F%D1%82%D0%BD%D0%B8%D1%86%D0%B0_%28%D1%81_2013%29.svg/1200px-%D0%9F%D1%8F%D1%82%D0%BD%D0%B8%D1%86%D0%B0_%28%D1%81_2013%29.svg.png',
+        'image' => 'https://cdn.friday.ru/friday/img/mobile/friday.png',
 
         'gid' => (array(
             'id' => 'piatnica', // '1671',
@@ -87,7 +87,7 @@ $sources = (array(
     8 => (array(
         'location' => $acePrefix . '6', // 'http://127.0.0.1:6689/stream?cid=3837',
         'title' => 'Пятница (+2)',
-        'image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/%D0%9F%D1%8F%D1%82%D0%BD%D0%B8%D1%86%D0%B0_%28%D1%81_2013%29.svg/1200px-%D0%9F%D1%8F%D1%82%D0%BD%D0%B8%D1%86%D0%B0_%28%D1%81_2013%29.svg.png',
+        'image' => 'https://cdn.friday.ru/friday/img/mobile/friday.png',
 
         'gid' => (array(
             'id' => 'piatnica-pl2', // '1671',
@@ -120,7 +120,7 @@ $sources = (array(
     9 => (array(
         'location' => $acePrefix . '7', // 'http://127.0.0.1:6689/stream?cid=3777',
         'title' => 'Paramount Comedy',
-        'image' => 'https://upload.wikimedia.org/wikipedia/ru/1/1b/Paramount_Comedy.png',
+        'image' => 'https://paramountcomedy.ru/_img/logo-main.png',
 
         'gid' => (array(
             'id' => 'paramount-comedy', // '1755',
@@ -128,16 +128,16 @@ $sources = (array(
         )),
     )),
 
-    /*10 => (array(
-        'location' => 'http://127.0.0.1:6689/stream?cid=4379',
+    10 => (array(
+        'location' => $acePrefix . '13', // 'http://127.0.0.1:6689/stream?cid=4379',
         'title' => 'Paramount Comedy (HD)',
-        'image' => 'https://static-sesure.cdn.megafon.tv/images/Channel/e4/89/589782c02ab5afd865d96298ea2774a29cc2/logo_poster__web.png',
+        'image' => 'https://paramountcomedy.ru/_img/logo-main.png',
 
         'gid' => (array(
             'id' => 'paramount-comedy', // '1755',
             'offset' => '+0000',
         )),
-    )),*/
+    )),
 
     /*31 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3654',
@@ -240,7 +240,7 @@ $sources = (array(
 
     18 => (array(
         'location' => $acePrefix . '10', // 'http://127.0.0.1:6689/stream?cid=3896',
-        'title' => 'Первый канал',
+        'title' => 'Первый канал (HD)',
         'image' => 'http://liveam.tv/assets/images/chnl/pervij-kanal.png',
 
         'gid' => (array(
@@ -249,11 +249,11 @@ $sources = (array(
         )),
     )),
 
-    /*45 => (array(
-        'location' => 'http://127.0.0.1:6689/stream?cid=4264',
+    45 => (array(
+        'location' => $acePrefix . '14', // 'http://127.0.0.1:6689/stream?cid=4264',
         'title' => 'Первый канал (Евразия)',
         'image' => 'http://liveam.tv/assets/images/chnl/pervij-kanal.png',
-    )),*/
+    )),
 
     /*19 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3944',
@@ -266,16 +266,11 @@ $sources = (array(
         )),
     )),*/
 
-    /*20 => (array(
-        'location' => 'http://127.0.0.1:6689/stream?cid=4385',
-        'title' => 'My Zen TV HD',
-        'image' => 'https://www.thematv.com/medias/channels/myzen-tv/myzen-tv.png',
-
-        'gid' => (array(
-            'id' => 'myzen-hd', // '300034',
-            'offset' => '+0000',
-        )),
-    )),*/
+    20 => (array(
+        'location' => $acePrefix . '12', // 'http://127.0.0.1:6689/stream?cid=4385',
+        'title' => 'КТК',
+        'image' => 'http://nurtv.kz/images/tv/27.png',
+    )),
 
     /*21 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3766',
@@ -376,8 +371,8 @@ $sources = (array(
         )),
     )),*/
 
-    /*23 => (array(
-        'location' => 'http://127.0.0.1:6689/stream?cid=3801',
+    23 => (array(
+        'location' => $acePrefix . '11', // 'http://127.0.0.1:6689/stream?cid=3801',
         'title' => 'Nickelodeon (HD)',
         'image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Nickelodeon_logo_new.svg/1000px-Nickelodeon_logo_new.svg.png',
 
@@ -385,7 +380,7 @@ $sources = (array(
             'id' => 'nickelodeon-hd', // '1391',
             'offset' => '+0000',
         )),
-    )),*/
+    )),
 
     /*40 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3772',
@@ -409,8 +404,8 @@ $sources = (array(
         )),
     )),*/
 
-    /*24 => (array(
-        'location' => 'http://127.0.0.1:6689/stream?cid=3792',
+    24 => (array(
+        'location' => $acePrefix . '9', // 'http://127.0.0.1:6689/stream?cid=3792',
         'title' => 'Europa Plus TV',
         'image' => 'https://upload.wikimedia.org/wikipedia/ru/c/c8/Europa_Plus_TV.Png',
 
@@ -418,7 +413,7 @@ $sources = (array(
             'id' => 'europa-plus-tv', // '300121',
             'offset' => '+0000',
         )),
-    )),*/
+    )),
 
     28 => (array(
         'location' => $acePrefix . '8', // 'http://127.0.0.1:6689/stream?cid=3820',
@@ -429,12 +424,6 @@ $sources = (array(
             'id' => 'mtv-hits', // '1178',
             'offset' => '+0000',
         )),
-    )),
-
-    46 => (array(
-        'location' => $acePrefix . '9', // 'http://127.0.0.1:6689/stream?cid=3820',
-        'title' => 'Eska Best Music TV',
-        'image' => 'http://t-eska.cdn.smcloud.net/common/1/0/s/1032965TVb9.jpg/ru-100-r-600,600-n-1032965TVb9.jpg',
     )),
 
     /*29 => (array(
