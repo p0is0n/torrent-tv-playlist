@@ -5,7 +5,7 @@ require_once realpath(dirname(__FILE__)) . '/config.php';
 
 $acePrefix = $config['mitv'] . '/ace/manifest.m3u8?id=';
 
-$channelsCacheTime = 3600;
+$channelsCacheTime = 1200;
 $channels = (array(
     1 => (array(
         'source' => 'https://hdmi-tv.ru/humor/295-tnt.html',
@@ -64,38 +64,54 @@ $channels = (array(
     )),
 ));
 
-$cacheIdKey = 'tv_cid%s';
+$cacheIdKey = 'tv_cid_t%s';
 $cacheIdKeyLock = null;
 
 $setIdFromCache = (function($type, $source, $id) use ($cacheIdKey, $channelsCacheTime) {
     $key = sprintf($cacheIdKey, md5($source));
+    $value = (array(
+        'id' => $id,
+        'time' => time(),
+    ));
+
     $result = null;
 
     if (function_exists('apcu_fetch')) {
-        if (false !== ($result = apcu_store($key, $id, $channelsCacheTime))) {
+        if (false !== ($result = apcu_store($key, $value))) {
             return $result;
         }
     }
     else if (function_exists('apc_fetch')) {
-        if (false !== ($result = apc_store($key, $id, $channelsCacheTime))) {
+        if (false !== ($result = apc_store($key, $value))) {
             return $result;
         }
     }
 });
 
-$getIdFromCache = (function($type, $source) use ($cacheIdKey) {
+$getIdFromCache = (function($type, $source) use ($cacheIdKey, $channelsCacheTime) {
     $key = sprintf($cacheIdKey, md5($source));
     $result = null;
 
     if (function_exists('apcu_fetch')) {
         if (false !== ($result = apcu_fetch($key))) {
-            return $result;
+            // Ok
         }
     }
     else if (function_exists('apc_fetch')) {
         if (false !== ($result = apc_fetch($key))) {
-            return $result;
+            // Ok
         }
+    }
+
+    if (is_array($result)) {
+        $result['current'] = time();
+        $result['expired'] = $result['time'] + $channelsCacheTime <= $result['current'];
+
+        // Debug
+        // var_dump($result); exit;
+
+        // Ok
+        return $result;
     }
 });
 
@@ -104,12 +120,19 @@ $getIdByChannel = (function($channel) use ($setIdFromCache, $getIdFromCache) {
     $channelType = empty($channelType) ? null : $channelType;
 
     $channelId = null;
+    $channelIdCache = null;
+    $channelIdCacheExpired = true;
 
     if (! empty($channelType)) {
-        $channelId = $getIdFromCache($channelType, $channel['source']);
+        $channelIdCache = $getIdFromCache($channelType, $channel['source']);
+
+        if (! empty($channelIdCache)) {
+            $channelId = $channelIdCache['id'];
+            $channelIdCacheExpired = $channelIdCache['expired'];
+        }
     }
 
-    if (empty($channelId)) {
+    if (empty($channelId) || true === $channelIdCacheExpired) {
         switch($channelType) {
 
             case 'hdmi-tv.ru':
