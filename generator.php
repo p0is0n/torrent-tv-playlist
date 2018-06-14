@@ -236,10 +236,10 @@ $sources = (array(
             'id' => 'rossia-24', // '676',
             'offset' => '+0000',
         )),
-    )),
+    )),*/
 
     18 => (array(
-        'location' => $acePrefix . 'a95f68788e964816b17977548d52e5c496ac6030', // 'http://127.0.0.1:6689/stream?cid=3896',
+        'location' => $acePrefix . '10', // 'http://127.0.0.1:6689/stream?cid=3896',
         'title' => 'Первый канал',
         'image' => 'http://liveam.tv/assets/images/chnl/pervij-kanal.png',
 
@@ -247,7 +247,7 @@ $sources = (array(
             'id' => 'pervy', // '1',
             'offset' => '+0000',
         )),
-    )),*/
+    )),
 
     /*45 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=4264',
