@@ -48,7 +48,7 @@ $channels = (array(
     )),
 
     10 => (array(
-        'source' => '0c620b2e6ef41263dec0ea0ce93ae12fda8c898c' // https://hdmi-tv.ru/main/238-pervyy-kanal-hd.html',
+        'source' => 'https://acestreamid.com/channel/pervy-kanal-hd', // '0c620b2e6ef41263dec0ea0ce93ae12fda8c898c', // 'https://hdmi-tv.ru/main/238-pervyy-kanal-hd.html',
     )),
 
     14 => (array(
@@ -158,6 +158,37 @@ $getIdByChannel = (function($channel) use ($setIdFromCache, $getIdFromCache, $is
                         $channelId = $match[1];
                     }
 
+                // Ok
+                break;
+
+                case 'acestreamid.com':
+                    $context = stream_context_create(array(
+                        'http' => array(
+                            'timeout' => 20,
+                            'ignore_errors' => true,
+                            'method' => "GET",
+                            'user_agent' => "Mozilla/5.0 (X11; Linux x86_64)")
+                    ));
+
+                    $content = file_get_contents($channel['source'], false, $context);
+
+                    if (! empty($content) && preg_match_all('/div[^>]*col_id[^>]*>\s*<div[^>]*>(?P<id>[a-zA-Z0-9]*)<\/div>.+?<div[^>]*class="cid_menu"[^>]*id=[^>]*>.+?aria\-hidden[^>]*title="[^"]*Count reports[\s:]*(?P<reports>[\d]+)"/s', $content, $matches, PREG_SET_ORDER)) {
+                        $matches = array_slice($matches, 0, 4);
+                        $matches = array_values($matches);
+
+                        usort($matches, function($a, $b) {
+                            if ($a['reports'] == $b['reports']) {
+                                return 0;
+                            }
+
+                            return $a['reports'] >= $b['reports'] ? 1 : -1;
+                        });
+
+                        if (! empty($matches)) {
+                            $channelId = array_shift($matches);
+                            $channelId = $channelId['id'];
+                        }
+                    }
                 // Ok
                 break;
             }
