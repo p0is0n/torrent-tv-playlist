@@ -48,7 +48,7 @@ $channels = (array(
     )),
 
     10 => (array(
-        'source' => '0c620b2e6ef41263dec0ea0ce93ae12fda8c898c'; // https://hdmi-tv.ru/main/238-pervyy-kanal-hd.html',
+        'source' => '0c620b2e6ef41263dec0ea0ce93ae12fda8c898c' // https://hdmi-tv.ru/main/238-pervyy-kanal-hd.html',
     )),
 
     14 => (array(
