@@ -48,7 +48,7 @@ $channels = (array(
     )),
 
     10 => (array(
-        'source' => 'https://hdmi-tv.ru/main/238-pervyy-kanal-hd.html',
+        'source' => '0c620b2e6ef41263dec0ea0ce93ae12fda8c898c'; // https://hdmi-tv.ru/main/238-pervyy-kanal-hd.html',
     )),
 
     14 => (array(
@@ -66,6 +66,10 @@ $channels = (array(
 
 $cacheIdKey = 'tv_cid_t%s';
 $cacheIdKeyLock = null;
+
+$isAceId = (function($value) {
+    return !! preg_match('/^[a-zA-Z0-9]{32,0}$/', $value);
+});
 
 $setIdFromCache = (function($type, $source, $id) use ($cacheIdKey, $channelsCacheTime) {
     $key = sprintf($cacheIdKey, md5($source));
@@ -133,25 +137,30 @@ $getIdByChannel = (function($channel) use ($setIdFromCache, $getIdFromCache) {
     }
 
     if (empty($channelId) || true === $channelIdCacheExpired) {
-        switch($channelType) {
+        if ($isAceId($channel['source'])) {
+            $channelId = $channel['source'];
+        }
+        else {
+            switch($channelType) {
 
-            case 'hdmi-tv.ru':
-                $context = stream_context_create(array(
-                    'http' => array(
-                        'timeout' => 20,
-                        'ignore_errors' => true,
-                        'method' => "GET",
-                        'user_agent' => "Mozilla/5.0 (X11; Linux x86_64)")
-                ));
+                case 'hdmi-tv.ru':
+                    $context = stream_context_create(array(
+                        'http' => array(
+                            'timeout' => 20,
+                            'ignore_errors' => true,
+                            'method' => "GET",
+                            'user_agent' => "Mozilla/5.0 (X11; Linux x86_64)")
+                    ));
 
-                $content = file_get_contents($channel['source'], false, $context);
+                    $content = file_get_contents($channel['source'], false, $context);
 
-                if (! empty($content) && preg_match('/source[^>]*src="[^"]*\/ace\/manifest\.m3u8\?id=([^"&]+)"/s', $content, $match)) {
-                    $channelId = $match[1];
-                }
+                    if (! empty($content) && preg_match('/source[^>]*src="[^"]*\/ace\/manifest\.m3u8\?id=([^"&]+)"/s', $content, $match)) {
+                        $channelId = $match[1];
+                    }
 
-            // Ok
-            break;
+                // Ok
+                break;
+            }
         }
 
         if (! empty($channelId)) {
