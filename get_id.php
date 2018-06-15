@@ -119,7 +119,7 @@ $getIdFromCache = (function($type, $source) use ($cacheIdKey, $channelsCacheTime
     }
 });
 
-$getIdByChannel = (function($channel) use ($setIdFromCache, $getIdFromCache) {
+$getIdByChannel = (function($channel) use ($setIdFromCache, $getIdFromCache, $isAceId) {
     $channelType = parse_url($channel['source'], PHP_URL_HOST);
     $channelType = empty($channelType) ? null : $channelType;
 
