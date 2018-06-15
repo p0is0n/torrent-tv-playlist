@@ -186,9 +186,13 @@ if (! empty($_GET['channel']) && isset($channels[$_GET['channel']])) {
 
         exit("#EXTM3U\r\n#EXT-X-VERSION:3\r\n" . $acePrefix . "" . $channelId . "\r\n");*/
 
-        header("Expires: " . gmdate("D, d M Y H:i:s", time() + $channelsCacheTime) . " GMT");
+        /*header("Expires: " . gmdate("D, d M Y H:i:s", time() + $channelsCacheTime) . " GMT");
         header("Pragma: cache");
-        header("Cache-Control: max-age=" . $channelsCacheTime . "");
+        header("Cache-Control: max-age=" . $channelsCacheTime . "");*/
+
+        header("Expires: " . gmdate("D, d M Y H:i:s") . " GMT");
+        header("Pragma: no-cache");
+        header("Cache-Control: no-cache, must-revalidate");
 
         header("Location: " . $acePrefix . "" . $channelId . ""); exit;
     }
