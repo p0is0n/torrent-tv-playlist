@@ -68,7 +68,7 @@ $cacheIdKey = 'tv_cid_t%s';
 $cacheIdKeyLock = null;
 
 $isAceId = (function($value) {
-    return !! preg_match('/^[a-zA-Z0-9]{32,0}$/', $value);
+    return !! preg_match('/^[a-zA-Z0-9]{32,50}$/', $value);
 });
 
 $setIdFromCache = (function($type, $source, $id) use ($cacheIdKey, $channelsCacheTime) {
