@@ -14,11 +14,14 @@ $channels = (array(
     2 => 'https://hdmi-tv.ru/humor/802-tnt-2.html',
     3 => 'https://hdmi-tv.ru/humor/46-tnt-4.html',
     4 => 'https://hdmi-tv.ru/humor/47-tnt-7.html',
-    5 => 'https://hdmi-tv.ru/humor/289-pyatnica.html',
+
+    5 => 'http://91.92.66.82/trash/ttv-list/acelive/ttv_cid_2d8dbc.acelive', // 'https://hdmi-tv.ru/humor/289-pyatnica.html',
     6 => 'https://hdmi-tv.ru/humor/290-pyatnica-2.html',
+    15 => 'http://91.92.66.82/trash/ttv-list/acelive/ttv_cid_1c1972.acelive',
+
     7 => 'https://hdmi-tv.ru/humor/37-paramount-comedy.html',
     13 => 'https://hdmi-tv.ru/humor/38-paramount-comedy-hd.html',
-    10 => 'https://acestreamid.com/channel/pervy-kanal-hd', // '0c620b2e6ef41263dec0ea0ce93ae12fda8c898c', // 'https://hdmi-tv.ru/main/238-pervyy-kanal-hd.html',,
+    10 => 'https://acestreamid.com/channel/pervy-kanal-hd',
     14 => 'https://hdmi-tv.ru/main/2453-pervyy-kanal-evraziya.html',
     12 => 'https://hdmi-tv.ru/regional/2612-ktk.html',
 
@@ -26,9 +29,10 @@ $channels = (array(
     80 => 'https://hdmi-tv.ru/children/303-nickelodeon-hd.html',
 
     // Music
-    50 => 'http://91.92.66.82/trash/ttv-list/acelive/as_cid_b94a84.acelive', // ТНТ Music
+    50 => 'http://91.92.66.82/trash/ttv-list/acelive/as_cid_b94a84.acelive',
     51 => 'https://hdmi-tv.ru/music/144-mtv-hits.html',
     52 => 'https://hdmi-tv.ru/music/143-europa-plus-tv.html',
+    53 => 'http://91.92.66.82/trash/ttv-list/acelive/as_cid_ee5881.acelive',
 ));
 
 $cacheIdKey = 'tv_cid_t%s';

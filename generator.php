@@ -95,16 +95,16 @@ $sources = (array(
         )),
     )),
 
-    /*33 => (array(
-        'location' => 'http://127.0.0.1:6689/stream?cid=4789',
-        'title' => 'Пятница (+7)',
+    33 => (array(
+        'location' => $acePrefix . '15', // 'http://127.0.0.1:6689/stream?cid=4789',
+        'title' => 'Пятница (+4)',
         'image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/%D0%9F%D1%8F%D1%82%D0%BD%D0%B8%D1%86%D0%B0_%28%D1%81_2013%29.svg/1200px-%D0%9F%D1%8F%D1%82%D0%BD%D0%B8%D1%86%D0%B0_%28%D1%81_2013%29.svg.png',
 
         'gid' => (array(
-            'id' => 'piatnica-pl7', // '1671',
+            'id' => 'piatnica-pl4', // '1671',
             'offset' => '+0000',
         )),
-    )),*/
+    )),
 
     /*27 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3763',
@@ -249,11 +249,11 @@ $sources = (array(
         )),
     )),
 
-    45 => (array(
+    /*45 => (array(
         'location' => $acePrefix . '14', // 'http://127.0.0.1:6689/stream?cid=4264',
         'title' => 'Первый канал (Евразия)',
         'image' => 'http://liveam.tv/assets/images/chnl/pervij-kanal.png',
-    )),
+    )),*/
 
     /*19 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3944',
@@ -437,6 +437,12 @@ $sources = (array(
         )),
     )),
 
+    47 => (array(
+        'location' => $acePrefix . '53',
+        'title' => 'Bridge TV Dance',
+        'image' => 'https://bridgemedia.ru/s/img/logo/nopadding/bridgetv_dance.svg',
+    )),
+
     /*29 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3793',
         'title' => 'MTV Dance',
@@ -465,7 +471,7 @@ $sources = (array(
         'image' => 'http://toplogos.ru/images/logo-match-tv.png',
 
         'gid' => (array(
-            'id' => 'match-tv', // '2060',
+            'id' => 'match-football1', // '2060',
             'offset' => '+0000',
         )),
     )),*/
