@@ -437,12 +437,6 @@ $sources = (array(
         )),
     )),
 
-    47 => (array(
-        'location' => $acePrefix . '53',
-        'title' => 'Bridge TV Dance',
-        'image' => 'https://bridgemedia.ru/s/img/logo/nopadding/bridgetv_dance.svg',
-    )),
-
     /*29 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3793',
         'title' => 'MTV Dance',
