@@ -426,6 +426,17 @@ $sources = (array(
         )),
     )),
 
+    46 => (array(
+        'location' => $acePrefix . '50',
+        'title' => 'ТНТ Music',
+        'image' => 'https://tntmusic.ru/static/img/logo@x2.png',
+
+        'gid' => (array(
+            'id' => 'tnt-music',
+            'offset' => '+0000',
+        )),
+    )),
+
     /*29 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3793',
         'title' => 'MTV Dance',
