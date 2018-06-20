@@ -4,64 +4,31 @@
 require_once realpath(dirname(__FILE__)) . '/config.php';
 
 $acePrefix = $config['mitv'] . '/ace/manifest.m3u8?id=';
+$acePrefixAcelive = $config['mitv'] . '/ace/manifest.m3u8?url=';
+
+// /iframe.html?file=http://127.0.0.1:6878/ace/manifest.m3u8?url=http://91.92.66.82/trash/ttv-list/acelive/ttv_1276_reg.acelive
 
 $channelsCacheTime = 1200;
 $channels = (array(
-    1 => (array(
-        'source' => 'https://acestreamid.com/channel/tnt-hd', // 'https://hdmi-tv.ru/humor/295-tnt.html',
-    )),
+    1 => 'https://acestreamid.com/channel/tnt-hd', // 'https://hdmi-tv.ru/humor/295-tnt.html',
+    2 => 'https://hdmi-tv.ru/humor/802-tnt-2.html',
+    3 => 'https://hdmi-tv.ru/humor/46-tnt-4.html',
+    4 => 'https://hdmi-tv.ru/humor/47-tnt-7.html',
+    5 => 'https://hdmi-tv.ru/humor/289-pyatnica.html',
+    6 => 'https://hdmi-tv.ru/humor/290-pyatnica-2.html',
+    7 => 'https://hdmi-tv.ru/humor/37-paramount-comedy.html',
+    13 => 'https://hdmi-tv.ru/humor/38-paramount-comedy-hd.html',
+    10 => 'https://acestreamid.com/channel/pervy-kanal-hd', // '0c620b2e6ef41263dec0ea0ce93ae12fda8c898c', // 'https://hdmi-tv.ru/main/238-pervyy-kanal-hd.html',,
+    14 => 'https://hdmi-tv.ru/main/2453-pervyy-kanal-evraziya.html',
+    12 => 'https://hdmi-tv.ru/regional/2612-ktk.html',
 
-    2 => (array(
-        'source' => 'https://hdmi-tv.ru/humor/802-tnt-2.html',
-    )),
+    // Kids
+    80 => 'https://hdmi-tv.ru/children/303-nickelodeon-hd.html',
 
-    3 => (array(
-        'source' => 'https://hdmi-tv.ru/humor/46-tnt-4.html',
-    )),
-
-    4 => (array(
-        'source' => 'https://hdmi-tv.ru/humor/47-tnt-7.html',
-    )),
-
-    5 => (array(
-        'source' => 'https://hdmi-tv.ru/humor/289-pyatnica.html',
-    )),
-
-    6 => (array(
-        'source' => 'https://hdmi-tv.ru/humor/290-pyatnica-2.html',
-    )),
-
-    7 => (array(
-        'source' => 'https://hdmi-tv.ru/humor/37-paramount-comedy.html',
-    )),
-
-    13 => (array(
-        'source' => 'https://hdmi-tv.ru/humor/38-paramount-comedy-hd.html',
-    )),
-
-    8 => (array(
-        'source' => 'https://hdmi-tv.ru/music/144-mtv-hits.html',
-    )),
-
-    9 => (array(
-        'source' => 'https://hdmi-tv.ru/music/143-europa-plus-tv.html',
-    )),
-
-    10 => (array(
-        'source' => 'https://acestreamid.com/channel/pervy-kanal-hd', // '0c620b2e6ef41263dec0ea0ce93ae12fda8c898c', // 'https://hdmi-tv.ru/main/238-pervyy-kanal-hd.html',
-    )),
-
-    14 => (array(
-        'source' => 'https://hdmi-tv.ru/main/2453-pervyy-kanal-evraziya.html',
-    )),
-
-    11 => (array(
-        'source' => 'https://hdmi-tv.ru/children/303-nickelodeon-hd.html',
-    )),
-
-    12 => (array(
-        'source' => 'https://hdmi-tv.ru/regional/2612-ktk.html',
-    )),
+    // Music
+    50 => 'http://91.92.66.82/trash/ttv-list/acelive/as_cid_b94a84.acelive', // ТНТ Music
+    51 => 'https://hdmi-tv.ru/music/144-mtv-hits.html',
+    52 => 'https://hdmi-tv.ru/music/143-europa-plus-tv.html',
 ));
 
 $cacheIdKey = 'tv_cid_t%s';
@@ -120,19 +87,26 @@ $getIdFromCache = (function($type, $source) use ($cacheIdKey, $channelsCacheTime
 });
 
 $getIdByChannel = (function($channel) use ($setIdFromCache, $getIdFromCache, $isAceId) {
-    $channelType = parse_url($channel['source'], PHP_URL_HOST);
-    $channelType = empty($channelType) ? null : $channelType;
+    if (preg_match('/\.acelive$/i', $channel['source'])) {
+        $channelType = 'acelive';
+    }
+    else {
+        $channelType = parse_url($channel['source'], PHP_URL_HOST);
+        $channelType = empty($channelType) ? null : $channelType;
+    }
 
     $channelId = null;
     $channelIdCache = null;
     $channelIdCacheExpired = true;
 
     if (! empty($channelType)) {
-        // $channelIdCache = $getIdFromCache($channelType, $channel['source']);
+        if ($channelType != 'acelive') {
+            $channelIdCache = $getIdFromCache($channelType, $channel['source']);
 
-        if (! empty($channelIdCache)) {
-            $channelId = $channelIdCache['id'];
-            $channelIdCacheExpired = $channelIdCache['expired'];
+            if (! empty($channelIdCache)) {
+                $channelId = $channelIdCache['id'];
+                $channelIdCacheExpired = $channelIdCache['expired'];
+            }
         }
     }
 
@@ -142,6 +116,12 @@ $getIdByChannel = (function($channel) use ($setIdFromCache, $getIdFromCache, $is
         }
         else {
             switch($channelType) {
+
+                case 'acelive':
+                    $channelId = $channel['source'];
+
+                // Ok
+                break;
 
                 case 'hdmi-tv.ru':
                     $context = stream_context_create(array(
@@ -201,50 +181,56 @@ $getIdByChannel = (function($channel) use ($setIdFromCache, $getIdFromCache, $is
             }
         }
 
-        if (! empty($channelId)) {
-            $setIdFromCache($channelType, $channel['source'], $channelId);
+        if ($channelType != 'acelive') {
+            if (! empty($channelId)) {
+                $setIdFromCache($channelType, $channel['source'], $channelId);
+            }
         }
     }
 
     // Debug
     // var_dump($channelId); exit;
 
-    // Ok
-    return $channelId;
+    if (! empty($channelId)) {
+        // Ok
+        return (array(
+            'id' => $channelId,
+            'type' => $channelType,
+        ));
+    }
 });
 
 if (! empty($_GET['channel']) && isset($channels[$_GET['channel']])) {
     $channel = $channels[$_GET['channel']];
+
+    if (! is_array($channel)) {
+        $channel = (array(
+            'source' => $channel,
+        ));
+    }
+
     $channelId = $getIdByChannel($channel);
 
     if (! empty($channelId)) {
-        /*header("Status: 200");
-        header("Content-Type: application/vnd.apple.mpegurl");
-
-        header("Expires: " . gmdate("D, d M Y H:i:s", time() + $channelsCacheTime) . " GMT");
-        header("Pragma: cache");
-        header("Cache-Control: max-age=" . $channelsCacheTime . "");
-
-        exit("#EXTM3U\r\n#EXT-X-VERSION:3\r\n" . $acePrefix . "" . $channelId . "\r\n");*/
-
-        /*header("Expires: " . gmdate("D, d M Y H:i:s", time() + $channelsCacheTime) . " GMT");
-        header("Pragma: cache");
-        header("Cache-Control: max-age=" . $channelsCacheTime . "");*/
-
         header("Expires: " . gmdate("D, d M Y H:i:s") . " GMT");
         header("Pragma: no-cache");
         header("Cache-Control: no-cache, must-revalidate");
 
-        header("Location: " . $acePrefix . "" . $channelId . ""); exit;
+        if ($channelId['type'] == 'acelive') {
+            header("Location: " . $acePrefixAcelive . "" . $channelId['id'] . ""); exit;
+        }
+        else {
+            header("Location: " . $acePrefix . "" . $channelId['id'] . ""); exit;
+        }
     }
 
     // Fail
-    header("Status: 503 Service Temporarily Unavailable");
+    header("Status: 404 Not Found");
     header("Retry-After: 180");
 
     header("Expires: " . gmdate("D, d M Y H:i:s") . " GMT");
     header("Pragma: no-cache");
     header("Cache-Control: no-cache, must-revalidate");
 
-    exit("503 Service Temporarily Unavailable");
+    exit("404 Channel Not Found");
 }

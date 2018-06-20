@@ -372,7 +372,7 @@ $sources = (array(
     )),*/
 
     23 => (array(
-        'location' => $acePrefix . '11', // 'http://127.0.0.1:6689/stream?cid=3801',
+        'location' => $acePrefix . '80', // 'http://127.0.0.1:6689/stream?cid=3801',
         'title' => 'Nickelodeon (HD)',
         'image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Nickelodeon_logo_new.svg/1000px-Nickelodeon_logo_new.svg.png',
 
@@ -405,7 +405,7 @@ $sources = (array(
     )),*/
 
     24 => (array(
-        'location' => $acePrefix . '9', // 'http://127.0.0.1:6689/stream?cid=3792',
+        'location' => $acePrefix . '52', // 'http://127.0.0.1:6689/stream?cid=3792',
         'title' => 'Europa Plus TV',
         'image' => 'https://upload.wikimedia.org/wikipedia/ru/c/c8/Europa_Plus_TV.Png',
 
@@ -416,7 +416,7 @@ $sources = (array(
     )),
 
     28 => (array(
-        'location' => $acePrefix . '8', // 'http://127.0.0.1:6689/stream?cid=3820',
+        'location' => $acePrefix . '51', // 'http://127.0.0.1:6689/stream?cid=3820',
         'title' => 'MTV Hits',
         'image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/MTV_Hits_2013_logo.svg/2000px-MTV_Hits_2013_logo.svg.png',
 
