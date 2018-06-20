@@ -8,7 +8,7 @@ $acePrefix = $config['mitv'] . '/ace/manifest.m3u8?id=';
 $channelsCacheTime = 1200;
 $channels = (array(
     1 => (array(
-        'source' => 'https://hdmi-tv.ru/humor/295-tnt.html',
+        'source' => 'https://acestreamid.com/channel/tnt-hd', // 'https://hdmi-tv.ru/humor/295-tnt.html',
     )),
 
     2 => (array(
@@ -128,7 +128,7 @@ $getIdByChannel = (function($channel) use ($setIdFromCache, $getIdFromCache, $is
     $channelIdCacheExpired = true;
 
     if (! empty($channelType)) {
-        $channelIdCache = $getIdFromCache($channelType, $channel['source']);
+        // $channelIdCache = $getIdFromCache($channelType, $channel['source']);
 
         if (! empty($channelIdCache)) {
             $channelId = $channelIdCache['id'];
@@ -176,9 +176,16 @@ $getIdByChannel = (function($channel) use ($setIdFromCache, $getIdFromCache, $is
                         $matches = array_slice($matches, 0, 4);
                         $matches = array_values($matches);
 
+                        foreach($matches as $matchesIndex => &$match) {
+                            $match['index'] = $matchesIndex;
+
+                            // Clean
+                            unset($match);
+                        }
+
                         usort($matches, function($a, $b) {
                             if ($a['reports'] == $b['reports']) {
-                                return 0;
+                                return $a['index'] >= $b['index'] ? 1 : -1;
                             }
 
                             return $a['reports'] >= $b['reports'] ? 1 : -1;
@@ -198,6 +205,9 @@ $getIdByChannel = (function($channel) use ($setIdFromCache, $getIdFromCache, $is
             $setIdFromCache($channelType, $channel['source'], $channelId);
         }
     }
+
+    // Debug
+    // var_dump($channelId); exit;
 
     // Ok
     return $channelId;
