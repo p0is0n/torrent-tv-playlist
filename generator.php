@@ -238,8 +238,19 @@ $sources = (array(
         )),
     )),*/
 
+    47 => (array(
+        'location' => $acePrefix . '18',
+        'title' => 'Россия (HD)',
+        'image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Rossiya-1_Logo.svg/1280px-Rossiya-1_Logo.svg.png',
+
+        'gid' => (array(
+            'id' => 'rossia1', // '1',
+            'offset' => '+0000',
+        )),
+    )),
+
     18 => (array(
-        'location' => $acePrefix . '10', // 'http://127.0.0.1:6689/stream?cid=3896',
+        'location' => $acePrefix . '10',
         'title' => 'Первый канал (HD)',
         'image' => 'http://liveam.tv/assets/images/chnl/pervij-kanal.png',
 

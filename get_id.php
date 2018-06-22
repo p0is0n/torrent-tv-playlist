@@ -28,6 +28,8 @@ $channels = (array(
     16 => 'http://91.92.66.82/trash/ttv-list/acelive/ttv_cid_cee5e4.acelive',
     17 => 'http://91.92.66.82/trash/ttv-list/acelive/ttv_cid_eae7cc.acelive',
 
+    18 => 'http://91.92.66.82/trash/ttv-list/acelive/ttv_cid_254b54.acelive',
+
     // Kids
     80 => 'http://91.92.66.82/trash/ttv-list/acelive/ttv_cid_a73977.acelive',
 
