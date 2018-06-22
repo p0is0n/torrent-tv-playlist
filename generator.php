@@ -170,10 +170,10 @@ $sources = (array(
             'id' => 'fox', // '300010',
             'offset' => '+0000',
         )),
-    )),
+    )),*/
 
     12 => (array(
-        'location' => $acePrefix . '41b6c218d733fd8211289d1e4831176bf6dba50c', // 'http://127.0.0.1:6689/stream?cid=3823',
+        'location' => $acePrefix . '17',
         'title' => 'Fox (HD)',
         'image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/FOX_HD.svg/512px-FOX_HD.svg.png',
 
@@ -183,7 +183,7 @@ $sources = (array(
         )),
     )),
 
-    13 => (array(
+    /*13 => (array(
         'location' => $acePrefix . 'a71a99cf5255b7315e6e12f11a453472b9c4336a', // 'http://127.0.0.1:6689/stream?cid=3845',
         'title' => 'Fox Life',
         'image' => 'https://upload.wikimedia.org/wikipedia/commons/2/27/Fox_life_it.png',
@@ -192,10 +192,10 @@ $sources = (array(
             'id' => 'foxlife', // '300056',
             'offset' => '+0000',
         )),
-    )),
+    )),*/
 
     14 => (array(
-        'location' => $acePrefix . '4fc97b7d05ea0aca6130f2abb5e8ec66a9874972', // 'http://127.0.0.1:6689/stream?cid=3917',
+        'location' => $acePrefix . '16',
         'title' => 'Fox Life (HD)',
         'image' => 'https://vignette1.wikia.nocookie.net/logosfake/images/2/2c/FOXlife_HD_Logo.png/revision/latest?cb=20140414171410',
 
@@ -203,7 +203,7 @@ $sources = (array(
             'id' => 'foxlife-hd', // '1356',
             'offset' => '+0000',
         )),
-    )),*/
+    )),
 
     /*15 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3780',
@@ -372,7 +372,7 @@ $sources = (array(
     )),*/
 
     23 => (array(
-        'location' => $acePrefix . '80', // 'http://127.0.0.1:6689/stream?cid=3801',
+        'location' => $acePrefix . '80',
         'title' => 'Nickelodeon (HD)',
         'image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Nickelodeon_logo_new.svg/1000px-Nickelodeon_logo_new.svg.png',
 
@@ -459,8 +459,8 @@ $sources = (array(
         )),
     )),*/
 
-    /*25 => (array(
-        'location' => 'http://127.0.0.1:6689/stream?cid=3568',
+    25 => (array(
+        'location' => $acePrefix . '90',
         'title' => 'Матч ТВ',
         'image' => 'http://toplogos.ru/images/logo-match-tv.png',
 
@@ -468,7 +468,7 @@ $sources = (array(
             'id' => 'match-football1', // '2060',
             'offset' => '+0000',
         )),
-    )),*/
+    )),
 
     /*34 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3675',

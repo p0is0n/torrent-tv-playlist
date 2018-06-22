@@ -25,8 +25,14 @@ $channels = (array(
     14 => 'https://hdmi-tv.ru/main/2453-pervyy-kanal-evraziya.html',
     12 => 'https://hdmi-tv.ru/regional/2612-ktk.html',
 
+    16 => 'http://91.92.66.82/trash/ttv-list/acelive/ttv_cid_cee5e4.acelive',
+    17 => 'http://91.92.66.82/trash/ttv-list/acelive/ttv_cid_eae7cc.acelive',
+
     // Kids
-    80 => 'https://hdmi-tv.ru/children/303-nickelodeon-hd.html',
+    80 => 'http://91.92.66.82/trash/ttv-list/acelive/ttv_cid_a73977.acelive',
+
+    // Sport
+    90 => 'http://91.92.66.82/trash/ttv-list/acelive/ttv_cid_3afef9.acelive',
 
     // Music
     50 => 'http://91.92.66.82/trash/ttv-list/acelive/as_cid_b94a84.acelive',
