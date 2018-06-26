@@ -98,7 +98,7 @@ $sources = (array(
     33 => (array(
         'location' => $acePrefix . '15', // 'http://127.0.0.1:6689/stream?cid=4789',
         'title' => 'Пятница (+4)',
-        'image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/%D0%9F%D1%8F%D1%82%D0%BD%D0%B8%D1%86%D0%B0_%28%D1%81_2013%29.svg/1200px-%D0%9F%D1%8F%D1%82%D0%BD%D0%B8%D1%86%D0%B0_%28%D1%81_2013%29.svg.png',
+        'image' => 'https://cdn.friday.ru/friday/img/mobile/friday.png',
 
         'gid' => (array(
             'id' => 'piatnica-pl4', // '1671',
@@ -117,7 +117,7 @@ $sources = (array(
         )),
     )),*/
 
-    9 => (array(
+    /*9 => (array(
         'location' => $acePrefix . '7', // 'http://127.0.0.1:6689/stream?cid=3777',
         'title' => 'Paramount Comedy',
         'image' => 'https://paramountcomedy.ru/_img/logo-main.png',
@@ -126,7 +126,7 @@ $sources = (array(
             'id' => 'paramount-comedy', // '1755',
             'offset' => '+0000',
         )),
-    )),
+    )),*/
 
     10 => (array(
         'location' => $acePrefix . '13', // 'http://127.0.0.1:6689/stream?cid=4379',
