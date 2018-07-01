@@ -481,6 +481,17 @@ $sources = (array(
         )),
     )),
 
+    48 => (array(
+        'location' => $acePrefix . '91',
+        'title' => 'Qazsport',
+        'image' => 'http://gomel-sat.bz/uploads/monthly_2017_10/qazsport.png.d34ac327860e57fdd8ae51d749c466f1.png',
+
+        'gid' => (array(
+            'id' => 'qazsport', // '1',
+            'offset' => '+0000',
+        )),
+    )),
+
     /*34 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3675',
         'title' => 'Extreme Sports',

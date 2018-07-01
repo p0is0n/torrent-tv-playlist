@@ -35,6 +35,7 @@ $channels = (array(
 
     // Sport
     90 => 'http://91.92.66.82/trash/ttv-list/acelive/ttv_cid_3afef9.acelive',
+    91 => 'http://91.92.66.82/trash/ttv-list/acelive/as_cid_29d636.acelive',
 
     // Music
     50 => 'http://91.92.66.82/trash/ttv-list/acelive/as_cid_b94a84.acelive',
