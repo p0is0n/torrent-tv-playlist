@@ -14,12 +14,12 @@ $channelsCacheTime = 1200;
 $channels = (array(
     1 => 'https://acestreamid.com/channel/tnt-hd', // 'https://hdmi-tv.ru/humor/295-tnt.html',
     2 => 'https://acestreamid.com/channel/tnt-(+2)', // 'https://hdmi-tv.ru/humor/802-tnt-2.html',
-    3 => 'https://acestreamid.com/channel/tnt-(+4)', // 'https://hdmi-tv.ru/humor/46-tnt-4.html',
+    3 => 'https://acestreamid.com/channel/tnt-(+4)', // 'https://acestreamid.com/channel/tnt-(+4)', // 'https://hdmi-tv.ru/humor/46-tnt-4.html',
     4 => 'https://acestreamid.com/channel/tnt-(+7)', // 'https://hdmi-tv.ru/humor/47-tnt-7.html',
 
-    5 => 'http://91.92.66.82/trash/ttv-list/acelive/ttv_cid_2d8dbc.acelive', // 'https://hdmi-tv.ru/humor/289-pyatnica.html',
-    6 => 'https://hdmi-tv.ru/humor/290-pyatnica-2.html',
-    15 => 'http://91.92.66.82/trash/ttv-list/acelive/ttv_cid_1c1972.acelive',
+    5 => 'https://acestreamid.com/channel/pyatnitsa', // 'https://hdmi-tv.ru/humor/289-pyatnica.html',
+    6 => 'https://acestreamid.com/channel/pyatnitsa-(+2)', // 'https://hdmi-tv.ru/humor/290-pyatnica-2.html',
+    // 15 => 'http://91.92.66.82/trash/ttv-list/acelive/ttv_cid_1c1972.acelive',
 
     7 => 'https://hdmi-tv.ru/humor/37-paramount-comedy.html',
     13 => 'https://hdmi-tv.ru/humor/38-paramount-comedy-hd.html',
@@ -27,10 +27,10 @@ $channels = (array(
     14 => 'https://hdmi-tv.ru/main/2453-pervyy-kanal-evraziya.html',
     12 => 'https://hdmi-tv.ru/regional/2612-ktk.html',
 
-    16 => 'http://91.92.66.82/trash/ttv-list/acelive/ttv_cid_cee5e4.acelive',
+    16 => 'https://acestreamid.com/channel/fox-life-hd',
     17 => 'http://91.92.66.82/trash/ttv-list/acelive/ttv_cid_eae7cc.acelive',
 
-    18 => 'http://91.92.66.82/trash/ttv-list/acelive/ttv_cid_810590.acelive', // 'http://91.92.66.82/trash/ttv-list/acelive/ttv_cid_254b54.acelive',
+    18 => 'https://acestreamid.com/channel/rossiya-hd', // 'http://91.92.66.82/trash/ttv-list/acelive/ttv_cid_254b54.acelive',
 
     // Kids
     80 => 'http://91.92.66.82/trash/ttv-list/acelive/ttv_cid_a73977.acelive',

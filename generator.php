@@ -95,7 +95,7 @@ $sources = (array(
         )),
     )),
 
-    33 => (array(
+    /*33 => (array(
         'location' => $acePrefix . '15', // 'http://127.0.0.1:6689/stream?cid=4789',
         'title' => 'Пятница (+4)',
         'image' => 'https://cdn.friday.ru/friday/img/mobile/friday.png',
@@ -104,7 +104,7 @@ $sources = (array(
             'id' => 'piatnica-pl4', // '1671',
             'offset' => '+0000',
         )),
-    )),
+    )),*/
 
     /*27 => (array(
         'location' => 'http://127.0.0.1:6689/stream?cid=3763',
