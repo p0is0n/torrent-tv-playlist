@@ -3,7 +3,9 @@
 // Config
 require_once realpath(dirname(__FILE__)) . '/config.php';
 
-$acePrefix = $config['mitv'] . '/ace/manifest.m3u8?id=';
+$acePrefix = $config['mitv'] . '/ace/getstream?id=';
+// $acePrefix = $config['mitv'] . '/ace/manifest.m3u8?id=';
+
 $acePrefixAcelive = $config['mitv'] . '/ace/manifest.m3u8?url=';
 
 // /iframe.html?file=http://127.0.0.1:6878/ace/manifest.m3u8?url=http://91.92.66.82/trash/ttv-list/acelive/ttv_1276_reg.acelive
@@ -11,9 +13,9 @@ $acePrefixAcelive = $config['mitv'] . '/ace/manifest.m3u8?url=';
 $channelsCacheTime = 1200;
 $channels = (array(
     1 => 'https://acestreamid.com/channel/tnt-hd', // 'https://hdmi-tv.ru/humor/295-tnt.html',
-    2 => 'https://hdmi-tv.ru/humor/802-tnt-2.html',
-    3 => 'https://hdmi-tv.ru/humor/46-tnt-4.html',
-    4 => 'https://hdmi-tv.ru/humor/47-tnt-7.html',
+    2 => 'https://acestreamid.com/channel/tnt-(+2)', // 'https://hdmi-tv.ru/humor/802-tnt-2.html',
+    3 => 'https://acestreamid.com/channel/tnt-(+4)', // 'https://hdmi-tv.ru/humor/46-tnt-4.html',
+    4 => 'https://acestreamid.com/channel/tnt-(+7)', // 'https://hdmi-tv.ru/humor/47-tnt-7.html',
 
     5 => 'http://91.92.66.82/trash/ttv-list/acelive/ttv_cid_2d8dbc.acelive', // 'https://hdmi-tv.ru/humor/289-pyatnica.html',
     6 => 'https://hdmi-tv.ru/humor/290-pyatnica-2.html',
@@ -165,7 +167,8 @@ $getIdByChannel = (function($channel) use ($setIdFromCache, $getIdFromCache, $is
 
                     $content = file_get_contents($channel['source'], false, $context);
 
-                    if (! empty($content) && preg_match_all('/div[^>]*col_id[^>]*>\s*<div[^>]*>(?P<id>[a-zA-Z0-9]*)<\/div>.+?<div[^>]*class="cid_menu"[^>]*id=[^>]*>.+?aria\-hidden[^>]*title="[^"]*Count reports[\s:]*(?P<reports>[\d]+)"/s', $content, $matches, PREG_SET_ORDER)) {
+                    if (! empty($content) && preg_match_all('/div[^>]*col_id[^>]*>\s*<div[^>]*>\s*<a[^>]*href="acestream:\/\/(?P<id>[a-zA-Z0-9]*)"[^>]*>.+?<div[^>]*cid_menu"[^>]*>.+?<span[^>]*votes_count[^>]*>(?P<reports>[\d]+)</s', $content, $matches, PREG_SET_ORDER)) {
+
                         $matches = array_slice($matches, 0, 4);
                         $matches = array_values($matches);
 
@@ -189,6 +192,7 @@ $getIdByChannel = (function($channel) use ($setIdFromCache, $getIdFromCache, $is
                             $channelId = $channelId['id'];
                         }
                     }
+
                 // Ok
                 break;
             }
